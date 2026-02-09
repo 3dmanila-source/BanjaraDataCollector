@@ -486,157 +486,140 @@
         // ===== DEFAULT SENTENCES =====
 
         const defaultSentences = [
-            // Greetings & Introductions
+            // Greetings & Daily Life
             "Kai karrochi?", // What are you doing?
             "Kun chho?", // Who are you?
-            "Kai nam chha?", // What is your name?
-            "Kat jarochi?", // Where are you going?
-            "Khai lido?", // Have you eaten?
-            "Kai khayo?", // What did you eat?
-            "Aav", // Come
-            "Bais", // Sit
-            "Uth", // Stand
-            "Pani de", // Give water
-            "Ghar jav", // Go home
-            "Kam kar", // Do work
-            "Su jav", // Go sleep
-            "Phone kar", // Call me
-            "Paisa de", // Give money
-            "Kai vayu?", // What happened?
-            "Kain koni", // Nothing
-            "Thik chha", // It is okay/fine
-            "Han", // Yes
-            "Na", // No
-            "Aaje kai chha?", // What is today?
-            "Kal aav", // Come tomorrow
-            "Jaldi aav", // Come fast
-            "Halu chal", // Walk slowly
-            "Mota bole", // Speak loudly
-            "Samaj aayo?", // Understood?
-            "Khana taiyar chha", // Food is ready
-            "Chya pi le", // Drink tea
-            "Dukan ja", // Go to shop
-            "School ja", // Go to school
-            "Abhi ni", // Not now
-            "Pachha aav", // Come later
-            "Tu khor chho", // You are bad (playful/serious depending on context)
-            "Tu chango chho", // You are good
-            "Man madat kar", // Help me
-            "Dar mat", // Don't fear
-            "Khushi ra", // Be happy
-            "Rode mat", // Don't cry
-            "Has", // Laugh
-            "Gana ga", // Sing a song
-            "Nach", // Dance
-            "Vat kar", // Talk
-            "Chup ra", // Be quiet
-            "Maro bhai", // My brother
-            "Mari ben", // My sister
-            "Maro bapu", // My father
-            "Mari yaadi", // My mother
-            "Maro dost", // My friend
-            "Ghar motu chha", // House is big
-            "Gadi chalav", // Drive car
-            "Rasto kharab chha", // Road is bad
-            "Varsad aave chha", // Rain is coming
-            "Tadko chha", // It is sunny/hot
-            "Thandi chha", // It is cold
-            "Hava chale chha", // Wind is blowing
-            "Jhad motu chha", // Tree is big
-            "Phool sunder chha", // Flower is beautiful
-            "Pani thandu chha", // Water is cold
-            "Dudh garam chha", // Milk is hot
-            "Bhook lagi", // Hungry
-            "Taras lagi", // Thirsty
-            "Ungh aave chha", // Sleepy
-            "Mathu dukhe chha", // Headache
-            "Pet dukhe chha", // Stomach ache
-            "Pag dukhe chha", // Leg pain
-            "Davakhane ja", // Go to hospital
-            "Dava le", // Take medicine
-            "Aaram kar", // Rest
-            "Kam puru kar", // Finish work
-            "Navu kapda", // New clothes
-            "Juni vat", // Old story
-            "Sachu bol", // Speak truth
-            "Khoto mat bol", // Don't lie
-            "Prem kar", // Love
-            "Gusse mat thaa", // Don't get angry
-            "Maaf kar de", // Forgive
-            "Bhagvan bhalu kare", // God bless you
-            "Ram Ram", // Greetings
-            "Sewa Bhaya", // Greeting (Specific to Banjara)
-            "Jay Sewalal", // Victory to Sewalal (Deity)
-            "Bhasha sikh", // Learn language
-            "Vanch", // Read
-            "Lakh", // Write
-            "Hambhal", // Listen
-            "Jov", // Look/See
-            "Janvar", // Animal
-            "Pankhi", // Bird
-            "Nad", // River
-            "Dungar", // Mountain/Hill
-            "Khetar", // Farm/Field
-            "Gham", // Village
-            "Shehar", // City
-            "Desh", // Country
-            "Duniya", // World
-            "Aakash", // Sky
-            "Dharti", // Earth
-            "Chand", // Moon
-            "Suraj", // Sun
-            "Tara", // Stars
-            "Rat", // Night
-            "Dada", // Grandfather
-            "Dadi", // Grandmother
-            "Nana", // Maternal Grandfather
-            "Nani", // Maternal Grandmother
-            "Kaka", // Uncle (Paternal)
-            "Kaki", // Aunt (Paternal)
-            "Mama", // Uncle (Maternal)
-            "Mami", // Aunt (Maternal)
-            "Fui", // Aunt (Paternal sister)
-            "Masi", // Aunt (Maternal sister)
-            "Bhanij", // Nephew/Niece
-            "Vahu", // Wife/Daughter-in-law
-            "Dhani", // Husband (Owner/Master)
-            "Jiv", // Life/Soul
-            "Man", // Mind
-            "Dil", // Heart
-            "Sharir", // Body
-            "Hath", // Hand
-            "Pag", // Leg
-            "Aankh", // Eye
-            "Nak", // Nose
-            "Kan", // Ear
-            "Modhu", // Face/Mouth
-            "Dant", // Tooth
-            "Jibh", // Tongue
-            "Val", // Hair
-            "Nakh", // Nail
-            "Lohi", // Blood
-            "Hadku", // Bone
-            "Chamdi", // Skin
-            "Rang", // Color
-            "Lal", // Red
-            "Pilo", // Yellow
-            "Lilo", // Green
-            "Kalo", // Black
-            "Dholo", // White
-            "Vadli", // Blue
-            "Ek", // One
-            "Be", // Two
-            "Tin", // Three
-            "Char", // Four
-            "Panch", // Five
-            "Chha", // Six
-            "Sat", // Seven
-            "Aath", // Eight
-            "Nav", // Nine
-            "Das", // Ten
-            "Vis", // Twenty
-            "So", // Hundred
-            "Hajar" // Thousand
+            "Taro nam kai chha?", // What is your name?
+            "Tu kat jarochi?", // Where are you going?
+            "Te khai lidi?", // Have you eaten?
+            "Aaje kai khayu?", // What did you eat today?
+            "Ghar aav, chya pi le", // Come home, drink tea
+            "Bais, vato kar", // Sit, let's talk
+            "Uth, kam kar", // Get up, do work
+            "Mane thodu pani de", // Give me some water
+            "Halu halu ghar jav", // Go home slowly
+            "Jaldi kam puru kar", // Finish work quickly
+            "Mane phone karje", // Call me
+            "Mane thoda paisa joie chha", // I need some money
+            "Tane kai vayu chha?", // What happened to you?
+            "Kain vandho nathi", // There is no problem
+            "Badhu thik chha?", // Is everything okay?
+            "Han, hun majama chhu", // Yes, I am fine
+            "Na, mane nathi gamtu", // No, I don't like it
+            "Aaje kai var chha?", // What day is it today?
+            "Kal aavje, madsu", // Come tomorrow, we will meet
+            "Jaldi aav, hun vat jov chhu", // Come fast, I am waiting
+            "Rasta par halu chal", // Walk slowly on the road
+            "Mota avaje bol", // Speak with a loud voice
+            "Bhasha samaj aavi?", // Did you understand the language?
+            "Ghar ma khana taiyar chha", // Food is ready in the house
+            "Dukan par ja ane saman lav", // Go to the shop and bring goods
+            "Nishal ja ane bhaniye", // Go to school and study
+            "Abhi nathi javu", // I don't want to go now
+            "Thodi var pachha aav", // Come back after some time
+            "Tu ghanu saru kam kare chha", // You are doing very good work
+            "Mane madat karvanu man chha", // I want to help
+            "Koi thi darvanu nathi", // No need to fear anyone
+            "Hamesha khushi rehvanu", // Always stay happy
+            "Nana balak rode chha", // Small child is crying
+            "Badha bhega has", // Laugh together
+            "Saru gana ga", // Sing a good song
+            "Lagna ma nach", // Dance in the wedding
+            "Prem thi vat kar", // Talk with love
+            "Chup chap besi reh", // Sit quietly
+
+            // Family & Relationships
+            "Maro bhai shahr gayo chha", // My brother has gone to city
+            "Mari ben rath banave chha", // My sister is cooking food
+            "Maro bapu khetar gayo", // My father went to farm
+            "Mari yaadi dukan gayi", // My mother went to shop
+            "Maro jigri dost aayo chha", // My best friend has come
+            "Apnu ghar ghanu motu chha", // Our house is very big
+            "Navi gadi chalav", // Drive the new car
+            "Gam no rasto kharab chha", // Village road is bad
+            "Aaje varsad aavano chha", // Rain is coming today
+            "Bahar ghanu tadko chha", // It is very hot outside
+            "Aaje thandi vadhare chha", // It is very cold today
+            "Jor thi hava chale chha", // Wind is blowing strongly
+            "Pipal nu jhad motu chha", // Peepal tree is big
+            "Bagicha ma phool sunder chha", // Flowers in garden are beautiful
+            "Nad nu pani thandu chha", // River water is cold
+            "Garam dudh pi le", // Drink hot milk
+
+            // Health & Feelings
+            "Mane ghani bhook lagi chha", // I am very hungry
+            "Mane taras lagi chha, pani de", // I am thirsty, give water
+            "Mane have ungh aave chha", // I am getting sleep now
+            "Maro mathu dukhe chha aaj", // My head is aching today
+            "Taru pet dukhe chha ke?", // Is your stomach aching?
+            "Maro pag dukhe chha, chali nathi hakto", // My leg hurts, cannot walk
+            "Davakhane jai ne dava lav", // Go to hospital and bring medicine
+            "Samay par dava leje", // Take medicine on time
+            "Thodo aaram kar le", // Take some rest
+            "Badhu kam samay par puru kar", // Finish all work on time
+            "Mane nava kapda pahrvu game", // I like wearing new clothes
+            "Juni vato yad na kar", // Don't remember old stories
+            "Hamesha sachu bolvanu", // Always speak truth
+            "Kyarey khoto nai bolvanu", // Never speak lies
+            "Badha ne prem karvo joie", // Should love everyone
+            "Vadhare gusso nai karvano", // Should not get angry much
+            "Bhool thay to maaf kar de", // Forgive if mistake happens
+            "Bhagvan taro bhalu kare", // God bless you
+
+            // Nature & World
+            "Ram Ram, kem chho badha?", // Greetings, how is everyone?
+            "Sewa Bhaya, Sevalal Maharaj ki jai", // Glory to Sewalal Maharaj
+            "Apni Banjara bhasha sikhvi joie", // We should learn Banjara language
+            "Chopdi vanchvanu rakh", // Keep reading books
+            "Kagaj par nam lakh", // Write name on paper
+            "Dhyan thi vat hambhal", // Listen to talk carefully
+            "Bahar jaine jov", // Go outside and see
+            "Jungle ma janvar rahe chha", // Animals live in forest
+            "Aakash ma pankhi ude chha", // Birds fly in sky
+            "Nad ma pani vhay chha", // Water flows in river
+            "Dungar par chadhvu aghru chha", // Climbing mountain is hard
+            "Khetar ma pak pakyo chha", // Crop is ready in farm
+            "Maro gham sunder chha", // My village is beautiful
+            "Shehar ma ghani bhid chha", // There is crowd in city
+            "Maro desh mahan chha", // My country is great
+            "Duniya ghani moti chha", // World is very big
+            "Ratre aakash ma tara dekhay", // Stars appear in sky at night
+            "Chand ane Suraj, beu jaruri chha", // Moon and Sun, both important
+
+            // Family Relations (Sentences)
+            "Mara Dada juni vato kare chha", // My grandfather tells old stories
+            "Mari Dadi saru khanu banave", // My grandmother cooks good food
+            "Nana Nani ne madva javu chha", // Want to go meet grandparents
+            "Kaka ane Kaki khetar gaya", // Uncle and Aunt went to farm
+            "Mama Mami shehar thi aavya", // Uncle Aunt came from city
+            "Fui ane Masi aaje aavshe", // Aunts will come today
+            "Bhanij rami rahya chha", // Nephew/Niece are playing
+            "Ghar ma vahu kam kare chha", // Daughter-in-law working in house
+            "Dhani dhanyavad karvo", // Give thanks to master/owner/god
+            "Jiv thi vhalu koy nathi", // Nothing dearer than life
+            "Man shant rakhvu", // Keep mind calm
+            "Dil thi vat karvi", // Talk from heart
+            "Sharir nu dhyan rakhvu", // Take care of body
+
+            // Body Parts (Sentences)
+            "Hath dhovana bhulso nai", // Don't forget to wash hands
+            "Pag thi chali ne javu", // Go walking by legs
+            "Aankh thi badhu jovu", // See everything with eyes
+            "Nak thi shwas levu", // Breathe with nose
+            "Kan thi hambhlo", // Listen with ears
+            "Modhu saaf rakho", // Keep face/mouth clean
+            "Dant majboot rakhva", // Keep teeth strong
+            "Jibh par kabu rakhvo", // Keep control on tongue
+            "Val kala ane lamba chha", // Hair is black and long
+
+            // Counting & General
+            "Ek rasto sacho chha", // One path is true
+            "Be manas vato kare chha", // Two people are talking
+            "Tin divas ni raja chha", // Three days holiday
+            "Char disha hoy chha", // There are four directions
+            "Panch angliyo chha", // Five fingers are there
+            "So varas jivo", // Live hundred years
+            "Hajar rupiya nu kam chha" // Work of thousand rupees
         ];
 
         // ===== INITIALIZATION =====
