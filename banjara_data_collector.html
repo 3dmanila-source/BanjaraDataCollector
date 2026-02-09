@@ -397,6 +397,8 @@
             <div class="sentence-display">
                 <div class="sentence-label">English Sentence</div>
                 <div class="sentence-text" id="englishSentence">Loading...</div>
+                <div class="sentence-suggestion" id="suggestionText"
+                    style="color: var(--color-primary); margin-top: 10px; font-style: italic;"></div>
             </div>
 
             <!-- Banjara Input -->
@@ -686,8 +688,14 @@
                 return;
             }
 
-            const sentence = state.sentences[state.currentIndex];
-            document.getElementById('englishSentence').textContent = sentence;
+            const item = state.sentences[state.currentIndex];
+            // Handle both string (legacy) and object formats
+            const englishText = typeof item === 'string' ? item : item.english;
+            const suggestionText = typeof item === 'string' ? '' : item.suggestion;
+
+            document.getElementById('englishSentence').textContent = englishText;
+            document.getElementById('suggestionText').textContent = suggestionText ? `Suggestion: ${suggestionText}` : '';
+
             document.getElementById('banjaraInput').value = '';
             document.getElementById('notesInput').value = ''; // Clear notes
             document.getElementById('banjaraInput').focus();
@@ -767,9 +775,12 @@
                 return;
             }
 
+            const item = state.sentences[state.currentIndex];
+            const englishText = typeof item === 'string' ? item : item.english;
+
             const entry = {
                 id: state.recordings.length + 1,
-                english: state.sentences[state.currentIndex],
+                english: englishText,
                 banjara: banjaraText,
                 notes: notesText,
                 audio: state.currentAudioBlob,
