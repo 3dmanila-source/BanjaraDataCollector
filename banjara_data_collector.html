@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banjara Language Data Collector</title>
     <style>
         /* ===== CSS DESIGN SYSTEM ===== */
-        
+
         * {
             margin: 0;
             padding: 0;
@@ -28,7 +29,7 @@
             --color-gray-600: #4b5563;
             --color-gray-700: #374151;
             --color-gray-900: #111827;
-            
+
             /* Typography */
             --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             --font-size-sm: 14px;
@@ -37,7 +38,7 @@
             --font-size-xl: 20px;
             --font-size-2xl: 24px;
             --font-size-3xl: 30px;
-            
+
             /* Spacing */
             --space-2: 8px;
             --space-3: 12px;
@@ -46,12 +47,12 @@
             --space-6: 24px;
             --space-8: 32px;
             --space-10: 40px;
-            
+
             /* Border Radius */
             --radius-sm: 6px;
             --radius-md: 8px;
             --radius-lg: 12px;
-            
+
             /* Shadows */
             --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
             --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
@@ -215,8 +216,15 @@
         }
 
         @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.7; }
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.7;
+            }
         }
 
         /* Buttons */
@@ -351,6 +359,7 @@
                 opacity: 0;
                 transform: translateY(10px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -362,6 +371,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <!-- Header -->
@@ -394,15 +404,18 @@
                 <label class="input-label" for="banjaraInput">
                     Banjara Translation (Roman Script)
                 </label>
-                <input 
-                    type="text" 
-                    id="banjaraInput" 
-                    class="input-field" 
-                    placeholder="Type your translation here..."
-                    autocomplete="off"
-                />
+                <input type="text" id="banjaraInput" class="input-field" placeholder="Type your translation here..."
+                    autocomplete="off" />
             </div>
 
+            <!-- Notes Input -->
+            <div class="input-section">
+                <label class="input-label" for="notesInput">
+                    Notes / Word Mapping (Optional)
+                </label>
+                <input type="text" id="notesInput" class="input-field" placeholder="e.g., Kai=What, Karrochi=Doing"
+                    autocomplete="off" style="font-size: var(--font-size-base);" />
+            </div>
             <!-- Status Banner -->
             <div class="status-banner status-idle" id="statusBanner">
                 Type translation and record audio
@@ -458,7 +471,7 @@
 
     <script>
         // ===== APPLICATION STATE =====
-        
+
         const state = {
             sentences: [],
             currentIndex: 0,
@@ -471,206 +484,239 @@
         };
 
         // ===== DEFAULT SENTENCES =====
-        
+
         const defaultSentences = [
             // Greetings & Introductions
-            "Hello, how are you?",
-            "What is your name?",
-            "Nice to meet you",
-            "Good morning",
-            "Good afternoon",
-            "Good evening",
-            "Good night",
-            "How are you doing today?",
-            "Where are you from?",
-            "I am fine, thank you",
-            
-            // Daily Conversations
-            "What are you doing?",
-            "Where are you going?",
-            "Have you eaten?",
-            "What did you eat?",
-            "I am going to the market",
-            "Come here",
-            "Sit down",
-            "Stand up",
-            "Wait for me",
-            "Let's go",
-            
-            // Questions
-            "Where is the bathroom?",
-            "How much does this cost?",
-            "Can you help me?",
-            "Do you understand?",
-            "What time is it?",
-            "When will you come?",
-            "Why are you late?",
-            "Who is that person?",
-            "Which way should I go?",
-            "How far is it?",
-            
-            // Family
-            "This is my mother",
-            "This is my father",
-            "My brother is coming",
-            "Where is your sister?",
-            "How is your family?",
-            "My son is sleeping",
-            "My daughter is studying",
-            "I miss my family",
-            "Call your mother",
-            "Tell your father",
-            
-            // Numbers & Time
-            "I have one brother",
-            "Give me two cups",
-            "Three people are coming",
-            "Wait for five minutes",
-            "It's ten o'clock",
-            "I will come tomorrow",
-            "I went yesterday",
-            "Today is Monday",
-            "Next week",
-            "Last month",
-            
-            // Common Actions
-            "I am eating",
-            "He is drinking water",
-            "She is sleeping",
-            "They are working",
-            "We are talking",
-            "I am reading",
-            "You are writing",
-            "He is walking",
-            "She is running",
-            "They are playing",
-            
-            // Requests & Commands
-            "Please give me water",
-            "Can you open the door?",
-            "Close the window",
-            "Turn on the light",
-            "Turn off the fan",
-            "Bring me food",
-            "Take this",
-            "Put it there",
-            "Show me",
-            "Tell me",
-            
-            // Expressions
-            "I am happy",
-            "I am sad",
-            "I am tired",
-            "I am hungry",
-            "I am thirsty",
-            "I am cold",
-            "I am hot",
-            "I am sick",
-            "I am fine",
-            "I am busy",
-            
-            // Common Phrases
-            "Thank you very much",
-            "You are welcome",
-            "I am sorry",
-            "Excuse me",
-            "No problem",
-            "I don't know",
-            "I understand",
-            "I don't understand",
-            "Please repeat",
-            "Speak slowly",
-            
-            // Weather
-            "It is raining",
-            "It is very hot today",
-            "It is cold outside",
-            "The weather is nice",
-            "It is sunny",
-            
-            // Shopping
-            "How much is this?",
-            "That is too expensive",
-            "Can you give a discount?",
-            "I will buy this",
-            "I don't want it",
-            
-            // Travel
-            "Where is the bus stop?",
-            "Which bus goes to the market?",
-            "How long will it take?",
-            "I want to go home",
-            "Is it far from here?"
+            "Kai karrochi?", // What are you doing?
+            "Kun chho?", // Who are you?
+            "Kai nam chha?", // What is your name?
+            "Kat jarochi?", // Where are you going?
+            "Khai lido?", // Have you eaten?
+            "Kai khayo?", // What did you eat?
+            "Aav", // Come
+            "Bais", // Sit
+            "Uth", // Stand
+            "Pani de", // Give water
+            "Ghar jav", // Go home
+            "Kam kar", // Do work
+            "Su jav", // Go sleep
+            "Phone kar", // Call me
+            "Paisa de", // Give money
+            "Kai vayu?", // What happened?
+            "Kain koni", // Nothing
+            "Thik chha", // It is okay/fine
+            "Han", // Yes
+            "Na", // No
+            "Aaje kai chha?", // What is today?
+            "Kal aav", // Come tomorrow
+            "Jaldi aav", // Come fast
+            "Halu chal", // Walk slowly
+            "Mota bole", // Speak loudly
+            "Samaj aayo?", // Understood?
+            "Khana taiyar chha", // Food is ready
+            "Chya pi le", // Drink tea
+            "Dukan ja", // Go to shop
+            "School ja", // Go to school
+            "Abhi ni", // Not now
+            "Pachha aav", // Come later
+            "Tu khor chho", // You are bad (playful/serious depending on context)
+            "Tu chango chho", // You are good
+            "Man madat kar", // Help me
+            "Dar mat", // Don't fear
+            "Khushi ra", // Be happy
+            "Rode mat", // Don't cry
+            "Has", // Laugh
+            "Gana ga", // Sing a song
+            "Nach", // Dance
+            "Vat kar", // Talk
+            "Chup ra", // Be quiet
+            "Maro bhai", // My brother
+            "Mari ben", // My sister
+            "Maro bapu", // My father
+            "Mari yaadi", // My mother
+            "Maro dost", // My friend
+            "Ghar motu chha", // House is big
+            "Gadi chalav", // Drive car
+            "Rasto kharab chha", // Road is bad
+            "Varsad aave chha", // Rain is coming
+            "Tadko chha", // It is sunny/hot
+            "Thandi chha", // It is cold
+            "Hava chale chha", // Wind is blowing
+            "Jhad motu chha", // Tree is big
+            "Phool sunder chha", // Flower is beautiful
+            "Pani thandu chha", // Water is cold
+            "Dudh garam chha", // Milk is hot
+            "Bhook lagi", // Hungry
+            "Taras lagi", // Thirsty
+            "Ungh aave chha", // Sleepy
+            "Mathu dukhe chha", // Headache
+            "Pet dukhe chha", // Stomach ache
+            "Pag dukhe chha", // Leg pain
+            "Davakhane ja", // Go to hospital
+            "Dava le", // Take medicine
+            "Aaram kar", // Rest
+            "Kam puru kar", // Finish work
+            "Navu kapda", // New clothes
+            "Juni vat", // Old story
+            "Sachu bol", // Speak truth
+            "Khoto mat bol", // Don't lie
+            "Prem kar", // Love
+            "Gusse mat thaa", // Don't get angry
+            "Maaf kar de", // Forgive
+            "Bhagvan bhalu kare", // God bless you
+            "Ram Ram", // Greetings
+            "Sewa Bhaya", // Greeting (Specific to Banjara)
+            "Jay Sewalal", // Victory to Sewalal (Deity)
+            "Bhasha sikh", // Learn language
+            "Vanch", // Read
+            "Lakh", // Write
+            "Hambhal", // Listen
+            "Jov", // Look/See
+            "Janvar", // Animal
+            "Pankhi", // Bird
+            "Nad", // River
+            "Dungar", // Mountain/Hill
+            "Khetar", // Farm/Field
+            "Gham", // Village
+            "Shehar", // City
+            "Desh", // Country
+            "Duniya", // World
+            "Aakash", // Sky
+            "Dharti", // Earth
+            "Chand", // Moon
+            "Suraj", // Sun
+            "Tara", // Stars
+            "Rat", // Night
+            "Dada", // Grandfather
+            "Dadi", // Grandmother
+            "Nana", // Maternal Grandfather
+            "Nani", // Maternal Grandmother
+            "Kaka", // Uncle (Paternal)
+            "Kaki", // Aunt (Paternal)
+            "Mama", // Uncle (Maternal)
+            "Mami", // Aunt (Maternal)
+            "Fui", // Aunt (Paternal sister)
+            "Masi", // Aunt (Maternal sister)
+            "Bhanij", // Nephew/Niece
+            "Vahu", // Wife/Daughter-in-law
+            "Dhani", // Husband (Owner/Master)
+            "Jiv", // Life/Soul
+            "Man", // Mind
+            "Dil", // Heart
+            "Sharir", // Body
+            "Hath", // Hand
+            "Pag", // Leg
+            "Aankh", // Eye
+            "Nak", // Nose
+            "Kan", // Ear
+            "Modhu", // Face/Mouth
+            "Dant", // Tooth
+            "Jibh", // Tongue
+            "Val", // Hair
+            "Nakh", // Nail
+            "Lohi", // Blood
+            "Hadku", // Bone
+            "Chamdi", // Skin
+            "Rang", // Color
+            "Lal", // Red
+            "Pilo", // Yellow
+            "Lilo", // Green
+            "Kalo", // Black
+            "Dholo", // White
+            "Vadli", // Blue
+            "Ek", // One
+            "Be", // Two
+            "Tin", // Three
+            "Char", // Four
+            "Panch", // Five
+            "Chha", // Six
+            "Sat", // Seven
+            "Aath", // Eight
+            "Nav", // Nine
+            "Das", // Ten
+            "Vis", // Twenty
+            "So", // Hundred
+            "Hajar" // Thousand
         ];
 
         // ===== INITIALIZATION =====
-        
+
         async function initialize() {
             try {
-                // Load sentences
-                state.sentences = [...defaultSentences];
-                
+                // Load and shuffle sentences
+                state.sentences = shuffleArray([...defaultSentences]);
+
                 // Request microphone permission
-                const stream = await navigator.mediaDevices.getUserMedia({ 
+                const stream = await navigator.mediaDevices.getUserMedia({
                     audio: {
                         echoCancellation: true,
                         noiseSuppression: true,
                         sampleRate: 48000
-                    } 
+                    }
                 });
-                
+
                 // Initialize MediaRecorder
                 state.mediaRecorder = new MediaRecorder(stream, {
                     mimeType: 'audio/webm;codecs=opus'
                 });
-                
+
                 state.mediaRecorder.ondataavailable = (event) => {
                     if (event.data.size > 0) {
                         state.audioChunks.push(event.data);
                     }
                 };
-                
+
                 state.mediaRecorder.onstop = () => {
-                    state.currentAudioBlob = new Blob(state.audioChunks, { 
-                        type: 'audio/webm' 
+                    state.currentAudioBlob = new Blob(state.audioChunks, {
+                        type: 'audio/webm'
                     });
                     updateStatus('Recording saved! Click "Save & Next" to continue', 'saved');
                     updateUI();
                 };
-                
+
                 // Load first sentence
                 loadSentence();
-                
+
                 // Start session timer
                 startSessionTimer();
-                
+
             } catch (error) {
                 console.error('Initialization error:', error);
                 alert('Error: Could not access microphone. Please check permissions.');
             }
         }
 
+        // Utility to shuffle array (Fisher-Yates)
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
         // ===== SENTENCE MANAGEMENT =====
-        
+
         function loadSentence() {
             if (state.currentIndex >= state.sentences.length) {
                 showCompletionScreen();
                 return;
             }
-            
+
             const sentence = state.sentences[state.currentIndex];
             document.getElementById('englishSentence').textContent = sentence;
             document.getElementById('banjaraInput').value = '';
+            document.getElementById('notesInput').value = ''; // Clear notes
             document.getElementById('banjaraInput').focus();
-            
+
             // Reset recording state
             state.currentAudioBlob = null;
             state.audioChunks = [];
-            
-            updateStatus('Type translation and record audio', 'idle');
+
+            updateStatus('Type translation, add notes, and record audio', 'idle');
             updateUI();
             updateProgress();
-            
+
             // Fade in animation
             document.querySelector('.sentence-display').classList.remove('fade-in');
             setTimeout(() => {
@@ -679,15 +725,16 @@
         }
 
         function showCompletionScreen() {
-            document.getElementById('englishSentence').textContent = 
+            document.getElementById('englishSentence').textContent =
                 '🎉 All sentences completed! Export your data below.';
             document.getElementById('banjaraInput').disabled = true;
+            document.getElementById('notesInput').disabled = true;
             document.getElementById('recordBtn').disabled = true;
             updateStatus('Session complete! Click Export to download your data', 'saved');
         }
 
         // ===== RECORDING MANAGEMENT =====
-        
+
         function toggleRecording() {
             if (state.isRecording) {
                 stopRecording();
@@ -700,7 +747,7 @@
             state.audioChunks = [];
             state.mediaRecorder.start();
             state.isRecording = true;
-            
+
             document.getElementById('recordBtn').classList.add('recording');
             document.getElementById('recordBtnText').textContent = 'Stop Recording';
             updateStatus('🔴 Recording in progress... Click "Stop Recording" when done', 'recording');
@@ -709,45 +756,47 @@
         function stopRecording() {
             state.mediaRecorder.stop();
             state.isRecording = false;
-            
+
             document.getElementById('recordBtn').classList.remove('recording');
             document.getElementById('recordBtnText').textContent = 'Start Recording';
         }
 
         function playRecording() {
             if (!state.currentAudioBlob) return;
-            
+
             const audio = new Audio(URL.createObjectURL(state.currentAudioBlob));
             audio.play();
         }
 
         // ===== DATA MANAGEMENT =====
-        
+
         function saveCurrentEntry() {
             const banjaraText = document.getElementById('banjaraInput').value.trim();
-            
+            const notesText = document.getElementById('notesInput').value.trim();
+
             if (!banjaraText) {
                 alert('Please enter a Banjara translation');
                 return;
             }
-            
+
             if (!state.currentAudioBlob) {
                 alert('Please record audio before saving');
                 return;
             }
-            
+
             const entry = {
                 id: state.recordings.length + 1,
                 english: state.sentences[state.currentIndex],
                 banjara: banjaraText,
+                notes: notesText,
                 audio: state.currentAudioBlob,
                 timestamp: new Date().toISOString(),
                 duration: 0 // Will be calculated during export
             };
-            
+
             state.recordings.push(entry);
             state.currentIndex++;
-            
+
             updateStats();
             loadSentence();
         }
@@ -760,61 +809,71 @@
         }
 
         // ===== EXPORT FUNCTIONALITY =====
-        
+
         function exportData() {
             if (state.recordings.length === 0) {
                 alert('No recordings to export!');
                 return;
             }
-            
+
             const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5);
-            
+
             // 1. Export translations CSV
             exportTranslationsCSV(timestamp);
-            
+
             // 2. Export audio files
             exportAudioFiles(timestamp);
-            
+
             // 3. Export metadata CSV (for TTS training)
             exportMetadataCSV(timestamp);
-            
+
             // 4. Show success message
             setTimeout(() => {
                 alert(`✅ Successfully exported ${state.recordings.length} recordings!\n\nFiles:\n- translations.csv\n- ${state.recordings.length} audio files\n- metadata.csv`);
             }, 500);
         }
 
+        // Helper to sanitize filename
+        function sanitizeFilename(text) {
+            return text
+                .replace(/[^a-z0-9]/gi, '_') // Replace non-alphanumeric with underscore
+                .replace(/_+/g, '_')         // Replace multiple underscores with single
+                .replace(/^_|_$/g, '')       // Remove leading/trailing underscores
+                .toLowerCase();
+        }
+
         function exportTranslationsCSV(timestamp) {
-            let csv = 'id,english,banjara,audio_file,timestamp\n';
-            
+            let csv = 'id,english,banjara,notes,audio_file,timestamp\n';
+
             state.recordings.forEach((entry, index) => {
-                const filename = `banjara_${String(entry.id).padStart(5, '0')}.webm`;
-                csv += `${entry.id},"${escapeCsv(entry.english)}","${escapeCsv(entry.banjara)}",${filename},${entry.timestamp}\n`;
+                // Use standardized filename based on translation
+                const filename = `${sanitizeFilename(entry.banjara)}.webm`;
+                csv += `${entry.id},"${escapeCsv(entry.english)}","${escapeCsv(entry.banjara)}","${escapeCsv(entry.notes)}",${filename},${entry.timestamp}\n`;
             });
-            
+
             downloadFile(csv, `banjara_translations_${timestamp}.csv`, 'text/csv');
         }
 
         function exportAudioFiles(timestamp) {
             state.recordings.forEach((entry) => {
-                const filename = `banjara_${String(entry.id).padStart(5, '0')}.webm`;
+                const filename = `${sanitizeFilename(entry.banjara)}.webm`;
                 downloadBlob(entry.audio, filename);
             });
         }
 
         function exportMetadataCSV(timestamp) {
             let metadata = '';
-            
+
             state.recordings.forEach((entry) => {
                 const filename = `banjara_${String(entry.id).padStart(5, '0')}.webm`;
                 metadata += `${filename}|${entry.banjara}\n`;
             });
-            
+
             downloadFile(metadata, `metadata_${timestamp}.csv`, 'text/plain');
         }
 
         // ===== UTILITY FUNCTIONS =====
-        
+
         function downloadFile(content, filename, mimeType) {
             const blob = new Blob([content], { type: mimeType });
             downloadBlob(blob, filename);
@@ -844,7 +903,7 @@
         function updateUI() {
             const hasTranslation = document.getElementById('banjaraInput').value.trim().length > 0;
             const hasAudio = state.currentAudioBlob !== null;
-            
+
             document.getElementById('saveBtn').disabled = !(hasTranslation && hasAudio);
             document.getElementById('playbackBtn').disabled = !hasAudio;
         }
@@ -853,7 +912,7 @@
             const total = state.sentences.length;
             const completed = state.recordings.length;
             const percentage = total > 0 ? (completed / total) * 100 : 0;
-            
+
             document.getElementById('progressText').textContent = `${completed} / ${total}`;
             document.getElementById('progressBar').style.width = `${percentage}%`;
         }
@@ -868,19 +927,19 @@
                 const elapsed = Math.floor((Date.now() - state.sessionStartTime) / 1000);
                 const minutes = Math.floor(elapsed / 60);
                 const seconds = elapsed % 60;
-                document.getElementById('statTime').textContent = 
+                document.getElementById('statTime').textContent =
                     `${minutes}:${String(seconds).padStart(2, '0')}`;
             }, 1000);
         }
 
         // ===== EVENT LISTENERS =====
-        
+
         document.getElementById('recordBtn').addEventListener('click', toggleRecording);
         document.getElementById('saveBtn').addEventListener('click', saveCurrentEntry);
         document.getElementById('skipBtn').addEventListener('click', skipSentence);
         document.getElementById('playbackBtn').addEventListener('click', playRecording);
         document.getElementById('exportBtn').addEventListener('click', exportData);
-        
+
         document.getElementById('banjaraInput').addEventListener('input', updateUI);
         document.getElementById('banjaraInput').addEventListener('keypress', (e) => {
             if (e.key === 'Enter' && !state.isRecording) {
@@ -889,8 +948,9 @@
         });
 
         // ===== START APPLICATION =====
-        
+
         window.addEventListener('DOMContentLoaded', initialize);
     </script>
 </body>
+
 </html>

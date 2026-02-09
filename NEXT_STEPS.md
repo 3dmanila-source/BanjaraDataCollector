@@ -1,30 +1,23 @@
-# Next Steps: Launching on GitHub
+# Push to GitHub
 
-Since the GitHub CLI tool is not installed, I prepared the files locally. Follow these steps to put them online:
+I have reset the remote to:
+`https://github.com/3dmanila-source/BanjaraDataCollector.git`
 
-1.  **Create a New Repository on GitHub:**
-    - Go to [github.com/new](https://github.com/new).
-    - Repository name: `BanjaraDataCollector`.
-    - Description: "Banjara Language Data Collection Tool".
-    - **Do not** check "Initialize with README" (we already have one).
-    - Click **Create repository**.
+**Try running this command:**
 
-2.  **Push the Code:**
-    Open your terminal in `f:\Banjara AI\BanjaraDataCollector` and run:
+```bash
+git push -u origin main
+```
 
+## Potential Errors & Fixes
+
+**1. "Repository not found"**
+*   Make sure you have actually created the repository `BanjaraDataCollector` on GitHub.
+*   Make sure it is **Public** (or you are logged in).
+
+**2. "Updates were rejected" (Remote contains work)**
+*   If you created the repo with a README or License, run this *before* pushing:
     ```bash
-    git remote add origin https://github.com/<YOUR_USERNAME>/BanjaraDataCollector.git
-    git branch -M main
+    git pull origin main --rebase
     git push -u origin main
     ```
-
-3.  **Enable GitHub Pages (for online access):**
-    - Go to your repository **Settings** > **Pages**.
-    - For **Source**, select `main` branch.
-    - Click **Save**.
-    - Your tool will be available at: `https://<YOUR_USERNAME>.github.io/BanjaraDataCollector/banjara_data_collector.html`
-
-## Data Safety Note
-- Your "database" constitutes the exported CSV and Audio files.
-- **Do not** rely on the browser cache. Always export your data.
-- **Backup:** Upload your exported files to Google Drive or a similar service securely.
