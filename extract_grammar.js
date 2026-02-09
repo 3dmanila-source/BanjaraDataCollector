@@ -65,10 +65,17 @@ function generateMarkdown(data) {
         let formattedNotes = notes;
 
         // Try to parse basic mappings if they exist
-        if (notes.includes('=')) {
+        if (notes.match(/[=-]/)) {
+            // Split by comma or semicolon to get pairs
             const parts = notes.split(/,|;/).map(p => p.trim()).filter(p => p);
+
             const mapping = parts.map(part => {
-                const [banjara, english] = part.split('=').map(s => s ? s.trim() : '');
+                // Split by = or - to get key/value
+                // Regex splits by = or - but keeps the structure
+                let splitChar = part.includes('=') ? '=' : '-';
+                if (!part.includes(splitChar)) return part;
+
+                const [banjara, english] = part.split(splitChar).map(s => s ? s.trim() : '');
                 if (banjara && english) {
                     return `**${banjara}** (${english})`;
                 }
