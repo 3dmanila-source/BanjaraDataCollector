@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banjara Language Data Collector</title>
+    <style>
+        /* ===== CSS DESIGN SYSTEM ===== */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* Color Palette */
+            --color-primary: #3b82f6;
+            --color-primary-dark: #2563eb;
+            --color-success: #10b981;
+            --color-danger: #ef4444;
+            --color-danger-dark: #dc2626;
+            --color-warning: #f59e0b;
+            --color-gray-50: #f9fafb;
+            --color-gray-100: #f3f4f6;
+            --color-gray-200: #e5e7eb;
+            --color-gray-300: #d1d5db;
+            --color-gray-600: #4b5563;
+            --color-gray-700: #374151;
+            --color-gray-900: #111827;
+            
+            /* Typography */
+            --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            --font-size-sm: 14px;
+            --font-size-base: 16px;
+            --font-size-lg: 18px;
+            --font-size-xl: 20px;
+            --font-size-2xl: 24px;
+            --font-size-3xl: 30px;
+            
+            /* Spacing */
+            --space-2: 8px;
+            --space-3: 12px;
+            --space-4: 16px;
+            --space-5: 20px;
+            --space-6: 24px;
+            --space-8: 32px;
+            --space-10: 40px;
+            
+            /* Border Radius */
+            --radius-sm: 6px;
+            --radius-md: 8px;
+            --radius-lg: 12px;
+            
+            /* Shadows */
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: var(--font-family);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: var(--space-6);
+            color: var(--color-gray-900);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .header {
+            background: white;
+            border-radius: var(--radius-lg);
+            padding: var(--space-6);
+            margin-bottom: var(--space-6);
+            box-shadow: var(--shadow-lg);
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: var(--font-size-3xl);
+            color: var(--color-gray-900);
+            margin-bottom: var(--space-2);
+            font-weight: 700;
+        }
+
+        .header p {
+            color: var(--color-gray-600);
+            font-size: var(--font-size-base);
+        }
+
+        /* Progress Bar */
+        .progress-container {
+            background: white;
+            border-radius: var(--radius-lg);
+            padding: var(--space-5);
+            margin-bottom: var(--space-6);
+            box-shadow: var(--shadow-md);
+        }
+
+        .progress-stats {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: var(--space-3);
+            font-size: var(--font-size-lg);
+            font-weight: 600;
+            color: var(--color-gray-700);
+        }
+
+        .progress-bar-container {
+            background: var(--color-gray-200);
+            height: 12px;
+            border-radius: 999px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--color-primary), #8b5cf6);
+            transition: width 0.5s ease;
+            width: 0%;
+        }
+
+        /* Main Card */
+        .main-card {
+            background: white;
+            border-radius: var(--radius-lg);
+            padding: var(--space-8);
+            margin-bottom: var(--space-6);
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* English Sentence Display */
+        .sentence-display {
+            background: var(--color-gray-50);
+            border: 2px solid var(--color-gray-200);
+            border-radius: var(--radius-md);
+            padding: var(--space-6);
+            margin-bottom: var(--space-6);
+        }
+
+        .sentence-label {
+            font-size: var(--font-size-sm);
+            font-weight: 600;
+            color: var(--color-gray-600);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: var(--space-2);
+        }
+
+        .sentence-text {
+            font-size: var(--font-size-2xl);
+            color: var(--color-gray-900);
+            line-height: 1.5;
+            font-weight: 500;
+        }
+
+        /* Input Section */
+        .input-section {
+            margin-bottom: var(--space-6);
+        }
+
+        .input-label {
+            display: block;
+            font-size: var(--font-size-base);
+            font-weight: 600;
+            color: var(--color-gray-700);
+            margin-bottom: var(--space-3);
+        }
+
+        .input-field {
+            width: 100%;
+            font-size: var(--font-size-xl);
+            padding: var(--space-4);
+            border: 2px solid var(--color-gray-300);
+            border-radius: var(--radius-md);
+            transition: all 0.2s;
+            font-family: var(--font-family);
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+
+        /* Status Banner */
+        .status-banner {
+            text-align: center;
+            padding: var(--space-4);
+            border-radius: var(--radius-md);
+            margin-bottom: var(--space-6);
+            font-weight: 500;
+            font-size: var(--font-size-base);
+        }
+
+        .status-idle {
+            background: var(--color-gray-100);
+            color: var(--color-gray-700);
+        }
+
+        .status-recording {
+            background: #fee2e2;
+            color: #991b1b;
+            animation: pulse 2s infinite;
+        }
+
+        .status-saved {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        /* Buttons */
+        .button {
+            width: 100%;
+            padding: var(--space-5);
+            font-size: var(--font-size-lg);
+            font-weight: 600;
+            border: none;
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: var(--font-family);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--space-2);
+        }
+
+        .button:active {
+            transform: scale(0.98);
+        }
+
+        .button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .button-record {
+            background: var(--color-danger);
+            color: white;
+            margin-bottom: var(--space-3);
+        }
+
+        .button-record:hover:not(:disabled) {
+            background: var(--color-danger-dark);
+            box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+        }
+
+        .button-record.recording {
+            background: var(--color-gray-700);
+        }
+
+        .button-save {
+            background: var(--color-success);
+            color: white;
+            margin-bottom: var(--space-3);
+        }
+
+        .button-save:hover:not(:disabled) {
+            background: #059669;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+        }
+
+        .button-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-3);
+            margin-bottom: var(--space-6);
+        }
+
+        .button-secondary {
+            background: var(--color-gray-200);
+            color: var(--color-gray-700);
+        }
+
+        .button-secondary:hover {
+            background: var(--color-gray-300);
+        }
+
+        .button-primary {
+            background: var(--color-primary);
+            color: white;
+        }
+
+        .button-primary:hover {
+            background: var(--color-primary-dark);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+        }
+
+        /* Stats Card */
+        .stats-card {
+            background: white;
+            border-radius: var(--radius-lg);
+            padding: var(--space-6);
+            box-shadow: var(--shadow-md);
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: var(--space-4);
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: var(--font-size-2xl);
+            font-weight: 700;
+            color: var(--color-primary);
+            margin-bottom: var(--space-2);
+        }
+
+        .stat-label {
+            font-size: var(--font-size-sm);
+            color: var(--color-gray-600);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: var(--space-4);
+            }
+
+            .sentence-text {
+                font-size: var(--font-size-xl);
+            }
+
+            .input-field {
+                font-size: var(--font-size-lg);
+            }
+
+            .button-group {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🎙️ Banjara Language Data Collector</h1>
+            <p>Help preserve Banjara by recording sentence translations</p>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-stats">
+                <span>Progress</span>
+                <span id="progressText">0 / 0</span>
+            </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+        </div>
+
+        <!-- Main Collection Interface -->
+        <div class="main-card">
+            <!-- English Sentence -->
+            <div class="sentence-display">
+                <div class="sentence-label">English Sentence</div>
+                <div class="sentence-text" id="englishSentence">Loading...</div>
+            </div>
+
+            <!-- Banjara Input -->
+            <div class="input-section">
+                <label class="input-label" for="banjaraInput">
+                    Banjara Translation (Roman Script)
+                </label>
+                <input 
+                    type="text" 
+                    id="banjaraInput" 
+                    class="input-field" 
+                    placeholder="Type your translation here..."
+                    autocomplete="off"
+                />
+            </div>
+
+            <!-- Status Banner -->
+            <div class="status-banner status-idle" id="statusBanner">
+                Type translation and record audio
+            </div>
+
+            <!-- Record Button -->
+            <button class="button button-record" id="recordBtn">
+                <span>🎤</span>
+                <span id="recordBtnText">Start Recording</span>
+            </button>
+
+            <!-- Save Button -->
+            <button class="button button-save" id="saveBtn" disabled>
+                <span>💾</span>
+                <span>Save & Next Sentence</span>
+            </button>
+
+            <!-- Secondary Actions -->
+            <div class="button-group">
+                <button class="button button-secondary" id="skipBtn">
+                    <span>⏭️</span>
+                    <span>Skip</span>
+                </button>
+                <button class="button button-secondary" id="playbackBtn" disabled>
+                    <span>▶️</span>
+                    <span>Play Recording</span>
+                </button>
+            </div>
+
+            <!-- Export Button -->
+            <button class="button button-primary" id="exportBtn">
+                <span>📥</span>
+                <span>Export All Data</span>
+            </button>
+        </div>
+
+        <!-- Statistics -->
+        <div class="stats-card">
+            <div class="stat-item">
+                <div class="stat-value" id="statTotal">0</div>
+                <div class="stat-label">Total Recordings</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="statSession">0</div>
+                <div class="stat-label">This Session</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value" id="statTime">0:00</div>
+                <div class="stat-label">Session Time</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ===== APPLICATION STATE =====
+        
+        const state = {
+            sentences: [],
+            currentIndex: 0,
+            recordings: [],
+            sessionStartTime: Date.now(),
+            isRecording: false,
+            currentAudioBlob: null,
+            mediaRecorder: null,
+            audioChunks: []
+        };
+
+        // ===== DEFAULT SENTENCES =====
+        
+        const defaultSentences = [
+            // Greetings & Introductions
+            "Hello, how are you?",
+            "What is your name?",
+            "Nice to meet you",
+            "Good morning",
+            "Good afternoon",
+            "Good evening",
+            "Good night",
+            "How are you doing today?",
+            "Where are you from?",
+            "I am fine, thank you",
+            
+            // Daily Conversations
+            "What are you doing?",
+            "Where are you going?",
+            "Have you eaten?",
+            "What did you eat?",
+            "I am going to the market",
+            "Come here",
+            "Sit down",
+            "Stand up",
+            "Wait for me",
+            "Let's go",
+            
+            // Questions
+            "Where is the bathroom?",
+            "How much does this cost?",
+            "Can you help me?",
+            "Do you understand?",
+            "What time is it?",
+            "When will you come?",
+            "Why are you late?",
+            "Who is that person?",
+            "Which way should I go?",
+            "How far is it?",
+            
+            // Family
+            "This is my mother",
+            "This is my father",
+            "My brother is coming",
+            "Where is your sister?",
+            "How is your family?",
+            "My son is sleeping",
+            "My daughter is studying",
+            "I miss my family",
+            "Call your mother",
+            "Tell your father",
+            
+            // Numbers & Time
+            "I have one brother",
+            "Give me two cups",
+            "Three people are coming",
+            "Wait for five minutes",
+            "It's ten o'clock",
+            "I will come tomorrow",
+            "I went yesterday",
+            "Today is Monday",
+            "Next week",
+            "Last month",
+            
+            // Common Actions
+            "I am eating",
+            "He is drinking water",
+            "She is sleeping",
+            "They are working",
+            "We are talking",
+            "I am reading",
+            "You are writing",
+            "He is walking",
+            "She is running",
+            "They are playing",
+            
+            // Requests & Commands
+            "Please give me water",
+            "Can you open the door?",
+            "Close the window",
+            "Turn on the light",
+            "Turn off the fan",
+            "Bring me food",
+            "Take this",
+            "Put it there",
+            "Show me",
+            "Tell me",
+            
+            // Expressions
+            "I am happy",
+            "I am sad",
+            "I am tired",
+            "I am hungry",
+            "I am thirsty",
+            "I am cold",
+            "I am hot",
+            "I am sick",
+            "I am fine",
+            "I am busy",
+            
+            // Common Phrases
+            "Thank you very much",
+            "You are welcome",
+            "I am sorry",
+            "Excuse me",
+            "No problem",
+            "I don't know",
+            "I understand",
+            "I don't understand",
+            "Please repeat",
+            "Speak slowly",
+            
+            // Weather
+            "It is raining",
+            "It is very hot today",
+            "It is cold outside",
+            "The weather is nice",
+            "It is sunny",
+            
+            // Shopping
+            "How much is this?",
+            "That is too expensive",
+            "Can you give a discount?",
+            "I will buy this",
+            "I don't want it",
+            
+            // Travel
+            "Where is the bus stop?",
+            "Which bus goes to the market?",
+            "How long will it take?",
+            "I want to go home",
+            "Is it far from here?"
+        ];
+
+        // ===== INITIALIZATION =====
+        
+        async function initialize() {
+            try {
+                // Load sentences
+                state.sentences = [...defaultSentences];
+                
+                // Request microphone permission
+                const stream = await navigator.mediaDevices.getUserMedia({ 
+                    audio: {
+                        echoCancellation: true,
+                        noiseSuppression: true,
+                        sampleRate: 48000
+                    } 
+                });
+                
+                // Initialize MediaRecorder
+                state.mediaRecorder = new MediaRecorder(stream, {
+                    mimeType: 'audio/webm;codecs=opus'
+                });
+                
+                state.mediaRecorder.ondataavailable = (event) => {
+                    if (event.data.size > 0) {
+                        state.audioChunks.push(event.data);
+                    }
+                };
+                
+                state.mediaRecorder.onstop = () => {
+                    state.currentAudioBlob = new Blob(state.audioChunks, { 
+                        type: 'audio/webm' 
+                    });
+                    updateStatus('Recording saved! Click "Save & Next" to continue', 'saved');
+                    updateUI();
+                };
+                
+                // Load first sentence
+                loadSentence();
+                
+                // Start session timer
+                startSessionTimer();
+                
+            } catch (error) {
+                console.error('Initialization error:', error);
+                alert('Error: Could not access microphone. Please check permissions.');
+            }
+        }
+
+        // ===== SENTENCE MANAGEMENT =====
+        
+        function loadSentence() {
+            if (state.currentIndex >= state.sentences.length) {
+                showCompletionScreen();
+                return;
+            }
+            
+            const sentence = state.sentences[state.currentIndex];
+            document.getElementById('englishSentence').textContent = sentence;
+            document.getElementById('banjaraInput').value = '';
+            document.getElementById('banjaraInput').focus();
+            
+            // Reset recording state
+            state.currentAudioBlob = null;
+            state.audioChunks = [];
+            
+            updateStatus('Type translation and record audio', 'idle');
+            updateUI();
+            updateProgress();
+            
+            // Fade in animation
+            document.querySelector('.sentence-display').classList.remove('fade-in');
+            setTimeout(() => {
+                document.querySelector('.sentence-display').classList.add('fade-in');
+            }, 10);
+        }
+
+        function showCompletionScreen() {
+            document.getElementById('englishSentence').textContent = 
+                '🎉 All sentences completed! Export your data below.';
+            document.getElementById('banjaraInput').disabled = true;
+            document.getElementById('recordBtn').disabled = true;
+            updateStatus('Session complete! Click Export to download your data', 'saved');
+        }
+
+        // ===== RECORDING MANAGEMENT =====
+        
+        function toggleRecording() {
+            if (state.isRecording) {
+                stopRecording();
+            } else {
+                startRecording();
+            }
+        }
+
+        function startRecording() {
+            state.audioChunks = [];
+            state.mediaRecorder.start();
+            state.isRecording = true;
+            
+            document.getElementById('recordBtn').classList.add('recording');
+            document.getElementById('recordBtnText').textContent = 'Stop Recording';
+            updateStatus('🔴 Recording in progress... Click "Stop Recording" when done', 'recording');
+        }
+
+        function stopRecording() {
+            state.mediaRecorder.stop();
+            state.isRecording = false;
+            
+            document.getElementById('recordBtn').classList.remove('recording');
+            document.getElementById('recordBtnText').textContent = 'Start Recording';
+        }
+
+        function playRecording() {
+            if (!state.currentAudioBlob) return;
+            
+            const audio = new Audio(URL.createObjectURL(state.currentAudioBlob));
+            audio.play();
+        }
+
+        // ===== DATA MANAGEMENT =====
+        
+        function saveCurrentEntry() {
+            const banjaraText = document.getElementById('banjaraInput').value.trim();
+            
+            if (!banjaraText) {
+                alert('Please enter a Banjara translation');
+                return;
+            }
+            
+            if (!state.currentAudioBlob) {
+                alert('Please record audio before saving');
+                return;
+            }
+            
+            const entry = {
+                id: state.recordings.length + 1,
+                english: state.sentences[state.currentIndex],
+                banjara: banjaraText,
+                audio: state.currentAudioBlob,
+                timestamp: new Date().toISOString(),
+                duration: 0 // Will be calculated during export
+            };
+            
+            state.recordings.push(entry);
+            state.currentIndex++;
+            
+            updateStats();
+            loadSentence();
+        }
+
+        function skipSentence() {
+            if (confirm('Skip this sentence? It will not be recorded.')) {
+                state.currentIndex++;
+                loadSentence();
+            }
+        }
+
+        // ===== EXPORT FUNCTIONALITY =====
+        
+        function exportData() {
+            if (state.recordings.length === 0) {
+                alert('No recordings to export!');
+                return;
+            }
+            
+            const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5);
+            
+            // 1. Export translations CSV
+            exportTranslationsCSV(timestamp);
+            
+            // 2. Export audio files
+            exportAudioFiles(timestamp);
+            
+            // 3. Export metadata CSV (for TTS training)
+            exportMetadataCSV(timestamp);
+            
+            // 4. Show success message
+            setTimeout(() => {
+                alert(`✅ Successfully exported ${state.recordings.length} recordings!\n\nFiles:\n- translations.csv\n- ${state.recordings.length} audio files\n- metadata.csv`);
+            }, 500);
+        }
+
+        function exportTranslationsCSV(timestamp) {
+            let csv = 'id,english,banjara,audio_file,timestamp\n';
+            
+            state.recordings.forEach((entry, index) => {
+                const filename = `banjara_${String(entry.id).padStart(5, '0')}.webm`;
+                csv += `${entry.id},"${escapeCsv(entry.english)}","${escapeCsv(entry.banjara)}",${filename},${entry.timestamp}\n`;
+            });
+            
+            downloadFile(csv, `banjara_translations_${timestamp}.csv`, 'text/csv');
+        }
+
+        function exportAudioFiles(timestamp) {
+            state.recordings.forEach((entry) => {
+                const filename = `banjara_${String(entry.id).padStart(5, '0')}.webm`;
+                downloadBlob(entry.audio, filename);
+            });
+        }
+
+        function exportMetadataCSV(timestamp) {
+            let metadata = '';
+            
+            state.recordings.forEach((entry) => {
+                const filename = `banjara_${String(entry.id).padStart(5, '0')}.webm`;
+                metadata += `${filename}|${entry.banjara}\n`;
+            });
+            
+            downloadFile(metadata, `metadata_${timestamp}.csv`, 'text/plain');
+        }
+
+        // ===== UTILITY FUNCTIONS =====
+        
+        function downloadFile(content, filename, mimeType) {
+            const blob = new Blob([content], { type: mimeType });
+            downloadBlob(blob, filename);
+        }
+
+        function downloadBlob(blob, filename) {
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        function escapeCsv(text) {
+            return text.replace(/"/g, '""');
+        }
+
+        function updateStatus(message, type) {
+            const banner = document.getElementById('statusBanner');
+            banner.textContent = message;
+            banner.className = `status-banner status-${type}`;
+        }
+
+        function updateUI() {
+            const hasTranslation = document.getElementById('banjaraInput').value.trim().length > 0;
+            const hasAudio = state.currentAudioBlob !== null;
+            
+            document.getElementById('saveBtn').disabled = !(hasTranslation && hasAudio);
+            document.getElementById('playbackBtn').disabled = !hasAudio;
+        }
+
+        function updateProgress() {
+            const total = state.sentences.length;
+            const completed = state.recordings.length;
+            const percentage = total > 0 ? (completed / total) * 100 : 0;
+            
+            document.getElementById('progressText').textContent = `${completed} / ${total}`;
+            document.getElementById('progressBar').style.width = `${percentage}%`;
+        }
+
+        function updateStats() {
+            document.getElementById('statTotal').textContent = state.recordings.length;
+            document.getElementById('statSession').textContent = state.recordings.length;
+        }
+
+        function startSessionTimer() {
+            setInterval(() => {
+                const elapsed = Math.floor((Date.now() - state.sessionStartTime) / 1000);
+                const minutes = Math.floor(elapsed / 60);
+                const seconds = elapsed % 60;
+                document.getElementById('statTime').textContent = 
+                    `${minutes}:${String(seconds).padStart(2, '0')}`;
+            }, 1000);
+        }
+
+        // ===== EVENT LISTENERS =====
+        
+        document.getElementById('recordBtn').addEventListener('click', toggleRecording);
+        document.getElementById('saveBtn').addEventListener('click', saveCurrentEntry);
+        document.getElementById('skipBtn').addEventListener('click', skipSentence);
+        document.getElementById('playbackBtn').addEventListener('click', playRecording);
+        document.getElementById('exportBtn').addEventListener('click', exportData);
+        
+        document.getElementById('banjaraInput').addEventListener('input', updateUI);
+        document.getElementById('banjaraInput').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && !state.isRecording) {
+                document.getElementById('recordBtn').click();
+            }
+        });
+
+        // ===== START APPLICATION =====
+        
+        window.addEventListener('DOMContentLoaded', initialize);
+    </script>
+</body>
+</html>
