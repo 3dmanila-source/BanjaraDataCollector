@@ -35,3 +35,13 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 29 | When will you close? | Tu kanna bandh karechi? | **Tu** (you)<br> **kanna** (when)<br> **bandh** (close)<br> **karechi** (will you do) |
 | 30 | Give me change. | mann ek mauka de | **mann** (me)<br> **ek** (one)<br> **mauka** (chance)<br> **de** (give) |
 | 31 | Make tea for me. | maar vasu chaai kar | **maar vasu** (for me)<br> **chaai** (tea)<br> **kar** (do) |
+| 32 | Wash the clothes. | kapda dho | **kapda** (clothes)<br> **dho** (wash) |
+| 33 | Clean the house. | Ghar saaf kar | **Ghar** (house)<br> **saaf** (clean)<br> **kar** (do) |
+| 34 | Cook the food properly. | khaayen suddo raandh | **khaayen** (to eat)<br> **suddo** (properly/rightly)<br> **raandh** (cook) |
+| 35 | Serve the food. | Khayen ghaal | **Khayen** (to eat)<br> **ghaal** (serve/put) |
+| 36 | Water the plants. | jhaaduvun paani ghaal | **jhaaduvun** (to plants/ to trees)<br> **paani** (water)<br> **ghaal** (put/serve) |
+| 37 | Sweep the floor. | jammine baar | **jammine** (floor/ground)<br> **baar** (sweep) |
+| 38 | Turn on the light. | lighten chalu kar | **lighten** (to light)<br> **chalu** (turn on)<br> **kar** (do) |
+| 39 | Turn off the fan. | fanen bandh kar. | **fanen** (to fan)<br> **bandh** (turn off)<br> **kar** (do.) |
+| 40 | Lock the door. | darvajeer taala ghal | **darvajeer** (of door)<br> **taala** (lock)<br> **ghal** (put) |
+| 41 | Where is the bus stand? | bus stand kath che? | **bus stand** (bus stand)<br> **kath che** (where is) |
