@@ -65,3 +65,12 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 59 | Be careful. | jatheneethi re | **jatheneethi** (with care/ careful)<br> **re** (be) |
 | 60 | Walk fast. | jaldi chaal | **jaldi** (fast)<br> **chaal** (walk) |
 | 61 | Who called you? | thon kun balayo? | **thon** (you)<br> **kun** (who)<br> **balayo** (called) |
+| 62 | I don't know him. | Mann vu maalam cheni | **Mann** (i)<br> **vu** (him)<br> **maalam** (know)<br> **cheni** (no/don't) |
+| 63 | He is my relative. | ee maaro sagaashan che | **ee** (he)<br> **maaro** (my)<br> **sagaashan** (relative) |
+| 64 | She is my neighbor. | ee maar padoosan che | **ee** (she)<br> **maar** (my)<br> **padoosan che** (neighbour) |
+| 65 | They are good people. | voo aacho mannkya che | **voo** (they)<br> **aacho** (good)<br> **mannkya** (people) |
+| 66 | We are happy together. | hum saaterma kush cha | **hum** (we)<br> **saaterma** (together)<br> **kush cha** (are happy) |
+| 67 | Don't fight with anyone. | keethi ladai math karo | **keethi** (anyone)<br> **ladai** (fight)<br> **math** (dont)<br> **karo** (do) |
+| 68 | Help the poor. | garib een maddat karo | **garib** (poor)<br> **een** (to)<br> **maddat** (help)<br> **karo** (do) |
+| 69 | Respect elders. | mootevun samman karo | **mootevun** (elders)<br> **samman** (respect)<br> **karo** (do) |
+| 70 | Love children. | chachaarun pyaar karo | **chachaarun** (children)<br> **pyaar** (love)<br> **karo** (do) |
