@@ -74,3 +74,12 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 68 | Help the poor. | garib een maddat karo | **garib** (poor)<br> **een** (to)<br> **maddat** (help)<br> **karo** (do) |
 | 69 | Respect elders. | mootevun samman karo | **mootevun** (elders)<br> **samman** (respect)<br> **karo** (do) |
 | 70 | Love children. | chachaarun pyaar karo | **chachaarun** (children)<br> **pyaar** (love)<br> **karo** (do) |
+| 71 | I am hungry. | Mann bookh lagrich. | **Mann** (i)<br> **bookh** (hungry)<br> **lagrich** (feeling) |
+| 72 | I am thirsty. | mann taras laagrich | **mann** (i)<br> **taras** (thirsty)<br> **laagrich** (feeling.) |
+| 73 | The food is ready. | Khayero tayaar veegoche | **Khayero** (food/eatables)<br> **tayaar** (prepared/cooked/processed/ready)<br> **veegoche** (over/done) |
+| 74 | Come inside. | maai aa | **maai** (inside)<br> **aa** (come) |
+| 75 | Sit here. | aath bees | **aath** (here)<br> **bees** (sit) |
+| 76 | What are you thinking. | thu kai soochrochi | **thu** (you)<br> **kai** (what)<br> **soochrochi** (thinking) |
+| 77 | I forgot. | Me bhulgo | **Me** (I)<br> **bhulgo** (forgot) |
+| 78 | I remember. | Mann hardeche | **Mann** (I)<br> **hardeche** (remember) |
+| 79 | Call him. | Von bala. | **Von** (him)<br> **bala** (call) |
