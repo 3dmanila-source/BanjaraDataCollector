@@ -45,3 +45,13 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 39 | Turn off the fan. | fanen bandh kar. | **fanen** (to fan)<br> **bandh** (turn off)<br> **kar** (do.) |
 | 40 | Lock the door. | darvajeer taala ghal | **darvajeer** (of door)<br> **taala** (lock)<br> **ghal** (put) |
 | 41 | Where is the bus stand? | bus stand kath che? | **bus stand** (bus stand)<br> **kath che** (where is) |
+| 42 | When will the bus come? | bus kanna aaveche? | **bus** (bus)<br> **kanna** (when)<br> **aaveche** (will come) |
+| 43 | I want to go to Hyderabad. | mann hyderabad en jaavnu ken che | **mann** (i)<br> **hyderabad en** (to hyderabad)<br> **jaavnu** (to go)<br> **ken che** (want to) |
+| 44 | How far is it? | katra duur che vu? | **katra** (how)<br> **duur** (far)<br> **che vu** (is it) |
+| 45 | The train is late. | rail gaadi aayen deer veejavche | **rail gaadi** (train)<br> **aayen** (to come)<br> **deer** (late)<br> **veejavche** (will be/ will happen) |
+| 46 | Take a ticket. | Ticket leale | **Ticket** (ticket)<br> **leale** (take) |
+| 47 | Sit near the window. | khitkier kann bees | **khitkier** (window)<br> **kann** (near)<br> **bees** (sit) |
+| 48 | Stand in the line. | line aa hubar | **line aa** (in line)<br> **hubar** (stand) |
+| 49 | Don't push me. | mann dhankel math | **mann** (me)<br> **dhankel** (push)<br> **math** (don't/no) |
+| 50 | Move aside. | bagal sarak | **bagal** (side)<br> **sarak** (move) |
+| 51 | What is the time now? | time kai veeriche abbe? | **time** (time)<br> **kai** (what)<br> **veeriche** (happening)<br> **abbe** (now) |
