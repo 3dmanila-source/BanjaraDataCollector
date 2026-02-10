@@ -55,3 +55,13 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 49 | Don't push me. | mann dhankel math | **mann** (me)<br> **dhankel** (push)<br> **math** (don't/no) |
 | 50 | Move aside. | bagal sarak | **bagal** (side)<br> **sarak** (move) |
 | 51 | What is the time now? | time kai veeriche abbe? | **time** (time)<br> **kai** (what)<br> **veeriche** (happening)<br> **abbe** (now) |
+| 52 | It is 5 o'clock. | abbe paanch bajre che | **abbe** (now)<br> **paanch** (five)<br> **bajre che** (happening) |
+| 53 | I woke up early today. | me aaj jaldi uutonchu | **me** (i)<br> **aaj** (today)<br> **jaldi** (early/fast/quick)<br> **uutonchu** (woke up/ stand up) |
+| 54 | I slept late last night. | mee kaal raath deereethi suutho tho | **mee** (i)<br> **kaal** (yesterday)<br> **raath** (night)<br> **deereethi** (late/ with late)<br> **suutho tho** (had slept) |
+| 55 | Are you ready? | Tu tayar chi ge? | **Tu** (you)<br> **tayar** (ready)<br> **chi ge** (there) |
+| 56 | Let's go now. | chal, abbej jaama | **chal** (walk)<br> **abbej** (now)<br> **jaama** (go) |
+| 57 | Wait for me. | maar vasu tham | **maar vasu** (for me)<br> **tham** (wait) |
+| 58 | Don't be late. | deer math kar | **deer** (late)<br> **math** (dont)<br> **kar** (do) |
+| 59 | Be careful. | jatheneethi re | **jatheneethi** (with care/ careful)<br> **re** (be) |
+| 60 | Walk fast. | jaldi chaal | **jaldi** (fast)<br> **chaal** (walk) |
+| 61 | Who called you? | thon kun balayo? | **thon** (you)<br> **kun** (who)<br> **balayo** (called) |
