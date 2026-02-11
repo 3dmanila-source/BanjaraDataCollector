@@ -610,30 +610,150 @@
 
         // ===== RECORDING MANAGEMENT =====
 
-        function toggleRecording() {
+        // ===== RECORDING MANAGEMENT (WAV) =====
+
+        let audioContext;
+        let mediaStream;
+        let scriptProcessor;
+        let inputSource;
+        let audioBuffers = []; // Store raw PCM data (Left channel only for mono)
+
+        async function toggleRecording() {
             if (state.isRecording) {
                 stopRecording();
             } else {
-                startRecording();
+                await startRecording();
             }
         }
 
-        function startRecording() {
-            state.audioChunks = [];
-            state.mediaRecorder.start();
-            state.isRecording = true;
+        async function startRecording() {
+            try {
+                // Initialize AudioContext if needed
+                if (!audioContext) {
+                    audioContext = new (window.AudioContext || window.webkitAudioContext)({ sampleRate: 44100 });
+                }
 
-            document.getElementById('recordBtn').classList.add('recording');
-            document.getElementById('recordBtnText').textContent = 'Stop Recording';
-            updateStatus('🔴 Recording in progress... Click "Stop Recording" when done', 'recording');
+                // Resume context if suspended
+                if (audioContext.state === 'suspended') {
+                    await audioContext.resume();
+                }
+
+                // Get Microphone Access
+                mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                inputSource = audioContext.createMediaStreamSource(mediaStream);
+
+                // Create ScriptProcessor (Buffer size 4096, 1 input channel, 1 output channel)
+                // Note: ScriptProcessor is deprecated but widely supported. AudioWorklet is better but harder to implement in single HTML file.
+                scriptProcessor = audioContext.createScriptProcessor(4096, 1, 1);
+
+                audioBuffers = []; // clear previous buffers
+
+                scriptProcessor.onaudioprocess = function (event) {
+                    if (!state.isRecording) return;
+
+                    const inputBuffer = event.inputBuffer;
+                    const inputData = inputBuffer.getChannelData(0); // Mono
+
+                    // Clone the data (Float32Array) and store it
+                    const bufferCopy = new Float32Array(inputData);
+                    audioBuffers.push(bufferCopy);
+                };
+
+                // Connect graph
+                inputSource.connect(scriptProcessor);
+                scriptProcessor.connect(audioContext.destination); // Needed for Chrome to fire events
+
+                state.isRecording = true;
+                document.getElementById('recordBtn').classList.add('recording');
+                document.getElementById('recordBtnText').textContent = 'Stop Recording';
+                updateStatus('🔴 Recording WAV... Click "Stop Recording" when done', 'recording');
+
+            } catch (error) {
+                console.error("Recording error:", error);
+                alert("Could not start recording: " + error.message);
+            }
         }
 
         function stopRecording() {
-            state.mediaRecorder.stop();
             state.isRecording = false;
+
+            // Stop tracks
+            if (mediaStream) {
+                mediaStream.getTracks().forEach(track => track.stop());
+            }
+
+            // Disconnect nodes
+            if (inputSource) inputSource.disconnect();
+            if (scriptProcessor) scriptProcessor.disconnect();
+
+            // Process Audio
+            state.currentAudioBlob = exportWAV(audioBuffers, audioContext.sampleRate);
 
             document.getElementById('recordBtn').classList.remove('recording');
             document.getElementById('recordBtnText').textContent = 'Start Recording';
+
+            updateStatus('Recording saved (WAV)! Click "Save & Next" to continue', 'saved');
+            updateUI();
+        }
+
+        // WAV Encoding Utilities
+        function exportWAV(buffers, sampleRate) {
+            // 1. Flatten the array of Float32Arrays
+            const bufferLength = buffers.reduce((acc, buf) => acc + buf.length, 0);
+            const pcmData = new Float32Array(bufferLength);
+            let offset = 0;
+            for (const buf of buffers) {
+                pcmData.set(buf, offset);
+                offset += buf.length;
+            }
+
+            // 2. Create WAV Header and Data
+            const wavBuffer = encodeWAV(pcmData, sampleRate);
+            return new Blob([wavBuffer], { type: 'audio/wav' });
+        }
+
+        function encodeWAV(samples, sampleRate) {
+            const buffer = new ArrayBuffer(44 + samples.length * 2);
+            const view = new DataView(buffer);
+
+            // RIFF chunk descriptor
+            writeString(view, 0, 'RIFF');
+            view.setUint32(4, 36 + samples.length * 2, true);
+            writeString(view, 8, 'WAVE');
+
+            // fmt sub-chunk
+            writeString(view, 12, 'fmt ');
+            view.setUint32(16, 16, true); // Subchunk1Size (16 for PCM)
+            view.setUint16(20, 1, true); // AudioFormat (1 for PCM)
+            view.setUint16(22, 1, true); // NumChannels (1 for Mono)
+            view.setUint32(24, sampleRate, true); // SampleRate
+            view.setUint32(28, sampleRate * 2, true); // ByteRate (SampleRate * NumChannels * BitsPerSample/8)
+            view.setUint16(32, 2, true); // BlockAlign (NumChannels * BitsPerSample/8)
+            view.setUint16(34, 16, true); // BitsPerSample (16 bits)
+
+            // data sub-chunk
+            writeString(view, 36, 'data');
+            view.setUint32(40, samples.length * 2, true);
+
+            // Write PCM samples
+            floatTo16BitPCM(view, 44, samples);
+
+            return view;
+        }
+
+        function writeString(view, offset, string) {
+            for (let i = 0; i < string.length; i++) {
+                view.setUint8(offset + i, string.charCodeAt(i));
+            }
+        }
+
+        function floatTo16BitPCM(output, offset, input) {
+            for (let i = 0; i < input.length; i++, offset += 2) {
+                let s = Math.max(-1, Math.min(1, input[i]));
+                // Convert float to 16-bit PCM (signed short)
+                s = s < 0 ? s * 0x8000 : s * 0x7FFF;
+                output.setInt16(offset, s, true);
+            }
         }
 
         function playRecording() {
@@ -725,7 +845,7 @@
 
             state.recordings.forEach((entry, index) => {
                 // Use standardized filename based on translation
-                const filename = `${sanitizeFilename(entry.banjara)}.webm`;
+                const filename = `${sanitizeFilename(entry.banjara)}.wav`;
                 csv += `${entry.id},"${escapeCsv(entry.english)}","${escapeCsv(entry.banjara)}","${escapeCsv(entry.notes)}",${filename},${entry.timestamp}\n`;
             });
 
@@ -734,7 +854,7 @@
 
         function exportAudioFiles(timestamp) {
             state.recordings.forEach((entry) => {
-                const filename = `${sanitizeFilename(entry.banjara)}.webm`;
+                const filename = `${sanitizeFilename(entry.banjara)}.wav`;
                 downloadBlob(entry.audio, filename);
             });
         }
@@ -743,7 +863,7 @@
             let metadata = '';
 
             state.recordings.forEach((entry) => {
-                const filename = `banjara_${String(entry.id).padStart(5, '0')}.webm`;
+                const filename = `banjara_${String(entry.id).padStart(5, '0')}.wav`;
                 metadata += `${filename}|${entry.banjara}\n`;
             });
 
