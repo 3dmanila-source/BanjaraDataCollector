@@ -123,3 +123,13 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 118 | Mother: Dharamani Yaadi | also revered as Dharmani Mata. | Yaadi eer naam |
 | 119 | Grandfather: Ramji Naik Rathod. | Dada ro naam | Ramji Naik Rathod |
 | 120 | Birth name: Seva Bhaya | also known as Shiv Rathod. | huyo janna seva bhaya |
+| 121 | The surname Rathod is significant. | ghar eer naam rathod kejermaaz katraiko mahatv che | **ghar** (home) |
+| 122 | It connects our community to the Rajput warrior clans of Chittorgarh. | Vu apner samaajeene | chittorgarh eer rajput yoddhavur jaatheema bhelech |
+| 123 | This is our ancestral heritage. | ee aapnevur peedivur samman che | **ee** (this) |
+| 124 | We are descendants of those who served Rana Pratap. | apan Maha Rana Pratap een seva karmele jakon vansaj cha | **apan** (we) |
+| 125 | As a child | he herded cattle near Sirsigad. | nankya vetto janna |
+| 126 | A simple life of service and devotion. | seva an bhakthi thi banchmelo jakon saada zindagi | **seva** (service) |
+| 127 | Until the miracle that would establish his divinity. | jannaz sevalal eer maithi chamatkar baar padi | **jannaz** (then only) |
+| 128 | This event is recorded in the traditional epic Sevabhaya. | hannu vee jakon apner itihaaser mai chapgiche | **hannu** (like that) |
+| 129 | Recited by Lambadi bards for centuries. | varsuthi gor maativur gaanavu ma reegiech | **varsuthi** (from years) |
+| 130 | Young Sevalal was by a stream near Sirsigad. | nankya vettho janna sevalal | sirsigad eerma |
