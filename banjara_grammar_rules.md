@@ -83,6 +83,7 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 77 | I forgot. | Me bhulgo | **Me** (I)<br> **bhulgo** (forgot) |
 | 78 | I remember. | Mann hardeche | **Mann** (I)<br> **hardeche** (remember) |
 | 79 | Call him. | Von bala. | **Von** (him)<br> **bala** (call) |
+| 80 | Silence / Break | (Placeholder for missing ID 80) | No audio |
 | 81 | Greetings! to all the banjara people. | se gormati banjara vun ram ram | **se** (all) |
 | 82 | Sant Sevalal Maharaj. | Sant Sevalal Maharaj. | Sant Sevalal Maharaj |
 | 83 | You have seen his white flag flying in every thanda. | tam se vor dholo jhanda vader har tanderma deetez viyo | **tam** (tou) |
@@ -103,4 +104,13 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 98 | Government documents. | sarkaareer daastavvez eevur hisabeethi. | **sarkaareer** (of government)<br> **daastavvez** (documents)<br> **eevur** (of)<br> **hisabeethi** (according/calculation) |
 | 99 | The traditional epic Sevabhaya. | ek eeenaro kahaani sevabhaya | **ek** (one)<br> **peenaro** (traditional/old/ancient)<br> **kahaani** (story/epic)<br> **sevabhaya** (sevabhaya) |
 | 100 | And oral histories passed down through generations. | katriko peedivuthi ee kahanevun ekeeti ek en keethe aarecha | **katriko** (somany)<br> **peedivuthi** (generations)<br> **ee** (this)<br> **kahanevun** (stories)<br> **ekeeti ek en** (one after the other/one by one)<br> **keethe** (saying/said)<br> **aarecha** (coming/doing) |
-| 80 | Silence / Break | (Placeholder for missing ID 80) | No audio |
+| 101 | This is our heritage. | ee aapner ithaazer mai eek heerar naai | **ee** (this) |
+| 102 | This is our pride. | ee aper garv che | **ee** (this) |
+| 103 | This is the story of Sant Sevalal Maharaj. | anne eez apner sant sevalal maharaj eer kahani | **anne** (and) |
+| 104 | Our Maharaj was born on 15 February 1739. | apner maharaj | pandre february satre sao theesan nav eermai janmotho. |
+| 105 | This date is historically verified. | ee taarik peenar kittabevur mai lakmeelech | **ee** (this) |
+| 106 | But his exact birthplace remains a matter of scholarly debate. | panan janmo jakon jaageer par aaj bhi mot aadmivurma behas vache | **panan** (bue) |
+| 107 | Karnataka claims Surgondankoppa in Shimoga district. | karnataka ma jakon shimoga jilla | surgondankoppaar mai janmoch keen kache |
+| 108 | Official government records support this location. | sarkaareevur dastaveezurmai bhi vu jaageer naam lakhmeleche. | **sarkaareevur** (in government) |
+| 109 | Andhra Pradesh claims Sevagad in Anantapur district. | andhra pradesh eer mai | ananthapur jilla |
+| 110 | Traditional Lambadi bards and oral histories support this location. | hannu keen | peenavur apnevur kahanivuthi maalam padi |
