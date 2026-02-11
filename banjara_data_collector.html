@@ -376,8 +376,14 @@
     <div class="container">
         <!-- Header -->
         <div class="header">
-            <h1>🎙️ Banjara Language Data Collector - Batch 9</h1>
+            <h1>🎙️ Banjara Language Data Collector</h1>
             <p>Help preserve Banjara by recording sentence translations</p>
+            <div style="margin-top: 12px; display: flex; align-items: center; gap: 10px;">
+                <label for="batchSelector" style="font-weight: 600; color: var(--color-gray-700);">Select Batch:</label>
+                <select id="batchSelector"
+                    style="padding: 8px 16px; border-radius: 8px; border: 2px solid var(--color-gray-300); font-size: 16px; font-weight: 600; cursor: pointer; background: white;">
+                </select>
+            </div>
         </div>
 
         <!-- Progress Bar -->
@@ -486,61 +492,69 @@
             recordings: [],
             sessionStartTime: Date.now(),
             isRecording: false,
-            currentAudioBlob: null,
-            mediaRecorder: null,
-            audioChunks: []
+            currentAudioBlob: null
         };
 
-        // ===== DEFAULT SENTENCES =====
+        // ===== BATCH DATA (All batches available for selection) =====
 
-        const defaultSentences = [
-            // Batch 9 (Sentences 91-100)
-            { english: "For 220 years, our community has preserved his memory.", suggestion: "" },
-            { english: "But many of us know only fragments of his story.", suggestion: "" },
-            { english: "We know he was divine.", suggestion: "" },
-            { english: "We know he reformed our community.", suggestion: "" },
-            { english: "We know he gave us dignity.", suggestion: "" },
-            { english: "But today, we present the complete, documented history.", suggestion: "" },
-            { english: "Based on historical records.", suggestion: "" },
-            { english: "Government documents.", suggestion: "" },
-            { english: "The traditional epic Sevabhaya.", suggestion: "" },
-            { english: "And oral histories passed down through generations.", suggestion: "" },
-        ];
+        const batches = {
+            9: [
+                { english: "For 220 years, our community has preserved his memory.", suggestion: "" },
+                { english: "But many of us know only fragments of his story.", suggestion: "" },
+                { english: "We know he was divine.", suggestion: "" },
+                { english: "We know he reformed our community.", suggestion: "" },
+                { english: "We know he gave us dignity.", suggestion: "" },
+                { english: "But today, we present the complete, documented history.", suggestion: "" },
+                { english: "Based on historical records.", suggestion: "" },
+                { english: "Government documents.", suggestion: "" },
+                { english: "The traditional epic Sevabhaya.", suggestion: "" },
+                { english: "And oral histories passed down through generations.", suggestion: "" },
+            ]
+        };
+
+        let currentBatch = 9;
+        const defaultSentences = batches[currentBatch];
+
+        function loadBatch(batchNum) {
+            if (!batches[batchNum]) {
+                alert('Batch ' + batchNum + ' is not available yet.');
+                return;
+            }
+            if (state.recordings.length > 0 && !confirm('Switching batches will clear unsaved recordings. Continue?')) {
+                document.getElementById('batchSelector').value = currentBatch;
+                return;
+            }
+            currentBatch = batchNum;
+            state.sentences = [...batches[batchNum]];
+            state.currentIndex = 0;
+            state.recordings = [];
+            state.currentAudioBlob = null;
+            loadSentence();
+            updateStats();
+            updateProgress();
+        }
+
+        function populateBatchSelector() {
+            const select = document.getElementById('batchSelector');
+            Object.keys(batches).sort((a, b) => a - b).forEach(num => {
+                const opt = document.createElement('option');
+                opt.value = num;
+                opt.textContent = `Batch ${num} (${batches[num].length} sentences)`;
+                select.appendChild(opt);
+            });
+            select.value = currentBatch;
+            select.addEventListener('change', (e) => loadBatch(parseInt(e.target.value)));
+        }
 
         // ===== INITIALIZATION =====
 
         async function initialize() {
             try {
+                // Populate batch selector dropdown
+                populateBatchSelector();
+
                 // Load sentences (No shuffle for review mode)
                 state.sentences = [...defaultSentences];
-
-                // Request microphone permission
-                const stream = await navigator.mediaDevices.getUserMedia({
-                    audio: {
-                        echoCancellation: true,
-                        noiseSuppression: true,
-                        sampleRate: 48000
-                    }
-                });
-
-                // Initialize MediaRecorder
-                state.mediaRecorder = new MediaRecorder(stream, {
-                    mimeType: 'audio/webm;codecs=opus'
-                });
-
-                state.mediaRecorder.ondataavailable = (event) => {
-                    if (event.data.size > 0) {
-                        state.audioChunks.push(event.data);
-                    }
-                };
-
-                state.mediaRecorder.onstop = () => {
-                    state.currentAudioBlob = new Blob(state.audioChunks, {
-                        type: 'audio/webm'
-                    });
-                    updateStatus('Recording saved! Click "Save & Next" to continue', 'saved');
-                    updateUI();
-                };
 
                 // Load first sentence
                 loadSentence();
@@ -550,7 +564,7 @@
 
             } catch (error) {
                 console.error('Initialization error:', error);
-                alert('Error: Could not access microphone. Please check permissions.');
+                alert('Error initializing the application.');
             }
         }
 
