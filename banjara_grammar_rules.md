@@ -103,3 +103,4 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 98 | Government documents. | sarkaareer daastavvez eevur hisabeethi. | **sarkaareer** (of government)<br> **daastavvez** (documents)<br> **eevur** (of)<br> **hisabeethi** (according/calculation) |
 | 99 | The traditional epic Sevabhaya. | ek eeenaro kahaani sevabhaya | **ek** (one)<br> **peenaro** (traditional/old/ancient)<br> **kahaani** (story/epic)<br> **sevabhaya** (sevabhaya) |
 | 100 | And oral histories passed down through generations. | katriko peedivuthi ee kahanevun ekeeti ek en keethe aarecha | **katriko** (somany)<br> **peedivuthi** (generations)<br> **ee** (this)<br> **kahanevun** (stories)<br> **ekeeti ek en** (one after the other/one by one)<br> **keethe** (saying/said)<br> **aarecha** (coming/doing) |
+| 80 | Silence / Break | (Placeholder for missing ID 80) | No audio |

@@ -510,9 +510,22 @@
                 { english: "The traditional epic Sevabhaya.", suggestion: "" },
                 { english: "And oral histories passed down through generations.", suggestion: "" },
             ]
+,
+            10: [
+                { english: "This is our heritage.", suggestion: "" },
+                { english: "This is our pride.", suggestion: "" },
+                { english: "This is the story of Sant Sevalal Maharaj.", suggestion: "" },
+                { english: "Our Maharaj was born on 15 February 1739.", suggestion: "" },
+                { english: "This date is historically verified.", suggestion: "" },
+                { english: "But his exact birthplace remains a matter of scholarly debate.", suggestion: "" },
+                { english: "Karnataka claims Surgondankoppa in Shimoga district.", suggestion: "" },
+                { english: "Official government records support this location.", suggestion: "" },
+                { english: "Andhra Pradesh claims Sevagad in Anantapur district.", suggestion: "" },
+                { english: "Traditional Lambadi bards and oral histories support this location.", suggestion: "" },
+            ]
         };
 
-        let currentBatch = 9;
+        let currentBatch = 10;
         const defaultSentences = batches[currentBatch];
 
         function loadBatch(batchNum) {
@@ -822,7 +835,7 @@
 
         // ===== EXPORT FUNCTIONALITY =====
 
-        function exportData() {
+        async function exportData() {
             if (state.recordings.length === 0) {
                 alert('No recordings to export!');
                 return;
@@ -834,7 +847,7 @@
             exportTranslationsCSV(timestamp);
 
             // 2. Export audio files
-            exportAudioFiles(timestamp);
+            await exportAudioFiles(timestamp);
 
             // 3. Export metadata CSV (for TTS training)
             exportMetadataCSV(timestamp);
@@ -866,11 +879,15 @@
             downloadFile(csv, `banjara_translations_${timestamp}.csv`, 'text/csv');
         }
 
-        function exportAudioFiles(timestamp) {
-            state.recordings.forEach((entry) => {
+        async function exportAudioFiles(timestamp) {
+            const entries = state.recordings;
+            for (let i = 0; i < entries.length; i++) {
+                const entry = entries[i];
                 const filename = `${sanitizeFilename(entry.banjara)}.wav`;
                 downloadBlob(entry.audio, filename);
-            });
+                // Wait 500ms to prevent browser blocking multiple downloads
+                await new Promise(resolve => setTimeout(resolve, 500));
+            }
         }
 
         function exportMetadataCSV(timestamp) {
