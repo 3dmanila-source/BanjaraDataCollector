@@ -83,3 +83,23 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 77 | I forgot. | Me bhulgo | **Me** (I)<br> **bhulgo** (forgot) |
 | 78 | I remember. | Mann hardeche | **Mann** (I)<br> **hardeche** (remember) |
 | 79 | Call him. | Von bala. | **Von** (him)<br> **bala** (call) |
+| 81 | Greetings! to all the banjara people. | se gormati banjara vun ram ram | **se** (all) |
+| 82 | Sant Sevalal Maharaj. | Sant Sevalal Maharaj. | Sant Sevalal Maharaj |
+| 83 | You have seen his white flag flying in every thanda. | tam se vor dholo jhanda vader har tanderma deetez viyo | **tam** (tou) |
+| 84 | You have heard stories from your grandparents. | tam baap dadavur kan vor kahani samlez viyo | **tam** (you) |
+| 85 | But do you know the complete story? | panan tameen puuro kahani maalam chege? | **panan** (but) |
+| 86 | Do you know why he is called Maharaj? | tameen von Maharaj ken kashen kach ko maalam che ge? | **tameen** (to you) |
+| 87 | Do you know what he did for our community? | Aapner samajeer vasu vu kaai keedoch ko maalam che ge? | **Aapner** (our) |
+| 88 | This is the complete | verified history of our Satguru. | ee aapner satguruer |
+| 89 | Jai Sant Sevalal Maharaj. | Jai Sant Sevalal Maharaj. | **Jai** (hail) |
+| 90 | My Banjara brothers and sisters | this documentary is for you. | maar banjara bhai bhiyavo an bheno |
+| 91 | For 220 years, our community has preserved his memory. | de see vees varas eeti, apner samaj vor yaadeevun gokan rakad melech | **de see** (two hundred)<br> **vees** (twenty)<br> **varas** (years)<br> **eeti** (from)<br> **apner** (our)<br> **samaj** (community)<br> **vor** (his)<br> **yaadeevun** (memories)<br> **gokan** (hide/store)<br> **rakad** (keep)<br> **melech** (did) |
+| 92 | But many of us know only fragments of his story. | panan, apner ma shenduvun kahanier tukdaz malam che | **panan** (but)<br> **apner ma** (within us)<br> **shenduvun** (all of us)<br> **kahanier** (of story)<br> **tukdaz** (pieces/fragments)<br> **malam che** (know) |
+| 93 | We know he was divine. | apnen vu bhagvan che kethanin maalam. | **apnen** (we/us)<br> **vu** (he/him)<br> **bhagvan** (givine/god/godly)<br> che<br> **kethanin** (said so)<br> **maalam** (know.) |
+| 94 | We know he reformed our community. | Vuz aapner samajeen sudharooch ken bhi maalam | **Vuz** (he)<br> **aapner** (our)<br> **samajeen** (community/society)<br> **sudharooch** (reformed/made it right/arranged)<br> **ken** (that)<br> **bhi** (also)<br> **maalam** (know) |
+| 95 | We know he gave us dignity. | Vuz aapnen izzat darayo | **Vuz** (he/he only)<br> **aapnen** (us)<br> **izzat** (dignity/respect)<br> **darayo** (gave/bought) |
+| 96 | But today, we present the complete, documented history. | Panan aaj, aapan voor itihaaser maieer puuro kahani ne dhekevaal cha | **Panan** (but aaj)<br> **aapan** (we)<br> **voor** (his)<br> **itihaaser** (of history)<br> **maieer** (inside of)<br> **puuro** (complete/total/all)<br> **kahani ne** (story/documentry)<br> **dhekevaal cha** (going to watch/present) |
+| 97 | Based on historical records. | itihaazeermai lakmele jakon hizaabeethi. | **itihaazeermai** (inside history)<br> **lakmele jakon** (written/recorded)<br> **hizaabeethi** (calculation/based) |
+| 98 | Government documents. | sarkaareer daastavvez eevur hisabeethi. | **sarkaareer** (of government)<br> **daastavvez** (documents)<br> **eevur** (of)<br> **hisabeethi** (according/calculation) |
+| 99 | The traditional epic Sevabhaya. | ek eeenaro kahaani sevabhaya | **ek** (one)<br> **peenaro** (traditional/old/ancient)<br> **kahaani** (story/epic)<br> **sevabhaya** (sevabhaya) |
+| 100 | And oral histories passed down through generations. | katriko peedivuthi ee kahanevun ekeeti ek en keethe aarecha | **katriko** (somany)<br> **peedivuthi** (generations)<br> **ee** (this)<br> **kahanevun** (stories)<br> **ekeeti ek en** (one after the other/one by one)<br> **keethe** (saying/said)<br> **aarecha** (coming/doing) |
