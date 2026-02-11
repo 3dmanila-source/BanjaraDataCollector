@@ -114,3 +114,12 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 108 | Official government records support this location. | sarkaareevur dastaveezurmai bhi vu jaageer naam lakhmeleche. | **sarkaareevur** (in government) |
 | 109 | Andhra Pradesh claims Sevagad in Anantapur district. | andhra pradesh eer mai | ananthapur jilla |
 | 110 | Traditional Lambadi bards and oral histories support this location. | hannu keen | peenavur apnevur kahanivuthi maalam padi |
+| 112 | The discrepancy reflects our community's nomadic nature during that period. | ee vaath apner samaj eema jaag jaag pahrer savabbaveen dikaalec. | **ee** (this) |
+| 113 | What matters most is not WHERE he was born. | Katth huyoch kajako motto vaath koni | **Katth** (where) |
+| 114 | But WHAT he achieved for our people. | panan vuu apner mankavur vasu kai kamayo kajakoneez motto vaath. | **panan** (but) |
+| 115 | 15 February 1739 marks the birth of our greatest reformer. | pandre february satre soo thees an nav kajakon daado eek mooto nayak eer daadoor ken harde rejjavche | **pandre** (fifteen) |
+| 116 | Sant Sevalal Maharaj came from a distinguished Rajput lineage. | Sant sevala maharaj | Rajput eer veeler maai thi aayoche |
+| 117 | Father: Bheema Naik Ramawat Rathod. | Baap eer naam | Bheema Naik Ramavath Rathod |
+| 118 | Mother: Dharamani Yaadi | also revered as Dharmani Mata. | Yaadi eer naam |
+| 119 | Grandfather: Ramji Naik Rathod. | Dada ro naam | Ramji Naik Rathod |
+| 120 | Birth name: Seva Bhaya | also known as Shiv Rathod. | huyo janna seva bhaya |
