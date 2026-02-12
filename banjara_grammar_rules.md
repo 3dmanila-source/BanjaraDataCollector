@@ -193,3 +193,13 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 188 | Nomadic communities were labeled Criminal Tribes by the British. | Voor pachhe | britisheevur aathanin |
 | 189 | Not for crimes committed | but simply for being nomadic. | keeni maar kaatecha keen koni |
 | 190 | Our forests were confiscated. | apnevur jungleevuun japt keede. | **apnevur** (our) |
+| 191 | Our traditional grazing lands were restricted. | apeer peena vur khetari | charayer jammi shee kheench lide |
+| 192 | Our water sources were controlled. | apner kunta | talav |
+| 193 | Our women faced violence from settled communities. | apener yaadi bheenevun | kor kyar katraiko vela paade |
+| 194 | Our culture was dismissed as primitive. | apan gor uen pichadiur nai vendeevur naai dheete | **aapner** (our) |
+| 195 | Into this darkness | Sant Sevalal Maharaj brought light. | ass bhaveturmaa |
+| 196 | Into this oppression | he brought dignity. | dabamele jendun hoto izzat laayo |
+| 197 | Into this despair | he brought hope. | niraashema hoto aasha jagayo |
+| 198 | Late 1700s. | satre soo eer anth eer ma | **deer** (late) |
+| 199 | Hyderabad city under Nizam rule. | Hyderabad Nizam eer heet vetthi | **Hyderabad** (Hyderabad) |
+| 200 | A devastating cholera epidemic struck. | eek bhayanak cholera mahaamaaree aayithi | **eek** (one) |
