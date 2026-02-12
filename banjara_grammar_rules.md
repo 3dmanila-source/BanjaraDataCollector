@@ -163,3 +163,13 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 158 | This is our ancestral homeland. | aper baap dada vur matrubhumi | **aper** (our) |
 | 159 | Mewar region. | Mewar kshetr | **Mewar** (mewar) |
 | 160 | Chittorgarh fort. | Chittorgarh eer kila. | **Chittorgarh eer** (Chittorgarh's) |
+| 161 | The land where Rana Pratap fought for freedom. | Rana Pratap eez jammi par aazadier vasu ladai karmeloch | **katth** (where) |
+| 162 | We | the Banjaras—also called Lambadis and Gor—belonged to Rajput clans. | banjara |
+| 163 | Specifically | the Rathod clan of Chittorgarh. | seeti aang rathod kajakon chittorgarh eethi aamech |
+| 164 | Our ancestors were not merely traders. | apan shee pena jaag jaag pharthaneen vyapaar ekkaaj koni karmele | **aapner** (our) |
+| 165 | We were the logistics backbone of Rajput armies. | apan rajput sena vur saaman punchadeen mooreer hadkar nai vette | **hum** (we) |
+| 166 | We supplied provisions to Prithviraj Chauhan's forces. | apan | prithviraj chauhan eer senaan bhi kai chavtoi deethethe |
+| 167 | We transported grain and weapons for Rana Pratap. | apan rana prathap eer vasu daana an hatiyaar leen jaathe the | **hum** (we) |
+| 168 | We crossed mountains and rivers with our bullock caravans. | apan baladure bandi bhaandleen katraiko pahad gatla an nadhivun paar karmelecha | **hum** (we) |
+| 169 | We were warriors and traders. | apan vyapaare anne yoddha vetthe | **hum** (we) |
+| 170 | This is our heritage. | peena thi eez apneer pehechan che | **peena thi** (from ancient times) |
