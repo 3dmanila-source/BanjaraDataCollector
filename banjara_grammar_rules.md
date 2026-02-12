@@ -203,3 +203,13 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 198 | Late 1700s. | satre soo eer anth eer ma | **deer** (late) |
 | 199 | Hyderabad city under Nizam rule. | Hyderabad Nizam eer heet vetthi | **Hyderabad** (Hyderabad) |
 | 200 | A devastating cholera epidemic struck. | eek bhayanak cholera mahaamaaree aayithi | **eek** (one) |
+| 201 | Hundreds dying daily. | hazaaruusoo mankya daadi marrethe | **hazaaruusoo** (thousand's and hundred's of) |
+| 202 | The Nizam's royal physicians were helpless. | Nizameer kan chikitsa karevaal bhi haath paad nake | **Nizameer** (nizam's) |
+| 203 | Traditional healers could not stop the deaths. | peenavur mandu thi maauth thamri koni vetti | **peenaro** (traditional) |
+| 204 | Fear paralyzed the city. | darreethi saari sheer sheelkhal veegithi | **darreethi** (with fear) |
+| 205 | Then Sant Sevalal Maharaj arrived. | Janna Sant Sevalal Maharaj aayo. | **tho** (then) |
+| 206 | With no formal medical degree. | kunshi mandur padai atithi koni | **math** (no) |
+| 207 | No hospital. | Ekki davkaan vette koni | **math** (no) |
+| 208 | No modern equipment. | ekki aadunik hatiyar vetti koni | **math** (no) |
+| 209 | Only his profound knowledge of Ayurveda and Naturopathy. | keval jhaad bhootivur gyaan ekkaz vetthi | **vor** (his) |
+| 210 | He began treating cholera patients systematically. | eek hisaabeethi cholera thi beemar chejeen davaa deeno | **ee** (he) |
