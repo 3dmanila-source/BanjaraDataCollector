@@ -403,8 +403,28 @@
             <div class="sentence-display">
                 <div class="sentence-label">English Sentence</div>
                 <div class="sentence-text" id="englishSentence">Loading...</div>
-                <div class="sentence-suggestion" id="suggestionText"
-                    style="color: var(--color-primary); margin-top: 10px; font-style: italic;"></div>
+            </div>
+
+            <!-- AI Suggestion Box -->
+            <div id="suggestionBox"
+                style="background: linear-gradient(135deg, #e0f2fe, #dbeafe); border: 2px solid #3b82f6; border-radius: 10px; padding: 16px; margin-bottom: 20px; display: none;">
+                <div
+                    style="font-size: 13px; font-weight: 700; color: #1e40af; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">
+                    🤖 AI Suggestion (Known Words)</div>
+                <div id="suggestionText"
+                    style="font-size: 17px; color: #1e3a5f; line-height: 1.6; word-wrap: break-word;"></div>
+                <div style="font-size: 11px; color: #64748b; margin-top: 8px;">✅ = exact match &nbsp; ❓ = unknown word
+                    (please provide translation)</div>
+            </div>
+
+            <!-- Auto-generated Notes Box -->
+            <div id="autoNotesBox"
+                style="background: #f0fdf4; border: 2px solid #86efac; border-radius: 10px; padding: 16px; margin-bottom: 20px; display: none;">
+                <div
+                    style="font-size: 13px; font-weight: 700; color: #166534; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px;">
+                    📝 Auto-Generated Word Mappings</div>
+                <div id="autoNotesText"
+                    style="font-size: 14px; color: #166534; line-height: 1.6; word-wrap: break-word;"></div>
             </div>
 
             <!-- Banjara Input -->
@@ -419,10 +439,11 @@
             <!-- Notes Input -->
             <div class="input-section">
                 <label class="input-label" for="notesInput">
-                    Notes / Word Mapping (Optional)
+                    ⚡ Only add corrections for ❓ unknown words (known words are auto-filled)
                 </label>
-                <input type="text" id="notesInput" class="input-field" placeholder="e.g., Kai=What, Karrochi=Doing"
-                    autocomplete="off" style="font-size: var(--font-size-base);" />
+                <input type="text" id="notesInput" class="input-field"
+                    placeholder="Only type corrections for ❓ words, e.g., land-jammi, fought-ladai" autocomplete="off"
+                    style="font-size: var(--font-size-base);" />
             </div>
             <!-- Status Banner -->
             <div class="status-banner status-idle" id="statusBanner">
@@ -510,7 +531,7 @@
                 { english: "The traditional epic Sevabhaya.", suggestion: "" },
                 { english: "And oral histories passed down through generations.", suggestion: "" },
             ]
-,
+            ,
             10: [
                 { english: "This is our heritage.", suggestion: "" },
                 { english: "This is our pride.", suggestion: "" },
@@ -523,7 +544,7 @@
                 { english: "Andhra Pradesh claims Sevagad in Anantapur district.", suggestion: "" },
                 { english: "Traditional Lambadi bards and oral histories support this location.", suggestion: "" },
             ]
-,
+            ,
             11: [
                 { english: "Both claims have historical validity.", suggestion: "" },
                 { english: "The discrepancy reflects our community's nomadic nature during that period.", suggestion: "" },
@@ -536,7 +557,7 @@
                 { english: "Grandfather: Ramji Naik Rathod.", suggestion: "" },
                 { english: "Birth name: Seva Bhaya, also known as Shiv Rathod.", suggestion: "" },
             ]
-,
+            ,
             12: [
                 { english: "The surname Rathod is significant.", suggestion: "" },
                 { english: "It connects our community to the Rajput warrior clans of Chittorgarh.", suggestion: "" },
@@ -549,7 +570,7 @@
                 { english: "Recited by Lambadi bards for centuries.", suggestion: "" },
                 { english: "Young Sevalal was by a stream near Sirsigad.", suggestion: "" },
             ]
-,
+            ,
             13: [
                 { english: "In present-day Telangana.", suggestion: "" },
                 { english: "He felt the presence of Goddess Jagadamba.", suggestion: "" },
@@ -562,7 +583,7 @@
                 { english: "So he took mud and wheat.", suggestion: "" },
                 { english: "With pure devotion, he prepared sheera from mud.", suggestion: "" },
             ]
-,
+            ,
             14: [
                 { english: "He prepared puri from wheat.", suggestion: "" },
                 { english: "And offered them to the goddess.", suggestion: "" },
@@ -575,7 +596,7 @@
                 { english: "Blessed by Goddess Jagadamba herself.", suggestion: "" },
                 { english: "From that day forward, he was recognized as spiritually awakened.", suggestion: "" },
             ]
-,
+            ,
             15: [
                 { english: "The community began to follow his guidance.", suggestion: "" },
                 { english: "He became Guru to our people.", suggestion: "" },
@@ -588,7 +609,7 @@
                 { english: "Mewar region.", suggestion: "" },
                 { english: "Chittorgarh fort.", suggestion: "" },
             ]
-,
+            ,
             16: [
                 { english: "The land where Rana Pratap fought for freedom.", suggestion: "[17%] ❓land katth(where) ❓rana ❓pratap ❓fought ❓freedom" },
                 { english: "We, the Banjaras—also called Lambadis and Gor—belonged to Rajput clans.", suggestion: "[44%] hum(we) ❓banjaras—also balayo(called) ❓lambadis anne(and) ❓gor—belonged een(to) ❓rajput ❓clans" },
@@ -679,20 +700,45 @@
             const item = state.sentences[state.currentIndex];
             // Handle both string (legacy) and object formats
             const englishText = typeof item === 'string' ? item : item.english;
-            const suggestionText = typeof item === 'string' ? '' : item.suggestion;
+            const suggestionText = typeof item === 'string' ? '' : (item.suggestion || '');
 
             document.getElementById('englishSentence').textContent = englishText;
-            document.getElementById('suggestionText').textContent = suggestionText ? `Suggestion: ${suggestionText}` : '';
+
+            // Show AI Suggestion Box
+            const suggestionBox = document.getElementById('suggestionBox');
+            const suggestionEl = document.getElementById('suggestionText');
+            if (suggestionText) {
+                suggestionBox.style.display = 'block';
+                suggestionEl.innerHTML = formatSuggestion(suggestionText);
+            } else {
+                suggestionBox.style.display = 'none';
+                suggestionEl.innerHTML = '';
+            }
+
+            // Auto-generate notes from suggestion
+            const autoNotesBox = document.getElementById('autoNotesBox');
+            const autoNotesEl = document.getElementById('autoNotesText');
+            const autoNotes = generateAutoNotes(suggestionText);
+            if (autoNotes) {
+                autoNotesBox.style.display = 'block';
+                autoNotesEl.textContent = autoNotes;
+                // Store auto-notes for merging when saving
+                state.autoNotes = autoNotes;
+            } else {
+                autoNotesBox.style.display = 'none';
+                autoNotesEl.textContent = '';
+                state.autoNotes = '';
+            }
 
             document.getElementById('banjaraInput').value = '';
-            document.getElementById('notesInput').value = ''; // Clear notes
+            document.getElementById('notesInput').value = ''; // User only types corrections
             document.getElementById('banjaraInput').focus();
 
             // Reset recording state
             state.currentAudioBlob = null;
             state.audioChunks = [];
 
-            updateStatus('Type translation, add notes, and record audio', 'idle');
+            updateStatus('Type translation, add notes for ❓ words, and record audio', 'idle');
             updateUI();
             updateProgress();
 
@@ -701,6 +747,29 @@
             setTimeout(() => {
                 document.querySelector('.sentence-display').classList.add('fade-in');
             }, 10);
+        }
+
+        // Format suggestion with colors
+        function formatSuggestion(text) {
+            if (!text) return '';
+            // Highlight ❓ words in red, known words in green
+            return text
+                .replace(/❓(\w+)/g, '<span style="color: #dc2626; font-weight: 700;">❓$1</span>')
+                .replace(/✅/g, '<span style="color: #16a34a; font-weight: 700;">✅</span>')
+                .replace(/\[(\d+)%\]/g, '<span style="background: #dbeafe; padding: 2px 6px; border-radius: 4px; font-weight: 700; color: #1e40af;">$1% known</span>');
+        }
+
+        // Extract known word mappings from suggestion for auto-notes
+        function generateAutoNotes(suggestion) {
+            if (!suggestion) return '';
+            // Extract patterns like banjaraWord(englishWord)
+            const matches = suggestion.match(/([\w]+)\(([^)]+)\)/g);
+            if (!matches) return '';
+            return matches.map(m => {
+                const parts = m.match(/([\w]+)\(([^)]+)\)/);
+                if (parts) return `${parts[1]}-${parts[2]}`;
+                return m;
+            }).join(', ');
         }
 
         function showCompletionScreen() {
@@ -887,11 +956,15 @@
             const item = state.sentences[state.currentIndex];
             const englishText = typeof item === 'string' ? item : item.english;
 
+            // Merge auto-notes with user corrections
+            const autoNotes = state.autoNotes || '';
+            const mergedNotes = [autoNotes, notesText].filter(n => n).join(', ');
+
             const entry = {
                 id: state.recordings.length + 1,
                 english: englishText,
                 banjara: banjaraText,
-                notes: notesText,
+                notes: mergedNotes,
                 audio: state.currentAudioBlob,
                 timestamp: new Date().toISOString(),
                 duration: 0 // Will be calculated during export
