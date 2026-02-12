@@ -173,3 +173,13 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 168 | We crossed mountains and rivers with our bullock caravans. | apan baladure bandi bhaandleen katraiko pahad gatla an nadhivun paar karmelecha | **hum** (we) |
 | 169 | We were warriors and traders. | apan vyapaare anne yoddha vetthe | **hum** (we) |
 | 170 | This is our heritage. | peena thi eez apneer pehechan che | **peena thi** (from ancient times) |
+| 171 | This is our legacy. | eez aapner parampara che. | **ee** (this) |
+| 172 | In the late 16th century | the Mughal Empire defeated Rana Pratap. | soole shaatbtheer ma |
+| 173 | Our community became refugees. | aaper samajeen daabnaake | **aapner** (our) |
+| 174 | We followed Rana Pratap into the forests. | apan rana prathap eer laar jungleuuma chalege | **hum** (we) |
+| 175 | Then began our great migration south. | jannateez apan dhakshan bharath eer vadi dagaryaye. | **tho** (then) |
+| 176 | Through Malwa in Madhya Pradesh. | madhya pradesh eer malwa mai thi | **madhya pradesh eer** (madhya pradesh's) |
+| 177 | Through Central India. | bharath eer advicha thi | **bharath eer** (india's advicha) |
+| 178 | Through the Deccan region of Maharashtra. | maharastra mai eer deccan ilaka thi leethanin | **eevur** (of) |
+| 179 | Finally settling in Karnataka | Andhra Pradesh | and Telangana. |
+| 180 | Sant Sevalal's grandfather | Ramji Naik Rathod | led this migration. |
