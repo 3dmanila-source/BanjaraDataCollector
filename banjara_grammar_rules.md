@@ -133,3 +133,13 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 128 | This event is recorded in the traditional epic Sevabhaya. | hannu vee jakon apner itihaaser mai chapgiche | **hannu** (like that) |
 | 129 | Recited by Lambadi bards for centuries. | varsuthi gor maativur gaanavu ma reegiech | **varsuthi** (from years) |
 | 130 | Young Sevalal was by a stream near Sirsigad. | nankya vettho janna sevalal | sirsigad eerma |
+| 131 | In present-day Telangana. | aajer daaderma telangana ma che | **aajer** (today's) |
+| 132 | He felt the presence of Goddess Jagadamba. | Voon votthe Jagadamba devi che ju anubhav vi | **Voon** (him) |
+| 133 | Also known as Goddess Mariamma Yaadi. | voonaz Devi mariamma yaadi ken bhi kach | **voonaz** (her) |
+| 134 | He wished to offer her something. | voone | vu devi ne kai thoi chadavnu ken lago |
+| 135 | But he possessed nothing. | panan vor kan kaai vetto koni. | **panan** (but) |
+| 136 | No food. | daliya chey | **daliya** (food) |
+| 137 | No flowers. | Phool bhi chey. | **Phool** (flowers) |
+| 138 | No material offerings. | kaai chadayenez vetti koni | **kaai** (what) |
+| 139 | So he took mud and wheat. | tho haatherma dhud an gahu leedho | **tho** (then) |
+| 140 | With pure devotion | he prepared sheera from mud. | voor bhakthi thi |
