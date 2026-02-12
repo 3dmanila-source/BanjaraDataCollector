@@ -143,3 +143,13 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 138 | No material offerings. | kaai chadayenez vetti koni | **kaai** (what) |
 | 139 | So he took mud and wheat. | tho haatherma dhud an gahu leedho | **tho** (then) |
 | 140 | With pure devotion | he prepared sheera from mud. | voor bhakthi thi |
+| 141 | He prepared puri from wheat. | an ghao thi puri banayo | **an** (and) |
+| 142 | And offered them to the goddess. | banatanin deevini chadayo | **banatanin** (after preparing/after making) |
+| 143 | Then | by divine grace | the mud transformed into real sheera. |
+| 144 | The wheat into real puri. | ghao jakon asli puri re nai badalgo | **ghao** (wheat) |
+| 145 | This miracle established his divine nature. | ee chamatkar eethi vor mai deever nai che jako svabhaav baar padi | **ee** (this) |
+| 146 | Those who witnessed this miracle understood immediately. | hannu veejanna kun kun dite ko vondun jannaz samaj aavgi | **hannu** (like that) |
+| 147 | This was not an ordinary child. | ee saadharan chora koni ken. | **ee** (his/this) |
+| 148 | This was a divine incarnation. | Vu bhagvaneero amsh che keen | **Vu** (he/that) |
+| 149 | Blessed by Goddess Jagadamba herself. | Jagadamba deevi reej aashirvaad che keen | **Jagadamba deevi** (Jagadamba deevi) |
+| 150 | From that day forward | he was recognized as spiritually awakened. | undaadeethi |
