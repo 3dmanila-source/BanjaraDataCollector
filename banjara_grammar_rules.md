@@ -183,3 +183,13 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 178 | Through the Deccan region of Maharashtra. | maharastra mai eer deccan ilaka thi leethanin | **eevur** (of) |
 | 179 | Finally settling in Karnataka | Andhra Pradesh | and Telangana. |
 | 180 | Sant Sevalal's grandfather | Ramji Naik Rathod | led this migration. |
+| 181 | He brought 360 families from Chittorgarh. | chittorgarh eethi | theen sau saat katmalevun leen nikalo. |
+| 182 | Approximately 2 | 000 to 3 | 000 people. |
+| 183 | An entire community searching for a new homeland. | Vu puuro samaj | navvo jaag een dhoondeen lagpade |
+| 184 | Our ancestors' journey of survival. | hannu aapner baap dada vur safar chaalu vi | **aapner** (our) |
+| 185 | By 1739 | when Sant Sevalal Maharaj was born | our community faced systematic oppression. |
+| 186 | The caste system denied us dignity. | dusar jaatheevur kann goreevur izzat gamgi | **apnen** (us) |
+| 187 | We were classified as outside the social hierarchy. | apnuune kor kyar samaj eethi duur karan deete. | **hum** (we) |
+| 188 | Nomadic communities were labeled Criminal Tribes by the British. | Voor pachhe | britisheevur aathanin |
+| 189 | Not for crimes committed | but simply for being nomadic. | keeni maar kaatecha keen koni |
+| 190 | Our forests were confiscated. | apnevur jungleevuun japt keede. | **apnevur** (our) |
