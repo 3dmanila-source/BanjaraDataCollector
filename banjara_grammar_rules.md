@@ -153,3 +153,13 @@ This document is auto-generated from collected data to train AI on Banjara sente
 | 148 | This was a divine incarnation. | Vu bhagvaneero amsh che keen | **Vu** (he/that) |
 | 149 | Blessed by Goddess Jagadamba herself. | Jagadamba deevi reej aashirvaad che keen | **Jagadamba deevi** (Jagadamba deevi) |
 | 150 | From that day forward | he was recognized as spiritually awakened. | undaadeethi |
+| 151 | The community began to follow his guidance. | apan gor samaj voor vaate saamlen lagpade | **apan** (our) |
+| 152 | He became Guru to our people. | Vuu apner guru er nai vego. | **Vuu** (he/that person) |
+| 153 | But to fully understand his significance | we must understand where we came from. | panan apan voor  puuro mahatv samjene |
+| 154 | Our roots. | apner jade | **apner** (our) |
+| 155 | Our ancestral homeland. | apner baap dadvur jaag. | **apner** (our) |
+| 156 | The Mewar region of Rajasthan. | Rajasthan eer Mewar | **Rajasthan eer** (of rajastha) |
+| 157 | The land of Chittorgarh. | Chittorgarh eer jammi | **Chittorgarh eer** (of Chittorgarh) |
+| 158 | This is our ancestral homeland. | aper baap dada vur matrubhumi | **aper** (our) |
+| 159 | Mewar region. | Mewar kshetr | **Mewar** (mewar) |
+| 160 | Chittorgarh fort. | Chittorgarh eer kila. | **Chittorgarh eer** (Chittorgarh's) |
