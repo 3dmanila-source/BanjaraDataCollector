@@ -1,6 +1,6 @@
 # Banjara Dataset Status Report
 
-**Total Sentences:** 209
+**Total Sentences:** 219
 
 | ID | English | Banjara | Audio |
 | :--- | :--- | :--- | :--- |
@@ -213,3 +213,13 @@
 | 208 | No modern equipment. | ekki aadunik hatiyar vetti koni, math-no,  ekki-even one,  aadunik-modern/latest,  hatiyar-tools, weapon, equipment,  vetti- koni- was not there. | [Play](audio/ekki_aadunik_hatiyar_vetti_koni.wav) |
 | 209 | Only his profound knowledge of Ayurveda and Naturopathy. | keval jhaad bhootivur gyaan ekkaz vetthi, vor-his,  eevur-of,  anne-and,  keval-only,  jhaad vur -plant's/tree's,  bhooti vur-roots,  gyaan-knowledge,  ekkaz-only one,  vetthi-was there | [Play](audio/keval_jhaad_bhootivur_gyaan_ekkaz_vetthi.wav) |
 | 210 | He began treating cholera patients systematically. | eek hisaabeethi cholera thi beemar chejeen davaa deeno, ee-he,  eek-one,  hisaabeethi-calculation/systematically,  cholera thi-with cholera,  beemar-diseased,  chejeen-who have,  davaa-medicine,  deeno-gave | [Play](audio/eek_hisaabeethi_cholera_thi_beemar_chejeen_davaa_deeno.wav) |
+| 211 | Using herbs from the forest. | jungle eer jadi bootivuthi, eeti-from, jungle eer-of forest, jadi bootivuthi - with herbs (jadibooti=herbs) | [Play](audio/jungle_eer_jadi_bootivuthi.wav) |
+| 212 | Using ancient healing knowledge. | an peenaro vaidyeer gyan eethi, peenaro-ancient, an-and, peenaro-ancient, viadyeer gyan-of healing knowledge,  eethi-with | [Play](audio/an_peenaro_vaidyeer_gyan_eethi.wav) |
+| 213 | And miraculously, people began recovering. | chamatkaar eer nai see admivun aacho veego., anne-and, mannkya-people, chamatkaar eer nai-miraculously, see admivun-all people, aacho veego-were healed/good happened | [Play](audio/chamatkaar_eer_nai_see_admivun_aacho_veego.wav) |
+| 214 | Day after day, our Maharaj worked tirelessly. | daade daade keen, apnero maharaj haareniju kaamkido, aapner-our, daade daade keen- day by day, maharaj-maharaj, haareniju-tirelessly, kaamkido-worked | [Play](audio/daade_daade_keen_apnero_maharaj_haareniju_kaamkido.wav) |
+| 215 | Treating the sick without discrimination. | bhed bahaav chey ju sendur dhekbal kidho, bimar-sick, bhed bahaav-discrimination, chey ju-without, sendur-all of them, dhekbal-took care/treating, kidho-did | [Play](audio/bhed_bahaav_chey_ju_sendur_dhekbal_kidho.wav) |
+| 216 | Hindu, Muslim, rich, poor—all received his care. | hindu, masanmaan, ameer gareeb ken kaai deeto koni, vor-his, hindu-hindu, masanmaan-muslim, ameer-rich, gareeb-poor, ken-like, kaai-whatever, deeto-saw, koni-no/didnt | [Play](audio/hindu_masanmaan_ameer_gareeb_ken_kaai_deeto_koni.wav) |
+| 217 | By the time the epidemic ended, he had saved thousands of lives. | Vu mahammari kam ve jatrama, hazaru mankyavun banchadlido, time-time, ee-he, eevur-of, Vu mahammari-that epidemic ,  kam ve-ended/lessen, jatrama-within, hazaru-thousands of, mankya vun-to people, banchado lido-saved lives. | [Play](audio/vu_mahammari_kam_ve_jatrama_hazaru_mankyavun_banchadlido.wav) |
+| 218 | This is historically documented. | hannu ken itihaas eer mai lakhmele che, ee-this, che-is, hannu ken-like that, itihaas eer mai- inside history/historically, lakhmele che-is written | [Play](audio/hannu_ken_itihaas_eer_mai_lakhmele_che.wav) |
+| 219 | The Nizam of Hyderabad heard of this extraordinary achievement. | hyderabad eero nizam een ee kamaaleer baarema malam padi, eevur-of, hyderabad-hyderabad, eevur-of, ee-this, hyderabad eero-of hyderabad, nizam een - to nizam, ee-this, kamaaleer-of wonder, baarema-about it, malam padi-got to know. | [Play](audio/hyderabad_eero_nizam_een_ee_kamaaleer_baarema_malam_padi.wav) |
+| 220 | He summoned Sant Sevalal to his royal court. | Janna Raj darbar een Sant Sevalal maharaj een balaye., ee-he, een-to, vor-his, Janna-then, Raj darbar een-to royal court, Sant Sevalal maharaj een -Sant Sevalal maharaj, balaye-invited/summoned | [Play](audio/janna_raj_darbar_een_sant_sevalal_maharaj_een_balaye.wav) |
