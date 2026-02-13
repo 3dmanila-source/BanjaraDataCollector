@@ -4,212 +4,212 @@
 
 | ID | English | Banjara | Audio |
 | :--- | :--- | :--- | :--- |
-| 1 | Where do you work? | Tu kai kaam karrochi? | [Play](audio/tu_kai_kaam_karrochi.wav) |
-| 2 | I am going to the village tomorrow. | me savar taanden jaayevalo chu | [Play](audio/me_savar_taanden_jaayevalo_chu.wav) |
-| 3 | This food is very tasty. | ee daliya ghano aacho laago. | [Play](audio/ee_daliya_ghano_aacho_laago.wav) |
-| 4 | How much for this shirt? | ee jhiglare kai bhaav che? | [Play](audio/ee_jhiglare_kai_bhaav_che.wav) |
-| 5 | My stomach is aching. | Maaro peetemai dookroche | [Play](audio/maaro_peetemai_dookroche.wav) |
-| 6 | It is raining heavily outside. | baar ghano paani padro che. | [Play](audio/baar_ghano_paani_padro_che.wav) |
-| 7 | Can you give me some water? | mann channik paani dechi ge? | [Play](audio/mann_channik_paani_dechi_ge.wav) |
-| 8 | I don't have money. | maar kan peesa cheeni | [Play](audio/maar_kan_peesa_cheeni.wav) |
-| 9 | Let's go to the market. | chal, dukaanen jaama | [Play](audio/chal_dukaanen_jaama.wav) |
-| 10 | The bus is late today. | aaj bus deer eeti aaveche. | [Play](audio/aaj_bus_deer_eeti_aaveche.wav) |
-| 11 | Who is that man? | Vu maati kuun che? | [Play](audio/vu_maati_kuun_che.wav) |
-| 12 | I want to buy vegetables. | mann sabji leer che | [Play](audio/mann_sabji_leer_che.wav) |
-| 13 | My mother is sick. | mar yaadi bimar cha | [Play](audio/mar_yaadi_bimar_cha.wav) |
-| 14 | What did you say? | Tu kai ko? | [Play](audio/tu_kai_ko.wav) |
-| 15 | I did not hear you. | mann aant aai koni | [Play](audio/mann_aant_aai_koni.wav) |
-| 16 | The sun is very hot. | suraj ghano taato che | [Play](audio/suraj_ghano_taato_che.wav) |
-| 17 | Children are playing. | chachar ramre che | [Play](audio/chachar_ramre_che.wav) |
-| 18 | Cows are grazing in the field. | gavdi kheteermai khad khareeche | [Play](audio/gavdi_kheteermai_khad_khareeche.wav) |
-| 19 | Close the door. | darvajo band kar | [Play](audio/darvajo_band_kar.wav) |
-| 20 | Open the window. | Khitki khol / khikti vagad | [Play](audio/khitki_khol_khikti_vagad.wav) |
-| 21 | How much is this potato? | ee aalure kai bhaav che? | [Play](audio/ee_aalure_kai_bhaav_che.wav) |
-| 22 | This vegetable is fresh. | ee sabji taaja che | [Play](audio/ee_sabji_taaja_che.wav) |
-| 23 | I need 1 kg of rice. | manne ek kilo chaaval chavche | [Play](audio/manne_ek_kilo_chaaval_chavche.wav) |
-| 24 | Do you have milk? | taar kan doodh che ge? | [Play](audio/taar_kan_doodh_che_ge.wav) |
-| 25 | The price is too high. | eer bhaav ghano jaada che | [Play](audio/eer_bhaav_ghano_jaada_che.wav) |
-| 26 | Reduce the price a little. | eer bhaav chanik kamm kar | [Play](audio/eer_bhaav_chanik_kamm_kar.wav) |
-| 27 | I will not pay this much. | me attra bhanduni. | [Play](audio/me_attra_bhanduni.wav) |
-| 28 | Is this shop open? | ee dukan khulla che ge? | [Play](audio/ee_dukan_khulla_che_ge.wav) |
-| 29 | When will you close? | Tu kanna bandh karechi? | [Play](audio/tu_kanna_bandh_karechi.wav) |
-| 30 | Give me change. | mann ek mauka de | [Play](audio/mann_ek_mauka_de.wav) |
-| 31 | Make tea for me. | maar vasu chaai kar | [Play](audio/maar_vasu_chaai_kar.wav) |
-| 32 | Wash the clothes. | kapda dho | [Play](audio/kapda_dho.wav) |
-| 33 | Clean the house. | Ghar saaf kar | [Play](audio/ghar_saaf_kar.wav) |
-| 34 | Cook the food properly. | khaayen suddo raandh | [Play](audio/khaayen_suddo_raandh.wav) |
-| 35 | Serve the food. | Khayen ghaal | [Play](audio/khayen_ghaal.wav) |
-| 36 | Water the plants. | jhaaduvun paani ghaal | [Play](audio/jhaaduvun_paani_ghaal.wav) |
-| 37 | Sweep the floor. | jammine baar | [Play](audio/jammine_baar.wav) |
-| 38 | Turn on the light. | lighten chalu kar | [Play](audio/lighten_chalu_kar.wav) |
-| 39 | Turn off the fan. | fanen bandh kar. | [Play](audio/fanen_bandh_kar.wav) |
-| 40 | Lock the door. | darvajeer taala ghal | [Play](audio/darvajeer_taala_ghal.wav) |
-| 41 | Where is the bus stand? | bus stand kath che? | [Play](audio/bus_stand_kath_che.wav) |
-| 42 | When will the bus come? | bus kanna aaveche? | [Play](audio/bus_kanna_aaveche.wav) |
-| 43 | I want to go to Hyderabad. | mann hyderabad en jaavnu ken che | [Play](audio/mann_hyderabad_en_jaavnu_ken_che.wav) |
-| 44 | How far is it? | katra duur che vu? | [Play](audio/katra_duur_che_vu.wav) |
-| 45 | The train is late. | rail gaadi aayen deer veejavche | [Play](audio/rail_gaadi_aayen_deer_veejavche.wav) |
-| 46 | Take a ticket. | Ticket leale | [Play](audio/ticket_leale.wav) |
-| 47 | Sit near the window. | khitkier kann bees | [Play](audio/khitkier_kann_bees.wav) |
-| 48 | Stand in the line. | line aa hubar | [Play](audio/line_aa_hubar.wav) |
-| 49 | Don't push me. | mann dhankel math | [Play](audio/mann_dhankel_math.wav) |
-| 50 | Move aside. | bagal sarak | [Play](audio/bagal_sarak.wav) |
-| 51 | What is the time now? | time kai veeriche abbe? | [Play](audio/time_kai_veeriche_abbe.wav) |
-| 52 | It is 5 o'clock. | abbe paanch bajre che | [Play](audio/abbe_paanch_bajre_che.wav) |
-| 53 | I woke up early today. | me aaj jaldi uutonchu | [Play](audio/me_aaj_jaldi_uutonchu.wav) |
-| 54 | I slept late last night. | mee kaal raath deereethi suutho tho | [Play](audio/mee_kaal_raath_deereethi_suutho_tho.wav) |
-| 55 | Are you ready? | Tu tayar chi ge? | [Play](audio/tu_tayar_chi_ge.wav) |
-| 56 | Let's go now. | chal, abbej jaama | [Play](audio/chal_abbej_jaama.wav) |
-| 57 | Wait for me. | maar vasu tham | [Play](audio/maar_vasu_tham.wav) |
-| 58 | Don't be late. | deer math kar | [Play](audio/deer_math_kar.wav) |
-| 59 | Be careful. | jatheneethi re | [Play](audio/jatheneethi_re.wav) |
-| 60 | Walk fast. | jaldi chaal | [Play](audio/jaldi_chaal.wav) |
-| 61 | Who called you? | thon kun balayo? | [Play](audio/thon_kun_balayo.wav) |
-| 62 | I don't know him. | Mann vu maalam cheni | [Play](audio/mann_vu_maalam_cheni.wav) |
-| 63 | He is my relative. | ee maaro sagaashan che | [Play](audio/ee_maaro_sagaashan_che.wav) |
-| 64 | She is my neighbor. | ee maar padoosan che | [Play](audio/ee_maar_padoosan_che.wav) |
-| 65 | They are good people. | voo aacho mannkya che | [Play](audio/voo_aacho_mannkya_che.wav) |
-| 66 | We are happy together. | hum saaterma kush cha | [Play](audio/hum_saaterma_kush_cha.wav) |
-| 67 | Don't fight with anyone. | keethi ladai math karo | [Play](audio/keethi_ladai_math_karo.wav) |
-| 68 | Help the poor. | garib een maddat karo | [Play](audio/garib_een_maddat_karo.wav) |
-| 69 | Respect elders. | mootevun samman karo | [Play](audio/mootevun_samman_karo.wav) |
-| 70 | Love children. | chachaarun pyaar karo | [Play](audio/chachaarun_pyaar_karo.wav) |
-| 71 | I am hungry. | Mann bookh lagrich. | [Play](audio/mann_bookh_lagrich.wav) |
-| 72 | I am thirsty. | mann taras laagrich | [Play](audio/mann_taras_laagrich.wav) |
-| 73 | The food is ready. | Khayero tayaar veegoche | [Play](audio/khayero_tayaar_veegoche.wav) |
-| 74 | Come inside. | maai aa | [Play](audio/maai_aa.wav) |
-| 75 | Sit here. | aath bees | [Play](audio/aath_bees.wav) |
-| 76 | What are you thinking. | thu kai soochrochi | [Play](audio/thu_kai_soochrochi.wav) |
-| 77 | I forgot. | Me bhulgo | [Play](audio/me_bhulgo.wav) |
-| 78 | I remember. | Mann hardeche | [Play](audio/mann_hardeche.wav) |
-| 79 | Call him. | Von bala. | [Play](audio/von_bala.wav) |
-| 80 | Silence / Break | (Placeholder for missing ID 80) | Missing |
-| 81 | Greetings! to all the banjara people. | se gormati banjara vun ram ram | [Play](audio/ gormati-banjara) |
-| 82 | Sant Sevalal Maharaj. | Sant Sevalal Maharaj. | [Play](audio/sant_sevalal_maharaj.wav) |
-| 83 | You have seen his white flag flying in every thanda. | tam se vor dholo jhanda vader har tanderma deetez viyo | [Play](audio/ se-all) |
-| 84 | You have heard stories from your grandparents. | tam baap dadavur kan vor kahani samlez viyo | [Play](audio/ baap dadavur-grandparents) |
-| 85 | But do you know the complete story? | panan tameen puuro kahani maalam chege? | [Play](audio/ tameen-to you) |
-| 86 | Do you know why he is called Maharaj? | tameen von Maharaj ken kashen kach ko maalam che ge? | [Play](audio/ von-he/him) |
-| 87 | Do you know what he did for our community? | Aapner samajeer vasu vu kaai keedoch ko maalam che ge? | [Play](audio/ samajeer-society/community) |
-| 88 | This is the complete |  verified history of our Satguru. | [Play](audio/ puuro parikshan karan malam kide jakon itihaas che) |
-| 89 | Jai Sant Sevalal Maharaj. | Jai Sant Sevalal Maharaj. | [Play](audio/ Sant Sevalal Maharaj) |
-| 90 | My Banjara brothers and sisters |  this documentary is for you. | [Play](audio/ ee kahani tamar vaasu eez) |
-| 91 | For 220 years, our community has preserved his memory. | de see vees varas eeti, apner samaj vor yaadeevun gokan rakad melech | [Play](audio/de_see_vees_varas_eeti_apner_samaj_vor_yaadeevun_gokan_rakad_melech.wav) |
-| 92 | But many of us know only fragments of his story. | panan, apner ma shenduvun kahanier tukdaz malam che | [Play](audio/panan_apner_ma_shenduvun_kahanier_tukdaz_malam_che.wav) |
-| 93 | We know he was divine. | apnen vu bhagvan che kethanin maalam. | [Play](audio/apnen_vu_bhagvan_che_kethanin_maalam.wav) |
-| 94 | We know he reformed our community. | Vuz aapner samajeen sudharooch ken bhi maalam | [Play](audio/vuz_aapner_samajeen_sudharooch_ken_bhi_maalam.wav) |
-| 95 | We know he gave us dignity. | Vuz aapnen izzat darayo | [Play](audio/vuz_aapnen_izzat_darayo.wav) |
-| 96 | But today, we present the complete, documented history. | Panan aaj, aapan voor itihaaser maieer puuro kahani ne dhekevaal cha | [Play](audio/panan_aaj_aapan_voor_itihaaser_maieer_puuro_kahani_ne_dhekevaal_cha.wav) |
-| 97 | Based on historical records. | itihaazeermai lakmele jakon hizaabeethi. | [Play](audio/itihaazeermai_lakmele_jakon_hizaabeethi.wav) |
-| 98 | Government documents. | sarkaareer daastavvez eevur hisabeethi. | [Play](audio/sarkaareer_daastavvez_eevur_hisabeethi.wav) |
-| 99 | The traditional epic Sevabhaya. | ek eeenaro kahaani sevabhaya | [Play](audio/ek_eeenaro_kahaani_sevabhaya.wav) |
-| 100 | And oral histories passed down through generations. | katriko peedivuthi ee kahanevun ekeeti ek en keethe aarecha | [Play](audio/katriko_peedivuthi_ee_kahanevun_ekeeti_ek_en_keethe_aarecha.wav) |
-| 101 | This is our heritage. | ee aapner ithaazer mai eek heerar naai | [Play](audio/ aapner-our) |
-| 102 | This is our pride. | ee aper garv che | [Play](audio/ apeer-our) |
-| 103 | This is the story of Sant Sevalal Maharaj. | anne eez apner sant sevalal maharaj eer kahani | [Play](audio/ eez-this) |
-| 104 | Our Maharaj was born on 15 February 1739. | apner maharaj | [Play](audio/apner-our maharaj-maharaj) |
-| 105 | This date is historically verified. | ee taarik peenar kittabevur mai lakmeelech | [Play](audio/ taarik-date) |
-| 106 | But his exact birthplace remains a matter of scholarly debate. | panan janmo jakon jaageer par aaj bhi mot aadmivurma behas vache | [Play](audio/ janmo-born) |
-| 107 | Karnataka claims Surgondankoppa in Shimoga district. | karnataka ma jakon shimoga jilla | [Play](audio/karnataka-karnataka) |
-| 108 | Official government records support this location. | sarkaareevur dastaveezurmai bhi vu jaageer naam lakhmeleche. | [Play](audio/ dastaveezurmai-inside documents) |
-| 109 | Andhra Pradesh claims Sevagad in Anantapur district. | andhra pradesh eer mai | [Play](audio/ sevagad eer mai janmoch keen kache) |
-| 110 | Traditional Lambadi bards and oral histories support this location. | hannu keen | [Play](audio/hannu keen- like that) |
-| 112 | The discrepancy reflects our community's nomadic nature during that period. | ee vaath apner samaj eema jaag jaag pahrer savabbaveen dikaalec. | [Play](audio/ vaath-lines/words) |
-| 113 | What matters most is not WHERE he was born. | Katth huyoch kajako motto vaath koni | [Play](audio/ huyoch-born) |
-| 114 | But WHAT he achieved for our people. | panan vuu apner mankavur vasu kai kamayo kajakoneez motto vaath. | [Play](audio/ vuu-he) |
-| 115 | 15 February 1739 marks the birth of our greatest reformer. | pandre february satre soo thees an nav kajakon daado eek mooto nayak eer daadoor ken harde rejjavche | [Play](audio/ february-february) |
-| 116 | Sant Sevalal Maharaj came from a distinguished Rajput lineage. | Sant sevala maharaj | [Play](audio/Sant sevala maharaj-Sant sevala maharaj) |
-| 117 | Father: Bheema Naik Ramawat Rathod. | Baap eer naam | [Play](audio/Baap-father) |
-| 118 | Mother: Dharamani Yaadi |  also revered as Dharmani Mata. | [Play](audio/ Dharmani Yaadi) |
-| 119 | Grandfather: Ramji Naik Rathod. | Dada ro naam | [Play](audio/Dada ro-grandfather's) |
-| 120 | Birth name: Seva Bhaya |  also known as Shiv Rathod. | [Play](audio/ ajji shiv rathod ken bhi naam paad melech) |
-| 121 | The surname Rathod is significant. | ghar eer naam rathod kejermaaz katraiko mahatv che | [Play](audio/ eer-of) |
-| 122 | It connects our community to the Rajput warrior clans of Chittorgarh. | Vu apner samaajeene | [Play](audio/Vu-that) |
-| 123 | This is our ancestral heritage. | ee aapnevur peedivur samman che | [Play](audio/ aapnevur-ours) |
-| 124 | We are descendants of those who served Rana Pratap. | apan Maha Rana Pratap een seva karmele jakon vansaj cha | [Play](audio/ Maha Rana Pratap een-Maha Rana Pratap's) |
-| 125 | As a child |  he herded cattle near Sirsigad. | [Play](audio/ sirsigad eer kann sevalal gaavdi chratho tho) |
-| 126 | A simple life of service and devotion. | seva an bhakthi thi banchmelo jakon saada zindagi | [Play](audio/ an-and) |
-| 127 | Until the miracle that would establish his divinity. | jannaz sevalal eer maithi chamatkar baar padi | [Play](audio/ sevalal-sevalal) |
-| 128 | This event is recorded in the traditional epic Sevabhaya. | hannu vee jakon apner itihaaser mai chapgiche | [Play](audio/ vee jakon - happened) |
-| 129 | Recited by Lambadi bards for centuries. | varsuthi gor maativur gaanavu ma reegiech | [Play](audio/ gor maativur - gor mati/ lanjara/ lambada) |
-| 130 | Young Sevalal was by a stream near Sirsigad. | nankya vettho janna sevalal | [Play](audio/ eek khalyar kann hubhotho) |
-| 131 | In present-day Telangana. | aajer daaderma telangana ma che | [Play](audio/ daaderma-in day) |
-| 132 | He felt the presence of Goddess Jagadamba. | Voon votthe Jagadamba devi che ju anubhav vi | [Play](audio/ votthe-there) |
-| 133 | Also known as Goddess Mariamma Yaadi. | voonaz Devi mariamma yaadi ken bhi kach | [Play](audio/ Devi-godess) |
-| 134 | He wished to offer her something. | voone | [Play](audio/voone-him) |
-| 135 | But he possessed nothing. | panan vor kan kaai vetto koni. | [Play](audio/ vor-him) |
-| 136 | No food. | daliya chey | [Play](audio/ chey-no/not there) |
-| 137 | No flowers. | Phool bhi chey. | [Play](audio/ bhi-also) |
-| 138 | No material offerings. | kaai chadayenez vetti koni | [Play](audio/ chadayenez-to offer) |
-| 139 | So he took mud and wheat. | tho haatherma dhud an gahu leedho | [Play](audio/ haatherma-in hands) |
-| 140 | With pure devotion |  he prepared sheera from mud. | [Play](audio/ dhud eethi sheera banayo) |
-| 141 | He prepared puri from wheat. | an ghao thi puri banayo | [Play](audio/ ghao-wheat) |
-| 142 | And offered them to the goddess. | banatanin deevini chadayo | [Play](audio/ deevini-to goddess) |
-| 143 | Then |  by divine grace | [Play](audio/janna) |
-| 144 | The wheat into real puri. | ghao jakon asli puri re nai badalgo | [Play](audio/ jakon-that is/ therefore) |
-| 145 | This miracle established his divine nature. | ee chamatkar eethi vor mai deever nai che jako svabhaav baar padi | [Play](audio/ chamatkar-miracle) |
-| 146 | Those who witnessed this miracle understood immediately. | hannu veejanna kun kun dite ko vondun jannaz samaj aavgi | [Play](audio/ veejanna-happened) |
-| 147 | This was not an ordinary child. | ee saadharan chora koni ken. | [Play](audio/ saadharan-simple/odinary) |
-| 148 | This was a divine incarnation. | Vu bhagvaneero amsh che keen | [Play](audio/ bhagvaneero-of god) |
-| 149 | Blessed by Goddess Jagadamba herself. | Jagadamba deevi reej aashirvaad che keen | [Play](audio/ reej-only of) |
-| 150 | From that day forward |  he was recognized as spiritually awakened. | [Play](audio/  vo se deeveer nai dheken lagpade.) |
-| 151 | The community began to follow his guidance. | apan gor samaj voor vaate saamlen lagpade | [Play](audio/ gor -gor/lambada/banjara) |
-| 152 | He became Guru to our people. | Vuu apner guru er nai vego. | [Play](audio/ apner-our) |
-| 153 | But to fully understand his significance |  we must understand where we came from. | [Play](audio/ apan vu kattethi aayoch ko bhi dheknu) |
-| 154 | Our roots. | apner jade | [Play](audio/ jade-roots) |
-| 155 | Our ancestral homeland. | apner baap dadvur jaag. | [Play](audio/ baap-father dada vur- father's) |
-| 156 | The Mewar region of Rajasthan. | Rajasthan eer Mewar | [Play](audio/ Mewar-mewar) |
-| 157 | The land of Chittorgarh. | Chittorgarh eer jammi | [Play](audio/ jammi-land) |
-| 158 | This is our ancestral homeland. | aper baap dada vur matrubhumi | [Play](audio/ baap dada vur- fathers' grandfather's) |
-| 159 | Mewar region. | Mewar kshetr | [Play](audio/ kshetr-region) |
-| 160 | Chittorgarh fort. | Chittorgarh eer kila. | [Play](audio/ kila-fort) |
-| 161 | The land where Rana Pratap fought for freedom. | Rana Pratap eez jammi par aazadier vasu ladai karmeloch | [Play](audio/ Rana Pratap-Rana Pratap) |
-| 162 | We |  the Banjaras—also called Lambadis and Gor—belonged to Rajput clans. | [Play](audio/ lambadi) |
-| 163 | Specifically |  the Rathod clan of Chittorgarh. | [Play](audio/eer-of chittorgarh) |
-| 164 | Our ancestors were not merely traders. | apan shee pena jaag jaag pharthaneen vyapaar ekkaaj koni karmele | [Play](audio/ apan-we) |
-| 165 | We were the logistics backbone of Rajput armies. | apan rajput sena vur saaman punchadeen mooreer hadkar nai vette | [Play](audio/ eevur-of) |
-| 166 | We supplied provisions to Prithviraj Chauhan's forces. | apan | [Play](audio/hum-we) |
-| 167 | We transported grain and weapons for Rana Pratap. | apan rana prathap eer vasu daana an hatiyaar leen jaathe the | [Play](audio/ anne-and) |
-| 168 | We crossed mountains and rivers with our bullock caravans. | apan baladure bandi bhaandleen katraiko pahad gatla an nadhivun paar karmelecha | [Play](audio/ anne-and) |
-| 169 | We were warriors and traders. | apan vyapaare anne yoddha vetthe | [Play](audio/ anne-and) |
-| 170 | This is our heritage. | peena thi eez apneer pehechan che | [Play](audio/ eez-this) |
-| 171 | This is our legacy. | eez aapner parampara che. | [Play](audio/ che-is) |
-| 172 | In the late 16th century |  the Mughal Empire defeated Rana Pratap. | [Play](audio/ mughaleer aan rana pratap een haaraye) |
-| 173 | Our community became refugees. | aaper samajeen daabnaake | [Play](audio/ samaj-community) |
-| 174 | We followed Rana Pratap into the forests. | apan rana prathap eer laar jungleuuma chalege | [Play](audio/ apan-we) |
-| 175 | Then began our great migration south. | jannateez apan dhakshan bharath eer vadi dagaryaye. | [Play](audio/ aapner-our) |
-| 176 | Through Malwa in Madhya Pradesh. | madhya pradesh eer malwa mai thi | [Play](audio/ malwa-malwa) |
-| 177 | Through Central India. | bharath eer advicha thi | [Play](audio/ thi-from) |
-| 178 | Through the Deccan region of Maharashtra. | maharastra mai eer deccan ilaka thi leethanin | [Play](audio/ maharastra mai eer-inside maharastra) |
-| 179 | Finally settling in Karnataka |  Andhra Pradesh | [Play](audio/karnataka) |
-| 180 | Sant Sevalal's grandfather |  Ramji Naik Rathod | [Play](audio/sant sevalal eero dadha) |
-| 181 | He brought 360 families from Chittorgarh. | chittorgarh eethi | [Play](audio/ee-he) |
-| 182 | Approximately 2 | 000 to 3 | [Play](audio/karib karib de hazaar eethi theen hazar mankya vetthe.) |
-| 183 | An entire community searching for a new homeland. | Vu puuro samaj | [Play](audio/samaj-community) |
-| 184 | Our ancestors' journey of survival. | hannu aapner baap dada vur safar chaalu vi | [Play](audio/ eevur-of) |
-| 185 | By 1739 |  when Sant Sevalal Maharaj was born | [Play](audio/sant Sevalal Maharaj huyo janna) |
-| 186 | The caste system denied us dignity. | dusar jaatheevur kann goreevur izzat gamgi | [Play](audio/ izzat-dignity) |
-| 187 | We were classified as outside the social hierarchy. | apnuune kor kyar samaj eethi duur karan deete. | [Play](audio/ baar-outside) |
-| 188 | Nomadic communities were labeled Criminal Tribes by the British. | Voor pachhe | [Play](audio/ goruuv shee Criminal Tribes kethanin naam paade) |
-| 189 | Not for crimes committed |  but simply for being nomadic. | [Play](audio/ apan adivasi cha kethanin) |
-| 190 | Our forests were confiscated. | apnevur jungleevuun japt keede. | [Play](audio/ jungleevuun-forest's) |
-| 191 | Our traditional grazing lands were restricted. | apeer peena vur khetari | [Play](audio/aapner-our) |
-| 192 | Our water sources were controlled. | apner kunta | [Play](audio/ khalya) |
-| 193 | Our women faced violence from settled communities. | apener yaadi bheenevun | [Play](audio/aapner-our) |
-| 194 | Our culture was dismissed as primitive. | apan gor uen pichadiur nai vendeevur naai dheete | [Play](audio/ apan-our) |
-| 195 | Into this darkness |  Sant Sevalal Maharaj brought light. | [Play](audio/ Sant Sevalal Maharaj roshni laayo) |
-| 196 | Into this oppression |  he brought dignity. | [Play](audio/ee-this) |
-| 197 | Into this despair |  he brought hope. | [Play](audio/ee-this) |
-| 198 | Late 1700s. | satre soo eer anth eer ma | [Play](audio/ satre-17) |
-| 199 | Hyderabad city under Nizam rule. | Hyderabad Nizam eer heet vetthi | [Play](audio/ Nizam eer-Nizam's) |
-| 200 | A devastating cholera epidemic struck. | eek bhayanak cholera mahaamaaree aayithi | [Play](audio/ bhayanak-devastating /scary) |
-| 201 | Hundreds dying daily. | hazaaruusoo mankya daadi marrethe | [Play](audio/ mankya-people) |
-| 202 | The Nizam's royal physicians were helpless. | Nizameer kan chikitsa karevaal bhi haath paad nake | [Play](audio/ kan-near) |
-| 203 | Traditional healers could not stop the deaths. | peenavur mandu thi maauth thamri koni vetti | [Play](audio/ peenavur-Traditional) |
-| 204 | Fear paralyzed the city. | darreethi saari sheer sheelkhal veegithi | [Play](audio/ saari-all/complete) |
-| 205 | Then Sant Sevalal Maharaj arrived. | Janna Sant Sevalal Maharaj aayo. | [Play](audio/ Janna-then) |
-| 206 | With no formal medical degree. | kunshi mandur padai atithi koni | [Play](audio/ kunshi-any) |
-| 207 | No hospital. | Ekki davkaan vette koni | [Play](audio/ Ekki-even one) |
-| 208 | No modern equipment. | ekki aadunik hatiyar vetti koni | [Play](audio/ ekki-even one) |
-| 209 | Only his profound knowledge of Ayurveda and Naturopathy. | keval jhaad bhootivur gyaan ekkaz vetthi | [Play](audio/ eevur-of) |
-| 210 | He began treating cholera patients systematically. | eek hisaabeethi cholera thi beemar chejeen davaa deeno | [Play](audio/ eek-one) |
+| 1 | "Where do you work?","Tu kai kaam karrochi?","Tu=you, kai=what, kaam=work, karrochi=doing" |  | [Play](audio/tu_kai_kaam_karrochi.wav) |
+| 2 | "I am going to the village tomorrow.","me savar taanden jaayevalo chu","me=I, savar=tomorrow, taanden=to village, jaayevalo chu = will be going" |  | [Play](audio/me_savar_taanden_jaayevalo_chu.wav) |
+| 3 | "This food is very tasty.","ee daliya ghano aacho laago.","ee=this, dailya=food, ghano=very, aacho-good, laago-felt." |  | [Play](audio/ee_daliya_ghano_aacho_laago.wav) |
+| 4 | "How much for this shirt?","ee jhiglare kai bhaav che?","ee=this, jhiglare=shirt's, kai=what, bhaav=cost" |  | [Play](audio/ee_jhiglare_kai_bhaav_che.wav) |
+| 5 | "My stomach is aching.","Maaro peetemai dookroche","Maaro=my, peetemai-inside stomach, dookroche-aching" |  | [Play](audio/maaro_peetemai_dookroche.wav) |
+| 6 | "It is raining heavily outside.","baar ghano paani padro che.","baar=outside, ghano=very, paani padro=raining" |  | [Play](audio/baar_ghano_paani_padro_che.wav) |
+| 7 | "Can you give me some water?","mann channik paani dechi ge?","mann-me, channik-some, paani-water, dechi ge - can you give" |  | [Play](audio/mann_channik_paani_dechi_ge.wav) |
+| 8 | "I don't have money.","maar kan peesa cheeni","maar-I,  kan-near,  peesa-money, cheeni-dont have" |  | [Play](audio/maar_kan_peesa_cheeni.wav) |
+| 9 | "Let's go to the market.","chal, dukaanen jaama","chal-lets go, dukaanen-market, jaama-go" |  | [Play](audio/chal_dukaanen_jaama.wav) |
+| 10 | "The bus is late today.","aaj bus deer eeti aaveche.","aaj-today, bus-bus, deer eeti - will be late, aaveche-come." |  | [Play](audio/aaj_bus_deer_eeti_aaveche.wav) |
+| 11 | "Who is that man?","Vu maati kuun che?","Vu-that, maati-man, kuun-who" |  | [Play](audio/vu_maati_kuun_che.wav) |
+| 12 | "I want to buy vegetables.","mann sabji leer che","mann-i, sabji-vegetables, leer che- want to take" |  | [Play](audio/mann_sabji_leer_che.wav) |
+| 13 | "My mother is sick.","mar yaadi bimar cha","mar-my, yaadi-mother, bimar-sick" |  | [Play](audio/mar_yaadi_bimar_cha.wav) |
+| 14 | "What did you say?","Tu kai ko?","Tu-you, kai-what, ko-say" |  | [Play](audio/tu_kai_ko.wav) |
+| 15 | "I did not hear you.","mann aant aai koni","mann-me, aant-hear, aai koni - cant / did not" |  | [Play](audio/mann_aant_aai_koni.wav) |
+| 16 | "The sun is very hot.","suraj ghano taato che","suraj-sun, ghano-very, taato che- is hot" |  | [Play](audio/suraj_ghano_taato_che.wav) |
+| 17 | "Children are playing.","chachar ramre che","chachar-children, ramre che- are playing" |  | [Play](audio/chachar_ramre_che.wav) |
+| 18 | "Cows are grazing in the field.","gavdi kheteermai khad khareeche","gavdi-cows, kheteermai- inside field, khad-grass, khareeche- are eating" |  | [Play](audio/gavdi_kheteermai_khad_khareeche.wav) |
+| 19 | "Close the door.","darvajo band kar","darvajo-door, band-close, kar-do" |  | [Play](audio/darvajo_band_kar.wav) |
+| 20 | "Open the window.","Khitki khol / khikti vagad","Khitki- window, khol-open, vagad-open" |  | [Play](audio/khitki_khol_khikti_vagad.wav) |
+| 21 | "How much is this potato?","ee aalure kai bhaav che?","ee-this, aalu re-pototo's, kai-what, bhaav che - rate/price/value" |  | [Play](audio/ee_aalure_kai_bhaav_che.wav) |
+| 22 | "This vegetable is fresh.","ee sabji taaja che","ee-this, sabji-vegetable, taaja-fresh, che-is" |  | [Play](audio/ee_sabji_taaja_che.wav) |
+| 23 | "I need 1 kg of rice.","manne ek kilo chaaval chavche","manne-I, ek kilo - 1 KG, chaaval-rice, chavche-want" |  | [Play](audio/manne_ek_kilo_chaaval_chavche.wav) |
+| 24 | "Do you have milk?","taar kan doodh che ge?","taar-you, kan-near, doodh-milk, che ge - have?" |  | [Play](audio/taar_kan_doodh_che_ge.wav) |
+| 25 | "The price is too high.","eer bhaav ghano jaada che","eer-its, bhaav-price, ghano-very, jaada-more/high" |  | [Play](audio/eer_bhaav_ghano_jaada_che.wav) |
+| 26 | "Reduce the price a little.","eer bhaav chanik kamm kar","eer-its, bhaav-price, chanik-litte, kamm kar-reduce" |  | [Play](audio/eer_bhaav_chanik_kamm_kar.wav) |
+| 27 | "I will not pay this much.","me attra bhanduni.","me-i, attra-this much, bhanduni-will not pay" |  | [Play](audio/me_attra_bhanduni.wav) |
+| 28 | "Is this shop open?","ee dukan khulla che ge?","ee-this, dukan-shop, khulla-open, che ge - is" |  | [Play](audio/ee_dukan_khulla_che_ge.wav) |
+| 29 | "When will you close?","Tu kanna bandh karechi?","Tu-you, kanna-when, bandh-close, karechi-will you do" |  | [Play](audio/tu_kanna_bandh_karechi.wav) |
+| 30 | "Give me change.","mann ek mauka de","mann-me, ek-one, mauka-chance, de-give" |  | [Play](audio/mann_ek_mauka_de.wav) |
+| 31 | "Make tea for me.","maar vasu chaai kar","maar vasu - for me, chaai-tea, kar-do" |  | [Play](audio/maar_vasu_chaai_kar.wav) |
+| 32 | "Wash the clothes.","kapda dho","kapda-clothes, dho-wash" |  | [Play](audio/kapda_dho.wav) |
+| 33 | "Clean the house.","Ghar saaf kar","Ghar-house, saaf-clean, kar-do" |  | [Play](audio/ghar_saaf_kar.wav) |
+| 34 | "Cook the food properly.","khaayen suddo raandh","khaayen-to eat, suddo-properly/rightly, raandh-cook" |  | [Play](audio/khaayen_suddo_raandh.wav) |
+| 35 | "Serve the food.","Khayen ghaal","Khayen-to eat, ghaal-serve/put" |  | [Play](audio/khayen_ghaal.wav) |
+| 36 | "Water the plants.","jhaaduvun paani ghaal","jhaaduvun-to plants/ to trees, paani-water, ghaal-put/serve" |  | [Play](audio/jhaaduvun_paani_ghaal.wav) |
+| 37 | "Sweep the floor.","jammine baar","jammine-floor/ground, baar-sweep" |  | [Play](audio/jammine_baar.wav) |
+| 38 | "Turn on the light.","lighten chalu kar","lighten-to light, chalu-turn on, kar-do" |  | [Play](audio/lighten_chalu_kar.wav) |
+| 39 | "Turn off the fan.","fanen bandh kar.","fanen-to fan, bandh-turn off, kar-do." |  | [Play](audio/fanen_bandh_kar.wav) |
+| 40 | "Lock the door.","darvajeer taala ghal","darvajeer-of door, taala-lock, ghal-put" |  | [Play](audio/darvajeer_taala_ghal.wav) |
+| 41 | "Where is the bus stand?","bus stand kath che?","bus stand-bus stand, kath che-where is" |  | [Play](audio/bus_stand_kath_che.wav) |
+| 42 | "When will the bus come?","bus kanna aaveche?","bus-bus, kanna-when, aaveche-will come" |  | [Play](audio/bus_kanna_aaveche.wav) |
+| 43 | "I want to go to Hyderabad.","mann hyderabad en jaavnu ken che","mann-i, hyderabad en - to hyderabad, jaavnu-to go, ken che-want to" |  | [Play](audio/mann_hyderabad_en_jaavnu_ken_che.wav) |
+| 44 | "How far is it?","katra duur che vu?","katra-how, duur-far, che vu- is it" |  | [Play](audio/katra_duur_che_vu.wav) |
+| 45 | "The train is late.","rail gaadi aayen deer veejavche","rail gaadi - train,  aayen-to come, deer-late, veejavche-will be/ will happen" |  | [Play](audio/rail_gaadi_aayen_deer_veejavche.wav) |
+| 46 | "Take a ticket.","Ticket leale","Ticket-ticket, leale-take" |  | [Play](audio/ticket_leale.wav) |
+| 47 | "Sit near the window.","khitkier kann bees","khitkier-window, kann-near, bees-sit" |  | [Play](audio/khitkier_kann_bees.wav) |
+| 48 | "Stand in the line.","line aa hubar","line aa - in line, hubar-stand" |  | [Play](audio/line_aa_hubar.wav) |
+| 49 | "Don't push me.","mann dhankel math","mann-me, dhankel-push, math-don't/no" |  | [Play](audio/mann_dhankel_math.wav) |
+| 50 | "Move aside.","bagal sarak","bagal-side, sarak-move" |  | [Play](audio/bagal_sarak.wav) |
+| 51 | "What is the time now?","time kai veeriche abbe?","time-time, kai-what, veeriche-happening, abbe-now" |  | [Play](audio/time_kai_veeriche_abbe.wav) |
+| 52 | "It is 5 o'clock.","abbe paanch bajre che","abbe-now, paanch-five, bajre che- happening" |  | [Play](audio/abbe_paanch_bajre_che.wav) |
+| 53 | "I woke up early today.","me aaj jaldi uutonchu","me-i, aaj-today, jaldi-early/fast/quick, uutonchu - woke up/ stand up" |  | [Play](audio/me_aaj_jaldi_uutonchu.wav) |
+| 54 | "I slept late last night.","mee kaal raath deereethi suutho tho","mee-i, kaal-yesterday, raath-night, deereethi - late/ with late, suutho tho - had slept" |  | [Play](audio/mee_kaal_raath_deereethi_suutho_tho.wav) |
+| 55 | "Are you ready?","Tu tayar chi ge?","Tu-you, tayar-ready, chi ge - there" |  | [Play](audio/tu_tayar_chi_ge.wav) |
+| 56 | "Let's go now.","chal, abbej jaama","chal-walk, abbej-now, jaama-go" |  | [Play](audio/chal_abbej_jaama.wav) |
+| 57 | "Wait for me.","maar vasu tham","maar vasu - for me, tham-wait" |  | [Play](audio/maar_vasu_tham.wav) |
+| 58 | "Don't be late.","deer math kar","deer-late, math-dont, kar-do" |  | [Play](audio/deer_math_kar.wav) |
+| 59 | "Be careful.","jatheneethi re","jatheneethi- with care/ careful, re-be" |  | [Play](audio/jatheneethi_re.wav) |
+| 60 | "Walk fast.","jaldi chaal","jaldi-fast, chaal-walk" |  | [Play](audio/jaldi_chaal.wav) |
+| 61 | "Who called you?","thon kun balayo?","thon-you, kun-who, balayo-called" |  | [Play](audio/thon_kun_balayo.wav) |
+| 62 | "I don't know him.","Mann vu maalam cheni","Mann-i, vu-him, maalam-know, cheni-no/don't" |  | [Play](audio/mann_vu_maalam_cheni.wav) |
+| 63 | "He is my relative.","ee maaro sagaashan che","ee-he, maaro-my, sagaashan-relative" |  | [Play](audio/ee_maaro_sagaashan_che.wav) |
+| 64 | "She is my neighbor.","ee maar padoosan che","ee-she, maar-my, padoosan che = neighbour" |  | [Play](audio/ee_maar_padoosan_che.wav) |
+| 65 | "They are good people.","voo aacho mannkya che","voo-they, aacho-good, mannkya-people" |  | [Play](audio/voo_aacho_mannkya_che.wav) |
+| 66 | "We are happy together.","hum saaterma kush cha","hum-we, saaterma-together, kush cha-are happy" |  | [Play](audio/hum_saaterma_kush_cha.wav) |
+| 67 | "Don't fight with anyone.","keethi ladai math karo","keethi-anyone, ladai-fight, math-dont, karo-do" |  | [Play](audio/keethi_ladai_math_karo.wav) |
+| 68 | "Help the poor.","garib een maddat karo","garib-poor, een-to, maddat-help, karo-do" |  | [Play](audio/garib_een_maddat_karo.wav) |
+| 69 | "Respect elders.","mootevun samman karo","mootevun-elders, samman-respect, karo-do" |  | [Play](audio/mootevun_samman_karo.wav) |
+| 70 | "Love children.","chachaarun pyaar karo","chachaarun-children, pyaar-love, karo-do" |  | [Play](audio/chachaarun_pyaar_karo.wav) |
+| 71 | "I am hungry.","Mann bookh lagrich.","Mann-i, bookh-hungry, lagrich-feeling" |  | [Play](audio/mann_bookh_lagrich.wav) |
+| 72 | "I am thirsty.","mann taras laagrich","mann-i, taras-thirsty, laagrich-feeling." |  | [Play](audio/mann_taras_laagrich.wav) |
+| 73 | "The food is ready.","Khayero tayaar veegoche","Khayero-food/eatables, tayaar-prepared/cooked/processed/ready, veegoche-over/done" |  | [Play](audio/khayero_tayaar_veegoche.wav) |
+| 74 | "Come inside.","maai aa","maai-inside, aa-come" |  | [Play](audio/maai_aa.wav) |
+| 75 | "Sit here.","aath bees","aath-here, bees-sit" |  | [Play](audio/aath_bees.wav) |
+| 76 | "What are you thinking.","thu kai soochrochi","thu-you, kai-what, soochrochi-thinking" |  | [Play](audio/thu_kai_soochrochi.wav) |
+| 77 | "I forgot.","Me bhulgo","Me-I, bhulgo-forgot" |  | [Play](audio/me_bhulgo.wav) |
+| 78 | "I remember.","Mann hardeche","Mann-I, hardeche-remember" |  | [Play](audio/mann_hardeche.wav) |
+| 79 | "Call him.","Von bala.","Von-him, bala-call" |  | [Play](audio/von_bala.wav) |
+| 80 | "Silence / Break" | "(Placeholder for missing ID 80)" | Missing/Broken |
+| 81 | Greetings! to all the banjara people.,se gormati banjara vun ram ram,se-all, gormati-banjara, banjara vun-to banjara people, ram ram-greetings/good morning/ good night/ equavalant to namestey |  | [Play](audio/se_gormati_banjara_vun_ram_ram.wav) |
+| 82 | Sant Sevalal Maharaj.,Sant Sevalal Maharaj.,Sant Sevalal Maharaj |  | [Play](audio/sant_sevalal_maharaj.wav) |
+| 83 | You have seen his white flag flying in every thanda.,tam se vor dholo jhanda vader har tanderma deetez viyo,tam-tou, se-all, vor-his, dholo-white, jhanda-flag, vader-flying, har-every, tanderma-inside village, deetez-seen, viyo-may/might |  | [Play](audio/tam_se_vor_dholo_jhanda_vader_har_tanderma_deetez_viyo.wav) |
+| 84 | You have heard stories from your grandparents.,tam baap dadavur kan vor kahani samlez viyo,tam-you, baap dadavur-grandparents, kan-near/with, vor-his, kahani-story, samlez-listen, viyo-might/may be |  | [Play](audio/tam_baap_dadavur_kan_vor_kahani_samlez_viyo.wav) |
+| 85 | But do you know the complete story?,panan tameen puuro kahani maalam chege?,panan-but, tameen-to you, puuro-full, kahani-story, maalam-know, chege-there/have |  | [Play](audio/panan_tameen_puuro_kahani_maalam_chege.wav) |
+| 86 | Do you know why he is called Maharaj?,tameen von Maharaj ken kashen kach ko maalam che ge?,tameen-to you, von-he/him, Maharaj-maharaj, ken-as, kashen-why, kach-say, ko-so, maalam-know, che ge-is there/have |  | [Play](audio/tameen_von_maharaj_ken_kashen_kach_ko_maalam_che_ge.wav) |
+| 87 | Do you know what he did for our community?,Aapner samajeer vasu vu kaai keedoch ko maalam che ge?,Aapner-our, samajeer-society/community, vasu-for, vu-him/he, kaai-what, keedoch ko-did, maalam-know, che ge-there/have |  | [Play](audio/aapner_samajeer_vasu_vu_kaai_keedoch_ko_maalam_che_ge.wav) |
+| 88 | This is the complete, verified history of our Satguru.,ee aapner satguruer, puuro parikshan karan malam kide jakon itihaas che,ee-this, aapner-our, satguru er-sathguru's, puuro-complet/full, parikshan-tested/verified, karan-did, malam-know, kide jakon-did, itihaas - history, che-is/there |  | [Play](audio/ee_aapner_satguruer_puuro_parikshan_karan_malam_kide_jakon_itihaas_che.wav) |
+| 89 | Jai Sant Sevalal Maharaj.,Jai Sant Sevalal Maharaj.,Jai-hail, Sant Sevalal Maharaj |  | [Play](audio/jai_sant_sevalal_maharaj.wav) |
+| 90 | My Banjara brothers and sisters, this documentary is for you.,maar banjara bhai bhiyavo an bheno, ee kahani tamar vaasu eez,maar-my, banjara-banjara, bhai-younger brother, bhiyavo - elder brothers, an-and, bheno-sisters, ee-this, kahani-story/documentry, tamar-your/you, vaasu eez-for |  | [Play](audio/maar_banjara_bhai_bhiyavo_an_bheno_ee_kahani_tamar_vaasu_eez.wav) |
+| 91 | "For 220 years, our community has preserved his memory.","de see vees varas eeti, apner samaj vor yaadeevun gokan rakad melech","de see-two hundred, vees-twenty, varas-years, eeti-from, apner-our, samaj-community, vor-his, yaadeevun-memories, gokan-hide/store, rakad-keep, melech-did" |  | [Play](audio/de_see_vees_varas_eeti_apner_samaj_vor_yaadeevun_gokan_rakad_melech.wav) |
+| 92 | "But many of us know only fragments of his story.","panan, apner ma shenduvun kahanier tukdaz malam che","panan-but, apner ma-within us, shenduvun-all of us, kahanier-of story, tukdaz-pieces/fragments, malam che-know" |  | [Play](audio/panan_apner_ma_shenduvun_kahanier_tukdaz_malam_che.wav) |
+| 93 | "We know he was divine.","apnen vu bhagvan che kethanin maalam.","apnen-we/us, vu-he/him, bhagvan-givine/god/godly, che, kethanin-said so, maalam-know." |  | [Play](audio/apnen_vu_bhagvan_che_kethanin_maalam.wav) |
+| 94 | "We know he reformed our community.","Vuz aapner samajeen sudharooch ken bhi maalam","Vuz-he, aapner-our, samajeen-community/society, sudharooch-reformed/made it right/arranged, ken-that, bhi-also, maalam-know" |  | [Play](audio/vuz_aapner_samajeen_sudharooch_ken_bhi_maalam.wav) |
+| 95 | "We know he gave us dignity.","Vuz aapnen izzat darayo","Vuz-he/he only, aapnen-us, izzat-dignity/respect, darayo-gave/bought" |  | [Play](audio/vuz_aapnen_izzat_darayo.wav) |
+| 96 | "But today, we present the complete, documented history.","Panan aaj, aapan voor itihaaser maieer puuro kahani ne dhekevaal cha","Panan-but aaj-today, aapan-we, voor-his, itihaaser-of history, maieer-inside of, puuro-complete/total/all, kahani ne-story/documentry, dhekevaal cha-going to watch/present" |  | [Play](audio/panan_aaj_aapan_voor_itihaaser_maieer_puuro_kahani_ne_dhekevaal_cha.wav) |
+| 97 | "Based on historical records.","itihaazeermai lakmele jakon hizaabeethi.","itihaazeermai-inside history, lakmele jakon-written/recorded, hizaabeethi-calculation/based" |  | [Play](audio/itihaazeermai_lakmele_jakon_hizaabeethi.wav) |
+| 98 | "Government documents.","sarkaareer daastavvez eevur hisabeethi.","sarkaareer-of government, daastavvez-documents, eevur-of, hisabeethi-according/calculation" |  | [Play](audio/sarkaareer_daastavvez_eevur_hisabeethi.wav) |
+| 99 | "The traditional epic Sevabhaya.","ek eeenaro kahaani "sevabhaya"","ek-one, peenaro-traditional/old/ancient, kahaani-story/epic, sevabhaya-sevabhaya" |  | [Play](audio/ek_eeenaro_kahaani_sevabhaya.wav) |
+| 100 | "And oral histories passed down through generations.","katriko peedivuthi ee kahanevun ekeeti ek en keethe aarecha","katriko-somany, peedivuthi-generations, ee-this, kahanevun-stories, ekeeti ek en - one after the other/one by one, keethe-saying/said, aarecha-coming/doing" |  | [Play](audio/katriko_peedivuthi_ee_kahanevun_ekeeti_ek_en_keethe_aarecha.wav) |
+| 101 | This is our heritage.,ee aapner ithaazer mai eek heerar naai,ee-this, aapner-our, ithaazer mai- in history, eek-one, heerar-daimond, naai-like |  | [Play](audio/ee_aapner_ithaazer_mai_eek_heerar_naai.wav) |
+| 102 | This is our pride.,ee aper garv che,ee-this, apeer-our, garv-pride, che-is |  | [Play](audio/ee_aper_garv_che.wav) |
+| 103 | This is the story of Sant Sevalal Maharaj.,anne eez apner sant sevalal maharaj eer kahani,anne-and, eez-this, apner-our, sant sevalal maharaj-sant sevalal maharaj, eer-his, kahani-story |  | [Play](audio/anne_eez_apner_sant_sevalal_maharaj_eer_kahani.wav) |
+| 104 | Our Maharaj was born on 15 February 1739.,apner maharaj, pandre february satre sao theesan nav eermai janmotho.,apner-our maharaj-maharaj, pandre-fifteen, february-february, satre-seventeen, sao-hundred, thee san nav - thirty and nine, eermai-in janmotho-was born |  | [Play](audio/apner_maharaj_pandre_february_satre_sao_theesan_nav_eermai_janmotho.wav) |
+| 105 | This date is historically verified.,ee taarik peenar kittabevur mai lakmeelech,ee-this, taarik-date, peenar-old/ancient, kittabevur-of books, mai-in, lakmeelech-written |  | [Play](audio/ee_taarik_peenar_kittabevur_mai_lakmeelech.wav) |
+| 106 | But his exact birthplace remains a matter of scholarly debate.,panan janmo jakon jaageer par aaj bhi mot aadmivurma behas vache,panan-bue, janmo-born, jakon-so/that is/i.e, jaageer-of land, par-on, aaj-today, bhi-also, mot aadmivurma-elderly men/ old men/ respectable men/ scholarly men, behas-debate, vache,happen |  | [Play](audio/panan_janmo_jakon_jaageer_par_aaj_bhi_mot_aadmivurma_behas_vache.wav) |
+| 107 | Karnataka claims Surgondankoppa in Shimoga district.,karnataka ma jakon shimoga jilla, surgondankoppaar mai janmoch keen kache,karnataka-karnataka, ma-in, jakon-that/tha is/i.e, shimoga-shimoga, jilla-district, surgondankoppaar-of surgondankoppa, mai-in, janmoche-born, keen kache- said so. |  | [Play](audio/karnataka_ma_jakon_shimoga_jilla_surgondankoppaar_mai_janmoch_keen_kache.wav) |
+| 108 | Official government records support this location.,sarkaareevur dastaveezurmai bhi vu jaageer naam lakhmeleche.,sarkaareevur-in government, dastaveezurmai-inside documents, bhi-also, vu-that, jaageer-place,  naam-name, lakhmeleche-is written. |  | [Play](audio/sarkaareevur_dastaveezurmai_bhi_vu_jaageer_naam_lakhmeleche.wav) |
+| 109 | Andhra Pradesh claims Sevagad in Anantapur district.,andhra pradesh eer mai, ananthapur jilla, sevagad eer mai janmoch keen kache,andhra pradesh eer mai-in andhra pradesh, ananthapur jilla - ananthapur district, sevagad eer mai-in sevagad,  janmoch-born, keen kache- is said so |  | [Play](audio/andhra_pradesh_eer_mai_ananthapur_jilla_sevagad_eer_mai_janmoch_keen_kache.wav) |
+| 110 | Traditional Lambadi bards and oral histories support this location.,hannu keen, peenavur apnevur kahanivuthi maalam padi,hannu keen- like that, peenavur-of old/ancient, apnevur-ours, kahanivuthi-with stories, maalam padi - got to know |  | [Play](audio/hannu_keen_peenavur_apnevur_kahanivuthi_maalam_padi.wav) |
+| 112 | The discrepancy reflects our community's nomadic nature during that period.,ee vaath apner samaj eema jaag jaag pahrer savabbaveen dikaalec.,ee-this, vaath-lines/words, apner-our, samaj-community, eema-in, jaag jaag - place to place, pahrer-roaming/moving, savabbav een-nature, dikaalec-shows |  | [Play](audio/ee_vaath_apner_samaj_eema_jaag_jaag_pahrer_savabbaveen_dikaalec.wav) |
+| 113 | What matters most is not WHERE he was born.,Katth huyoch kajako motto vaath koni,Katth-where, huyoch-born, kajako-is said, motto-big, vaath-word/line, koni-not |  | [Play](audio/katth_huyoch_kajako_motto_vaath_koni.wav) |
+| 114 | But WHAT he achieved for our people.,panan vuu apner mankavur vasu kai kamayo kajakoneez motto vaath.,panan-but, vuu-he, apner-our, mankavur-people, vasu-for, kai,what, kamayo-earned/gained/achieved, kajakoneez-whats said, motto vaath-big thing |  | [Play](audio/panan_vuu_apner_mankavur_vasu_kai_kamayo_kajakoneez_motto_vaath.wav) |
+| 115 | 15 February 1739 marks the birth of our greatest reformer.,pandre february satre soo thees an nav kajakon daado eek mooto nayak eer daadoor ken harde rejjavche,pandre-fifteen, february-february, satre-seventeen, soo-hundred, thees-thirty, an-and, nav-nine, kajakon-said so, daado-date/day, eek-one, mooto-big/great, nayak-leader, eer-of, daadoor-day, keen-like/mean, harde-remembered, rejjavche-stay/stays. |  | [Play](audio/pandre_february_satre_soo_thees_an_nav_kajakon_daado_eek_mooto_nayak_eer_daadoor_ken_harde_rejjavche.wav) |
+| 116 | Sant Sevalal Maharaj came from a distinguished Rajput lineage.,Sant sevala maharaj, Rajput eer veeler maai thi aayoche,Sant sevala maharaj-Sant sevala maharaj, Rajput-rajput, eer-of, veel er-family tree/lineage, maai thi-from inside, aayoche-came |  | [Play](audio/sant_sevala_maharaj_rajput_eer_veeler_maai_thi_aayoche.wav) |
+| 117 | Father: Bheema Naik Ramawat Rathod.,Baap eer naam, Bheema Naik Ramavath Rathod,Baap-father, eer-of, naam-name, Bheema Naik Ramavath Rathod - Bheema Naik Ramavath Rathod |  | [Play](audio/baap_eer_naam_bheema_naik_ramavath_rathod.wav) |
+| 118 | Mother: Dharamani Yaadi, also revered as Dharmani Mata.,Yaadi eer naam, Dharmani Yaadi, katti katti dharmani mata ken bhi kache,Yaadi-mother, eer-of, naam-name, Dharmani Yaadi-Dharmani Yaadi, katti katti - some some, dharmani mata -dharmani mata, ken bhi - also, kache-said. |  | [Play](audio/yaadi_eer_naam_dharmani_yaadi_katti_katti_dharmani_mata_ken_bhi_kache.wav) |
+| 119 | Grandfather: Ramji Naik Rathod.,Dada ro naam, Ramji Naik Rathod,Dada ro-grandfather's, naam-name, Ramji Naik Rathod- Ramji Naik Rathod |  | [Play](audio/dada_ro_naam_ramji_naik_rathod.wav) |
+| 120 | Birth name: Seva Bhaya, also known as Shiv Rathod.,huyo janna seva bhaya, ajji shiv rathod ken bhi naam paad melech,huyo-birth/born, janna-then, seva bhaya-seva bhaya, ajji-and, shiv rathod-ajji  rathod, ken-said/meant, bhi-also, naam-name, paad melech - named/given name/lifted |  | [Play](audio/huyo_janna_seva_bhaya_ajji_shiv_rathod_ken_bhi_naam_paad_melech.wav) |
+| 121 | The surname Rathod is significant.,ghar eer naam rathod kejermaaz katraiko mahatv che,ghar-home, eer-of, naam-name, rathod -rathod, kejermaaz-said so, katraiko-soo much of, mahatv che-importance/speciality, significant. |  | [Play](audio/ghar_eer_naam_rathod_kejermaaz_katraiko_mahatv_che.wav) |
+| 122 | It connects our community to the Rajput warrior clans of Chittorgarh.,Vu apner samaajeene, chittorgarh eer rajput yoddhavur jaatheema bhelech,Vu-that, apner-our, samaajeen-community, chittorgarh-chittorgarh, eer-of/from, rajput yoddhavur -rajput warriors, jaatheema-in clan, bhelech-mixes/adds to |  | [Play](audio/vu_apner_samaajeene_chittorgarh_eer_rajput_yoddhavur_jaatheema_bhelech.wav) |
+| 123 | This is our ancestral heritage.,ee aapnevur peedivur samman che,ee-this, aapnevur-ours, peedivur-generational/ancestral, samman che- respect/ heritage |  | [Play](audio/ee_aapnevur_peedivur_samman_che.wav) |
+| 124 | We are descendants of those who served Rana Pratap.,apan Maha Rana Pratap een seva karmele jakon vansaj cha,apan-we, Maha Rana Pratap een-Maha Rana Pratap's,  seva-serve, karmele jakon - did so, vansaj cha - decendants/family people, lineage |  | [Play](audio/apan_maha_rana_pratap_een_seva_karmele_jakon_vansaj_cha.wav) |
+| 125 | As a child, he herded cattle near Sirsigad.,nankya vetto janna, sirsigad eer kann sevalal gaavdi chratho tho,nankya-child/kid, vetto-was, janna-then, sirsigad-sirsigad, eer kann-near, sevalal -sevalal, gaavdi-cows/cattle, chratho tho - grase/grasing |  | [Play](audio/nankya_vetto_janna_sirsigad_eer_kann_sevalal_gaavdi_chratho_tho.wav) |
+| 126 | A simple life of service and devotion.,seva an bhakthi thi banchmelo jakon saada zindagi,seva-service, an-and, bhakthi-devotion, thi-with, banchmelo jakon-living,  saada-simple, zindagi-life |  | [Play](audio/seva_an_bhakthi_thi_banchmelo_jakon_saada_zindagi.wav) |
+| 127 | Until the miracle that would establish his divinity.,jannaz sevalal eer maithi chamatkar baar padi,jannaz-then only, sevalal-sevalal, eer-of, maaithi-from inside , ek-one, chamatkar-miracle, baar padi-was found/came out |  | [Play](audio/jannaz_sevalal_eer_maithi_chamatkar_baar_padi.wav) |
+| 128 | This event is recorded in the traditional epic Sevabhaya.,hannu vee jakon apner itihaaser mai chapgiche,hannu-like that, vee jakon - happened, apner-our, itihaaser-of history, mai-in, chapgiche-recorded/stampped/frozen |  | [Play](audio/hannu_vee_jakon_apner_itihaaser_mai_chapgiche.wav) |
+| 129 | Recited by Lambadi bards for centuries.,varsuthi gor maativur gaanavu ma reegiech,varsuthi-from years, gor maativur - gor mati/ lanjara/ lambada,  gaanavu-songs, ma-in, reegiech-stayed |  | [Play](audio/varsuthi_gor_maativur_gaanavu_ma_reegiech.wav) |
+| 130 | Young Sevalal was by a stream near Sirsigad.,nankya vettho janna sevalal, sirsigad eerma, eek khalyar kann hubhotho,nankya-child/when small/kid, vettho-was, janna-then, sevalal-sevalal, sirsigad eerma- in sirsigad, eek-one, khalyaa- stream, kann-near, hubhotho-stood/was standing. |  | [Play](audio/nankya_vettho_janna_sevalal_sirsigad_eerma_eek_khalyar_kann_hubhotho.wav) |
+| 131 | In present-day Telangana.,aajer daaderma telangana ma che,aajer-today's, daaderma-in day, telangana-telangane, ma che - is in |  | [Play](audio/aajer_daaderma_telangana_ma_che.wav) |
+| 132 | He felt the presence of Goddess Jagadamba.,Voon votthe Jagadamba devi che ju anubhav vi,Voon-him, votthe-there, Jagadamba devi- Jagadamba godess, che ju-presence, anubhav vi-felt so |  | [Play](audio/voon_votthe_jagadamba_devi_che_ju_anubhav_vi.wav) |
+| 133 | Also known as Goddess Mariamma Yaadi.,voonaz Devi mariamma yaadi ken bhi kach,voonaz-her, Devi-godess, mariamma-mariamma, yaadi-mother, ken-meant, bhi-also, kach-said |  | [Play](audio/voonaz_devi_mariamma_yaadi_ken_bhi_kach.wav) |
+| 134 | He wished to offer her something.,voone, vu devi ne kai thoi chadavnu ken lago,voone-him, vu-that, devi ne-to godesses, kai thoi-something, chadavnu-offer/give, ken lago- felt so |  | [Play](audio/voone_vu_devi_ne_kai_thoi_chadavnu_ken_lago.wav) |
+| 135 | But he possessed nothing.,panan vor kan kaai vetto koni.,panan-but, vor-him, kan-near, kaai-what ever, vetto-present/possess, koni-not |  | [Play](audio/panan_vor_kan_kaai_vetto_koni.wav) |
+| 136 | No food.,daliya chey,daliya-food, chey-no/not there |  | [Play](audio/daliya_chey.wav) |
+| 137 | No flowers.,Phool bhi chey.,Phool-flowers, bhi-also, chey- no/not there |  | [Play](audio/phool_bhi_chey.wav) |
+| 138 | No material offerings.,kaai chadayenez vetti koni,kaai-what, chadayenez-to offer, vetti-there, koni-not. |  | [Play](audio/kaai_chadayenez_vetti_koni.wav) |
+| 139 | So he took mud and wheat.,tho haatherma dhud an gahu leedho,tho-then, haatherma-in hands, dhud-mud, an-and, gahu-wheat, leedho-took |  | [Play](audio/tho_haatherma_dhud_an_gahu_leedho.wav) |
+| 140 | With pure devotion, he prepared sheera from mud.,voor bhakthi thi, dhud eethi sheera banayo,voor-his, bhakthi-devotion, thi-with, dhud-mudd, eethi-with, sheera-sheera/sweet, banayo-prepared,cooked,made |  | [Play](audio/voor_bhakthi_thi_dhud_eethi_sheera_banayo.wav) |
+| 141 | He prepared puri from wheat.,an ghao thi puri banayo,an-and, ghao-wheat, thi-with, puri-puri(dish/indian bread), banayo-prepared |  | [Play](audio/an_ghao_thi_puri_banayo.wav) |
+| 142 | And offered them to the goddess.,banatanin deevini chadayo,banatanin-after preparing/after making, deevini-to goddess, chadayo-offered |  | [Play](audio/banatanin_deevini_chadayo.wav) |
+| 143 | Then, by divine grace, the mud transformed into real sheera.,janna, deevire anugrah eethi, dhud asli sheera re nai badalgo,janna-the, deevire-of goddess, anugrah-grace, eethi-with, dhud-mud, asli-real, sheera re-of sheera(sweet), nai-like, badalgo-transformed/changed |  | [Play](audio/janna_deevire_anugrah_eethi_dhud_asli_sheera_re_nai_badalgo.wav) |
+| 144 | The wheat into real puri.,ghao jakon asli puri re nai badalgo,ghao-wheat, jakon-that is/ therefore, asli-real, puri re-of puri(indian bread), nai-like, badalgo-changed/transformed. |  | [Play](audio/ghao_jakon_asli_puri_re_nai_badalgo.wav) |
+| 145 | This miracle established his divine nature.,ee chamatkar eethi vor mai deever nai che jako svabhaav baar padi,ee-this, chamatkar-miracle, eethi-with, vor-hi,s mai-inside, deever nai-godly/ like god/divine, che jako-being/is there, svabhaav-nature, baar-out, padi-fell |  | [Play](audio/ee_chamatkar_eethi_vor_mai_deever_nai_che_jako_svabhaav_baar_padi.wav) |
+| 146 | Those who witnessed this miracle understood immediately.,hannu veejanna kun kun dite ko vondun jannaz samaj aavgi,hannu-like that, veejanna-happened, kun kun-who all, dite ko-saw, vondun-they, jannaz-than only, samaj-understood, aavgi-came |  | [Play](audio/hannu_veejanna_kun_kun_dite_ko_vondun_jannaz_samaj_aavgi.wav) |
+| 147 | This was not an ordinary child.,ee saadharan chora koni ken.,ee-his/this, saadharan-simple/odinary, chora-boy, koni ken - not so. |  | [Play](audio/ee_saadharan_chora_koni_ken.wav) |
+| 148 | This was a divine incarnation.,Vu bhagvaneero amsh che keen,Vu-he/that, bhagvaneero-of god, amsh-part, che keen-exist/is there |  | [Play](audio/vu_bhagvaneero_amsh_che_keen.wav) |
+| 149 | Blessed by Goddess Jagadamba herself.,Jagadamba deevi reej aashirvaad che keen,Jagadamba deevi-Jagadamba deevi, reej-only of, aashirvaad-blessing, che keen- is there |  | [Play](audio/jagadamba_deevi_reej_aashirvaad_che_keen.wav) |
+| 150 | From that day forward, he was recognized as spiritually awakened.,undaadeethi,  vo se deeveer nai dheken lagpade.,undaadeethi-from that day,  vo se-all of them, deeveer-of god/divine, nai-like, dheken-seen/saw/seeing, lagpade-happened,happening |  | [Play](audio/undaadeethi_vo_se_deeveer_nai_dheken_lagpade.wav) |
+| 151 | The community began to follow his guidance.,apan gor samaj voor vaate saamlen lagpade,apan-our, gor -gor/lambada/banjara, samaj-community, voor-his, vaate-words, saamlen-listening, lagpade-started |  | [Play](audio/apan_gor_samaj_voor_vaate_saamlen_lagpade.wav) |
+| 152 | He became Guru to our people.,Vuu apner guru er nai vego.,Vuu-he/that person, apner-our, guru  er- teacher/guru, nai-like, vego-became |  | [Play](audio/vuu_apner_guru_er_nai_vego.wav) |
+| 153 | But to fully understand his significance, we must understand where we came from.,panan apan voor  puuro mahatv samjene, apan vu kattethi aayoch ko bhi dheknu,panan-but, apan-our,  voor-him, puuro-total/full/complete, mahatv-significance/importance, samjene-understand, apan-us, vu-he, kattethi-where, aayoch ko- from came, bhi-also, dheknu-to be seen/ seen. |  | [Play](audio/panan_apan_voor_puuro_mahatv_samjene_apan_vu_kattethi_aayoch_ko_bhi_dheknu.wav) |
+| 154 | Our roots.,apner jade,apner-our, jade-roots |  | [Play](audio/apner_jade.wav) |
+| 155 | Our ancestral homeland.,apner baap dadvur jaag.,apner-our, baap-father dada vur- father's, grandfathers's, jaag-place/lang. |  | [Play](audio/apner_baap_dadvur_jaag.wav) |
+| 156 | The Mewar region of Rajasthan.,Rajasthan eer Mewar,Rajasthan eer - of rajastha, Mewar-mewar |  | [Play](audio/rajasthan_eer_mewar.wav) |
+| 157 | The land of Chittorgarh.,Chittorgarh eer jammi,Chittorgarh eer -of Chittorgarh, jammi-land |  | [Play](audio/chittorgarh_eer_jammi.wav) |
+| 158 | This is our ancestral homeland.,aper baap dada vur matrubhumi,aper-our, baap dada vur- fathers' grandfather's, matrubhumi-homeland |  | [Play](audio/aper_baap_dada_vur_matrubhumi.wav) |
+| 159 | Mewar region.,Mewar kshetr,Mewar-mewar, kshetr-region |  | [Play](audio/mewar_kshetr.wav) |
+| 160 | Chittorgarh fort.,Chittorgarh eer kila.,Chittorgarh eer - Chittorgarh's, kila-fort |  | [Play](audio/chittorgarh_eer_kila.wav) |
+| 161 | The land where Rana Pratap fought for freedom.,Rana Pratap eez jammi par aazadier vasu ladai karmeloch,katth-where, Rana Pratap-Rana Pratap, eez-this only, jammi par- on land, aazadier-of freedom, vasu-for, ladai-fight karmeloch-have done |  | [Play](audio/rana_pratap_eez_jammi_par_aazadier_vasu_ladai_karmeloch.wav) |
+| 162 | We, the Banjaras—also called Lambadis and Gor—belonged to Rajput clans.,banjara, lambadi, gor kajon aapen shee rajput cha,hum-we, balayo-called, anne-and, een-to, banjara-banjara, lambadi-banjara, gor-banjara, kajon-saidso/meant, aapen-us, shee-all, rajput cha-are rajputs |  | [Play](audio/banjara_lambadi_gor_kajon_aapen_shee_rajput_cha.wav) |
+| 163 | Specifically, the Rathod clan of Chittorgarh.,seeti aang rathod kajakon chittorgarh eethi aamech,eer-of chittorgarh, seeti-all, aang-before, rathod-rathod, kajakon-to be ssaid so, meant to be, chittorgarh-chittorgarh, eethi-from, aamech-came |  | [Play](audio/seeti_aang_rathod_kajakon_chittorgarh_eethi_aamech.wav) |
+| 164 | Our ancestors were not merely traders.,apan shee pena jaag jaag pharthaneen vyapaar ekkaaj koni karmele,aapner-our, apan-we, shee-all, pena-ancient/old days, jaag jaag-place to place, pharthaneen-roaming around, vyapaar-business/trading, ekkaaj-only one, koni-not, karmele-have done |  | [Play](audio/apan_shee_pena_jaag_jaag_pharthaneen_vyapaar_ekkaaj_koni_karmele.wav) |
+| 165 | We were the logistics backbone of Rajput armies.,apan rajput sena vur saaman punchadeen mooreer hadkar nai vette,hum-we, eevur-of, apan-we, rajput sena vur -rajput army's, saaman-logistics/goods, punchadeen-to reach/available, mooreer hadkar - backbone, nai-like, vette-were there. |  | [Play](audio/apan_rajput_sena_vur_saaman_punchadeen_mooreer_hadkar_nai_vette.wav) |
+| 166 | We supplied provisions to Prithviraj Chauhan's forces.,apan, prithviraj chauhan eer senaan bhi kai chavtoi deethethe,hum-we, een-to, apan-we/us, prithviraj chauhan eer-prithviraj chauhan's, senaan-army/forces, bhi-also, kai chavtoi-what ever is needed/ what ever is wanted, deethethe-used to give. |  | [Play](audio/apan_prithviraj_chauhan_eer_senaan_bhi_kai_chavtoi_deethethe.wav) |
+| 167 | We transported grain and weapons for Rana Pratap.,apan rana prathap eer vasu daana an hatiyaar leen jaathe the,hum-we, anne-and, apan-we, rana prathap eer-rana prathap's, vasu-for, daana-grains, an-and, hatiyaar-weapons, leen-take/took and, jaathe the- used to go |  | [Play](audio/apan_rana_prathap_eer_vasu_daana_an_hatiyaar_leen_jaathe_the.wav) |
+| 168 | We crossed mountains and rivers with our bullock caravans.,apan baladure bandi bhaandleen katraiko pahad gatla an nadhivun paar karmelecha,hum-we, anne-and, aapner-our, apan-we, baladure-bull's, bandi-bullock cart/cart, bhaandleen-tying/tied, katraiko-soo many, pahad-mountains, gatla-hills, an-and, nadhivun-rivers, paar-cross, karmelecha-did/done. |  | [Play](audio/apan_baladure_bandi_bhaandleen_katraiko_pahad_gatla_an_nadhivun_paar_karmelecha.wav) |
+| 169 | We were warriors and traders.,apan vyapaare anne yoddha vetthe,hum-we, anne-and, apan-we, vyapaare-traders/businessman, anne-and, yoddha-warriors, vetthe-were there. |  | [Play](audio/apan_vyapaare_anne_yoddha_vetthe.wav) |
+| 170 | This is our heritage.,peena thi eez apneer pehechan che,peena thi - from ancient times, eez-this, apneer-our, pehechan che- is identity |  | [Play](audio/peena_thi_eez_apneer_pehechan_che.wav) |
+| 171 | This is our legacy.,eez aapner parampara che.,ee-this, che-is, aapner-our, eez-this, aapner-our, parampara che - is legacy |  | [Play](audio/eez_aapner_parampara_che.wav) |
+| 172 | In the late 16th century, the Mughal Empire defeated Rana Pratap.,soole shaatbtheer ma, mughaleer aan rana pratap een haaraye,deer-late, soole-16, shaatbtheer-century, ma-in, mughaleer-mughal's, aan-came, rana pratap een - rana pratap, haaraye - defeated |  | [Play](audio/soole_shaatbtheer_ma_mughaleer_aan_rana_pratap_een_haaraye.wav) |
+| 173 | Our community became refugees.,aaper samajeen daabnaake,aapner-our, samaj-community, aaper-our, samajeen-community, daabnaake-opressed |  | [Play](audio/aaper_samajeen_daabnaake.wav) |
+| 174 | We followed Rana Pratap into the forests.,apan rana prathap eer laar jungleuuma chalege,hum-we, apan-we, rana prathap eer-rana prathap's, laar-after/behind, jungleuuma-in forests, chalege-went |  | [Play](audio/apan_rana_prathap_eer_laar_jungleuuma_chalege.wav) |
+| 175 | Then began our great migration south.,jannateez apan dhakshan bharath eer vadi dagaryaye.,tho-then, aapner-our, jannateez-from then only, apan-us/we, dhakshan bharatheer -south of india's,  vadi-side, dagaryaye-came. |  | [Play](audio/jannateez_apan_dhakshan_bharath_eer_vadi_dagaryaye.wav) |
+| 176 | Through Malwa in Madhya Pradesh.,madhya pradesh eer malwa mai thi,madhya pradesh eer-madhya pradesh's, malwa-malwa, mai thi-from inside/from it. |  | [Play](audio/madhya_pradesh_eer_malwa_mai_thi.wav) |
+| 177 | Through Central India.,bharath eer advicha thi,bharath eer-india's advicha-center/middle, thi-from |  | [Play](audio/bharath_eer_advicha_thi.wav) |
+| 178 | Through the Deccan region of Maharashtra.,maharastra mai eer deccan ilaka thi leethanin,eevur-of, maharastra mai eer-inside maharastra, deccan ilaka-deccan region, thi-from,  leethanin-took |  | [Play](audio/maharastra_mai_eer_deccan_ilaka_thi_leethanin.wav) |
+| 179 | Finally settling in Karnataka, Andhra Pradesh, and Telangana.,karnataka, andhra pradesh, telangana lugni nikalyaye,anne-and, karnataka-karnataka, andhra pradesh-andhra pradesh, telangana-telangana, lugni-till, nikalyaye-came from there |  | [Play](audio/karnataka_andhra_pradesh_telangana_lugni_nikalyaye.wav) |
+| 180 | Sant Sevalal's grandfather, Ramji Naik Rathod, led this migration.,sant sevalal eero dadha, Ramji Naik Rathod eer nayaki ma chalpade.,ee-this, sant sevalal eero-sant sevalal's, dadha-grandfather, Ramji Naik Rathod eer-Ramji Naik Rathod's, nayaki-leadership, ma-in, chalpade-started walking/walked. |  | [Play](audio/sant_sevalal_eero_dadha_ramji_naik_rathod_eer_nayaki_ma_chalpade.wav) |
+| 181 | He brought 360 families from Chittorgarh.,chittorgarh eethi, theen sau saat katmalevun leen nikalo.,ee-he, eeti-from, chittorgarh eethi-from chittorgarh , theen-three, sau-hundred, saat-sixty, katmalevun-families, leen-took, nikalo-left/went |  | [Play](audio/chittorgarh_eethi_theen_sau_saat_katmalevun_leen_nikalo.wav) |
+| 182 | Approximately 2,000 to 3,000 people.,karib karib de hazaar eethi theen hazar mankya vetthe.,een-to, mannkya-people, karib karib-near by/approximately,  de-two, hazaar-thousand, eethi-to, theen- hazar mankya-people, vetthe-were there. |  | [Play](audio/karib_karib_de_hazaar_eethi_theen_hazar_mankya_vetthe.wav) |
+| 183 | An entire community searching for a new homeland.,Vu puuro samaj, navvo jaag een dhoondeen lagpade,samaj-community, Vu-hat, puuro-complete, samaj-community, navvo-new. jaag een-place,  dhoondeen-searching, lagpade-started/doing. |  | [Play](audio/vu_puuro_samaj_navvo_jaag_een_dhoondeen_lagpade.wav) |
+| 184 | Our ancestors' journey of survival.,hannu aapner baap dada vur safar chaalu vi,aapner-our, eevur-of, hannu-like that, aapner-out, baap dada vur-ancestors, safar,journey, chaalu vi-started |  | [Play](audio/hannu_aapner_baap_dada_vur_safar_chaalu_vi.wav) |
+| 185 | By 1739, when Sant Sevalal Maharaj was born, our community faced systematic oppression.,sant Sevalal Maharaj huyo janna, satre sao thees an navv varase lugni, apner samaj katriko veela bhaavetivuthi dabge the,kanna-when, aapner-our, samaj-community, sant Sevalal Maharaj-sant Sevalal Maharaj, huyo janna-when born, , satre sao thees an navv - 1739, varase lugni - by that year, apner samaj-our community, katriko-soo many, veela bhaavetivuthi-problems, dabge the-opressed |  | [Play](audio/sant_sevalal_maharaj_huyo_janna_satre_sao_thees_an_navv_varase_lugni_apner_samaj_katriko_veela_bhaavetivuthi_dabge_the.wav) |
+| 186 | The caste system denied us dignity.,dusar jaatheevur kann goreevur izzat gamgi,apnen-us, izzat-dignity, dusar-other, jaatheevu-cast's/clan's, kann-near, goreevur-gor's, izzat-dignity, gamgi-lost |  | [Play](audio/dusar_jaatheevur_kann_goreevur_izzat_gamgi.wav) |
+| 187 | We were classified as outside the social hierarchy.,apnuune kor kyar samaj eethi duur karan deete.,hum-we, baar-outside, apnuune-to us, kor kyar- other than gor community, samaj-community, eethi-with, duur-far/away, karan-did, deete-saw/seen |  | [Play](audio/apnuune_kor_kyar_samaj_eethi_duur_karan_deete.wav) |
+| 188 | Nomadic communities were labeled Criminal Tribes by the British.,Voor pachhe, britisheevur aathanin, goruuv shee Criminal Tribes kethanin naam paade,panan-but, Voor pachhe-after that, britisheevur-britisher's, aathanin-came and,, goruuv shee -all Gor,Criminal-aparadhi, Tribes-aadivasi, kethanin-said so, naam paade- name was labeled. |  | [Play](audio/voor_pachhe_britisheevur_aathanin_goruuv_shee_criminal_tribes_kethanin_naam_paade.wav) |
+| 189 | Not for crimes committed, but simply for being nomadic.,keeni maar kaatecha keen koni, apan adivasi cha kethanin,aapner-our, keeni-any, maar kaatecha-beating or cutting, keen-meant, koni-no, apan-we, adivasi-tribes/nomadic, cha-were, kethanin-said so |  | [Play](audio/keeni_maar_kaatecha_keen_koni_apan_adivasi_cha_kethanin.wav) |
+| 190 | Our forests were confiscated.,apnevur jungleevuun japt keede.,apnevur-our, jungleevuun-forest's, japt-confiscated/captured, keede-did. |  | [Play](audio/apnevur_jungleevuun_japt_keede.wav) |
+| 191 | Our traditional grazing lands were restricted.,apeer peena vur khetari, charayer jammi shee kheench lide,aapner-our, peenaro-traditional, apeer-our, peena vur-traditional, khetari-fields'farms, charayer-graising, jammi-lands, shee-all, kheench lide - took away/ restricted |  | [Play](audio/apeer_peena_vur_khetari_charayer_jammi_shee_kheench_lide.wav) |
+| 192 | Our water sources were controlled.,apner kunta, talav, khalya, vavdi vun bhi japth kidhe,aapner-our, paani-water, apner-our, kunta-lake, talav-pond, khalya-canal/stream, vavdi-well,  vun bhi- also, japth-controlled, kidhe-did |  | [Play](audio/apner_kunta_talav_khalya_vavdi_vun_bhi_japth_kidhe.wav) |
+| 193 | Our women faced violence from settled communities.,apener yaadi bheenevun, kor kyar katraiko vela paade,aapner-our, eeti-from, apener-our, yaadi vun-mothers, bheene vun-sisters, kor kyar - Kor (other than Gor)/other settled communities, katraiko-soo much, vela-problems, paade-gave |  | [Play](audio/apener_yaadi_bheenevun_kor_kyar_katraiko_vela_paade.wav) |
+| 194 | Our culture was dismissed as primitive.,apan gor uen pichadiur nai vendeevur naai dheete,aapner-our, apan-our, gor uen-community/gor, pichadiur nai-primitive/low level/low value, vendeevur-mad people, naai-like, dheete-saw/seen |  | [Play](audio/apan_gor_uen_pichadiur_nai_vendeevur_naai_dheete.wav) |
+| 195 | Into this darkness, Sant Sevalal Maharaj brought light.,ass bhaveturmaa, Sant Sevalal Maharaj roshni laayo,ee-this, ass bhaveturmaa-in this problems/in this struggles, Sant Sevalal Maharaj-Sant Sevalal Maharaj, roshni-light, laayo-brought |  | [Play](audio/ass_bhaveturmaa_sant_sevalal_maharaj_roshni_laayo.wav) |
+| 196 | Into this oppression, he brought dignity.,dabamele jendun hoto izzat laayo,ee-this, ee-he, izzat-dignity, dabamele jendun-opressed people, hoto-back, izzat-respect/dignity, laayo-brought |  | [Play](audio/dabamele_jendun_hoto_izzat_laayo.wav) |
+| 197 | Into this despair, he brought hope.,niraashema hoto aasha jagayo,ee-this, ee-he, niraashema-in dispair, hoto-back, aasha-hope, jagayo-woke/raised |  | [Play](audio/niraashema_hoto_aasha_jagayo.wav) |
+| 198 | Late 1700s.,satre soo eer anth eer ma,deer-late, satre-17, soo eer-hundred's,  anth eer-end,  ma-in |  | [Play](audio/satre_soo_eer_anth_eer_ma.wav) |
+| 199 | Hyderabad city under Nizam rule.,Hyderabad Nizam eer heet vetthi,Hyderabad-Hyderabad , Nizam eer-Nizam's, heet-under, vetthi-was there |  | [Play](audio/hyderabad_nizam_eer_heet_vetthi.wav) |
+| 200 | A devastating cholera epidemic struck.,eek bhayanak cholera mahaamaaree aayithi,eek-one, bhayanak-devastating /scary, cholera-cholera, mahaamaaree-epidemic, aayithi-came |  | [Play](audio/eek_bhayanak_cholera_mahaamaaree_aayithi.wav) |
+| 201 | Hundreds dying daily.,hazaaruusoo mankya daadi marrethe,hazaaruusoo-thousand's and hundred's of, mankya-people, daadi-daily, marrethe-were dying |  | [Play](audio/hazaaruusoo_mankya_daadi_marrethe.wav) |
+| 202 | The Nizam's royal physicians were helpless.,Nizameer kan chikitsa karevaal bhi haath paad nake,Nizameer-nizam's, kan-near, chikitsa-doctors,physicians, karevaal-doers, bhi-also, haath-hands, paad-rised/lift, nake-did |  | [Play](audio/nizameer_kan_chikitsa_karevaal_bhi_haath_paad_nake.wav) |
+| 203 | Traditional healers could not stop the deaths.,peenavur mandu thi maauth thamri koni vetti,peenaro-traditional, peenavur-Traditional, mandu-medicines, thi-with, maauth-death, thamri-stopping, koni-not, vetti-happening |  | [Play](audio/peenavur_mandu_thi_maauth_thamri_koni_vetti.wav) |
+| 204 | Fear paralyzed the city.,darreethi saari sheer sheelkhal veegithi,darreethi-with fear, saari-all/complete, sheer-city, sheelkhal-frozen/cold, veegithi-happened |  | [Play](audio/darreethi_saari_sheer_sheelkhal_veegithi.wav) |
+| 205 | Then Sant Sevalal Maharaj arrived.,Janna Sant Sevalal Maharaj aayo.,tho-then, Janna-then, Sant Sevalal Maharaj-Sant Sevalal Maharaj, aayo-came. |  | [Play](audio/janna_sant_sevalal_maharaj_aayo.wav) |
+| 206 | With no formal medical degree.,kunshi mandur padai atithi koni,math-no, kunshi-any, mandur-medicinal, padai-education, atithi-knowing/coming, koni-no |  | [Play](audio/kunshi_mandur_padai_atithi_koni.wav) |
+| 207 | No hospital.,Ekki davkaan vette koni,math-no, Ekki-even one, davkaan-hospitals, vette-were, koni-not there/not |  | [Play](audio/ekki_davkaan_vette_koni.wav) |
+| 208 | No modern equipment.,ekki aadunik hatiyar vetti koni,math-no, ekki-even one, aadunik-modern/latest, hatiyar-tools,weapon,equipment, vetti- koni- was not there. |  | [Play](audio/ekki_aadunik_hatiyar_vetti_koni.wav) |
+| 209 | Only his profound knowledge of Ayurveda and Naturopathy.,keval jhaad bhootivur gyaan ekkaz vetthi,vor-his, eevur-of, anne-and, keval-only, jhaad vur -plant's/tree's, bhooti vur-roots, gyaan-knowledge, ekkaz-only one, vetthi-was there |  | [Play](audio/keval_jhaad_bhootivur_gyaan_ekkaz_vetthi.wav) |
+| 210 | He began treating cholera patients systematically.,eek hisaabeethi cholera thi beemar chejeen davaa deeno,ee-he, eek-one, hisaabeethi-calculation/systematically, cholera thi-with cholera, beemar-diseased, chejeen-who have, davaa-medicine, deeno-gave |  | [Play](audio/eek_hisaabeethi_cholera_thi_beemar_chejeen_davaa_deeno.wav) |
