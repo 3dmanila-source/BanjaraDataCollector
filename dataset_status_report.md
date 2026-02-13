@@ -1,6 +1,6 @@
 # Banjara Dataset Status Report
 
-**Total Sentences:** 229
+**Total Sentences:** 231
 
 | ID | English | Banjara | Audio |
 | :--- | :--- | :--- | :--- |
@@ -233,3 +233,5 @@
 | 148 | Because of Sant Sevalal Maharaj's achievement. | keval sant sevalal maharaj eer safaltha thi, eevur-of, keval-only, sant sevalal maharaj eer-sant sevalal maharaj's, safaltha-success/achievement, thi-because of | [Play](audio/keval_sant_sevalal_maharaj_eer_safaltha_thi.wav) |
 | 149 | The Nizam granted grazing rights to honor our Maharaj. | maharaj eer vasu, nizam apnun vottaz chara eer adhikar deeno., aapner-our, maharaj eer-maharaj eer's vasu-for,, nizam-nizam, apnun-us/we, vottaz-there only, chara eer-to graze, adhikar-rights, deeno-gave. | [Play](audio/maharaj_eer_vasu_nizam_apnun_vottaz_chara_eer_adhikar_deeno.wav) |
 | 150 | He even commissioned his royal court artist to paint Sant Sevalal's portrait. | Raj darbar eer mai kalakaaren balathanin sant seval maharaj eer chitr karrayo, ee-he, vor-his, Raj darbar eer-royal court's, mai-in,  kalakaaren-artist's, balathanin-called and, sant seval maharaj eer-sant seval maharaj's, chitr-painting, karrayo-was done. | [Play](audio/raj_darbar_eer_mai_kalakaaren_balathanin_sant_seval_maharaj_eer_chitr_karrayo.wav) |
+| 151 | Historical records indicate that portrait was transported to Bangalore. | itihaaseer hisabeethi vuu painting een banglore een meeldineech, itihaaseer-history's, hisabeethi-according, vuu-that, painting-painting/chitre, een-to, banglore een-to banglore, meeldineech-was sent. | [Play](audio/itihaaseer_hisabeethi_vuu_painting_een_banglore_een_meeldineech.wav) |
+| 152 | Think about the significance. | ee katra mootto vaath che sooch an dheeko, ee-this, katra-how much, mootto-heavy/significant, vaath-word/saying, che-is, sooch an-think and, dheeko-see | [Play](audio/ee_katra_mootto_vaath_che_sooch_an_dheeko.wav) |
